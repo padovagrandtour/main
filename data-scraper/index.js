@@ -21,6 +21,9 @@ const puppeteer = require('puppeteer');
 
   const museumUrls = [
     'https://padovamusei.it/it/musei/museo-archeologico',
+    'https://padovamusei.it/it/musei/museo-arte-medievale-moderna',
+    'https://padovamusei.it/it/musei/museo-bottacin',
+    'https://padovamusei.it/it/musei/museo-risorgimento-eta-contemporanea',
   ]
 
   for(const museumUrl of museumUrls){
