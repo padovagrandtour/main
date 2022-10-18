@@ -1,8 +1,5 @@
 name: publish website
 on: [push]
-name: Push File
-
-on: push
 
 jobs:
   copy-file:
