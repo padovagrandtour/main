@@ -1,0 +1,14 @@
+{
+  "name": "data-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for padovamusei.it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Fabbian <luca.fabbian.1999@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.0.0"
+  }
+}
