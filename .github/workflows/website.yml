@@ -15,7 +15,7 @@ jobs:
       with:
         source_folder: 'website'
         destination_repo: 'padovagrandtour/padovagrandtour.github.io'
-        destination_folder: ''
+        destination_branch: 'main'
         user_email: 'luca.fabbian.1999@gmail.com'
         user_name: 'lucafabbian'
         commit_msg: '[GHA] Update the website.'
