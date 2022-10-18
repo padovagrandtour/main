@@ -1,0 +1,15 @@
+<script src="https://rdf.js.org/comunica-browser/versions/v2/engines/query-sparql/comunica-browser.js"></script>
+<script language="JavaScript">
+  new Comunica.QueryEngine().queryBindings(`
+  SELECT * {
+    ?s ?p ?o
+  } LIMIT 100
+`, {
+  sources: [    { type: 'hdt', value: 'http://127.0.0.1:8080/myfile.hdt' },],
+}).then(function (bindingsStream) {
+  bindingsStream.on('data', function (data) {
+    // Each variable binding is an RDFJS term
+    console.log(data.get('s').value + ' ' + data.get('p').value + ' ' + data.get('o').value);
+  });
+});
+</script>
