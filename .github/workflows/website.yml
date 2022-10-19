@@ -2,13 +2,13 @@ name: publish website
 on: [push]
 
 jobs:
-  copy-file:
+  build-and-deploy-website:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pushes test folder
+    - name: Build and deploy website
       env:
         GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
       run: |
@@ -20,7 +20,7 @@ jobs:
         git config --global user.name lucafabbian
         git init
         git add .
-        git commit -am "Website updated"
+        git commit -am "Website updated (through custom github action)"
         git branch -M main
         git remote add origin "https://$GITHUB_TOKEN@github.com/padovagrandtour/padovagrandtour.github.io.git"
         git push -f -u origin main

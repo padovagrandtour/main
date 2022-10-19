@@ -1,0 +1,100 @@
+{
+  "resumeData": {
+    "museumUrl": "https://padovamusei.it/it/musei/museo-archeologico",
+    "collectionUrl": "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti",
+    "artworkUrl": "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti/cavallino"
+  },
+  "output": {
+    "https://padovamusei.it/it/musei/museo-archeologico": {
+      "name": "Museo archeologico",
+      "img": "https://padovamusei.it/sites/default/files/struttura/copertina/dsc02783.jpg",
+      "description": "I materiali del Museo Archeologico sono per lo più esposti.\nLe prime 10 sale del percorso documentano la continuità di vita di Padova e dell’agro patavino dalla protostoria all’età romana. Le successive sono dedicate alla collezione egizia, alle ceramiche etrusche, greche e magnogreche, alle gemme antiche e moderne.\nIl  materiali architettonici di epoca romana sono esposti nel Lapidario.\nUna parte del patrimonio è conservata nel deposito annesso al Museo. ",
+      "collections": {
+        "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti": {
+          "name": "Bronzetti",
+          "img": "https://padovamusei.it/sites/default/files/collezioni/preview/76258.jpg",
+          "description": "<p>Cospicuo nucleo di bronzetti figurati di epoca preromana e romana, diversi per stile e luogo di provenienza. Per lo più si tratta di artigianato locale non privo di vivacità espressiva; non mancano tuttavia piccoli capolavori ispirati a opere famose.</p>",
+          "artworks": {
+            "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti/dea-madre-bambino": {
+              "name": "Dea madre con bambino",
+              "img": "https://padovamusei.it/sites/default/files/styles/immagine_opera/public/opera/copertina/76258.jpg?itok=MP7OkfEY",
+              "description": "Bronzetto raffigurante figura femminile ammantata con bambino in braccio. ",
+              "tags": [
+                "Scultura/ statuaria miniaturistica",
+                " figura umana femminile con bambino"
+              ],
+              "fields": {
+                "Ambito Culturale": "Ambito venetico",
+                "Cronologia": "V-IV secolo a.C. sec.",
+                "Materiale e Tecnica": "Bronzo a fusione piena",
+                "Dimensioni": "Altezza: 7,4 cm Larghezza: 2,1 cm",
+                "Collocazione": "Museo ArcheologicoSala II-bronzetti, vetrina 3",
+                "Inventario": "XIX-25",
+                "Stato di conservazione": "Integro",
+                "Specifiche di reperimento": "Rinvenuta nel 1907 in occasione di uno scavo agricolo presso la strada detta \"delle Seriole\",  ora via Euganea Feriole.",
+                "Osservazioni": "Numerose sono le statuine muliebri, rinvenute in stipi votive, caratterizzate da schematizzazione delle forme, mantello che copre corpo e capo, ma non con un bambino in braccio. \nIn ambito italico, presso il santuario di Capua (V sec. a.C.), sono state rinvenute numerose raffigurazioni di madri che venivano offerte probabilmente dalle donne dopo il parto, alla divinità che le aveva assistite. Forse quindi la nostra statuetta si lega  al culto di una dea madre che reca salute e fertilità."
+              }
+            },
+            "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti/orante-2": {
+              "name": "Orante",
+              "img": "https://padovamusei.it/sites/default/files/styles/immagine_opera/public/opera/copertina/76192.jpg?itok=GM2QzvNw",
+              "description": "Il bronzetto ha la parte inferiore incurvata. La superficie presenta una patina di colore verde chiaro e tracce di ossidazione.",
+              "tags": [
+                "Scultura/ statuaria miniaturistica",
+                " figura umana femminile"
+              ],
+              "fields": {
+                "Ambito Culturale": "Ambito etrusco-italico",
+                "Cronologia": "Non determinata sec.",
+                "Materiale e Tecnica": "Bronzo/ fusione a stampo",
+                "Dimensioni": "Altezza: 6,6 cm Larghezza: 3,2 cm",
+                "Collocazione": "Museo ArcheologicoSala II-bronzetti, vetrina 1",
+                "Stato di conservazione": "Integro",
+                "Specifiche di reperimento": "Rinvenuta a Todi.",
+                "Osservazioni": "L'ex-voto lastriforme si ispira al tipo del devoto stante con le braccia allargate in gesto di preghiera. Lo schema di derivazione arcaica è piuttosto comune nella piccola plastica votiva di serie etrusca e italica. Per i caratteri stilistici e tecnici di esecuzione, si inserisce nell'ambito della produzione schematica umbro-meridionale.\nLa bibliografia non riporta indicazioni nè di cronologia generale nè specifica."
+              }
+            },
+            "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti/devota-offerente": {
+              "name": "Devota-offerente",
+              "img": "https://padovamusei.it/sites/default/files/styles/immagine_opera/public/opera/copertina/76273.jpg?itok=3DPaMfDC",
+              "description": "La statuetta è saldata su una basetta di rame di epoca moderna. La superficie presenta una patina di colore bruno scura. ",
+              "tags": [
+                "Scultura/ statuaria miniaturistica",
+                " figura umana femminile"
+              ],
+              "fields": {
+                "Ambito Culturale": "Ambito veneto",
+                "Cronologia": "V sec. a.C. sec.",
+                "Materiale e Tecnica": "Bronzo a fusione piena",
+                "Dimensioni": "Altezza: 3,3 cm Larghezza: 2,5 cm",
+                "Collocazione": "Museo ArcheologicoSala II-bronzetti, vetrina 3",
+                "Inventario": "516",
+                "Stato di conservazione": "Integro",
+                "Specifiche di reperimento": "Provenienza: forse da Padova o dal territorio padovano."
+              }
+            },
+            "https://padovamusei.it/it/musei/museo-archeologico/collezioni/bronzetti/guerriero": {
+              "name": "Guerriero",
+              "img": "https://padovamusei.it/sites/default/files/styles/immagine_opera/public/opera/copertina/76312.jpg?itok=Mq2RSusD",
+              "description": "La superficie è ricoperta da una spessa patina di colore bruno scura uniformemente distribuita; vi sono piccoli vuoti di fusione in corrispondenza delle braccia e del collo. Sotto il piede sinistro è fissato un pernetto moderno.",
+              "tags": [
+                "Scultura/ statuaria miniaturistica",
+                " figura umana maschile"
+              ],
+              "fields": {
+                "Ambito Culturale": "Ambito veneto",
+                "Cronologia": "II sec. a.C. sec.",
+                "Materiale e Tecnica": "Bronzo a fusione piena",
+                "Dimensioni": "Altezza: 10,6 cm Larghezza: 3,9 cm",
+                "Collocazione": "Museo ArcheologicoSala II-bronzetti, vetrina 3",
+                "Inventario": "1065",
+                "Stato di conservazione": "Mutilo",
+                "Specifiche di reperimento": "Provenienza sconosciuta."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
