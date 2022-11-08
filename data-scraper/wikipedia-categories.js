@@ -43,15 +43,36 @@ const puppeteer     = require('puppeteer')
   for(const category of categoryUrls){
  
 
-
+    console.log("Category " + category)
     await page.goto(category)
     await page.waitForSelector('#mw-pages a')
     output[category] = {}
 
-    output[category] = await page.evaluate( 
+    const placeUrls = await page.evaluate( 
       () =>
       ([... document.querySelectorAll('#mw-pages a')].map(a => [a.href, a.innerText]))
-    )  
+    )
+
+    for (const [place, name] of placeUrls){
+      console.log("   place " + place)
+
+      output[category][place] = {
+        name
+      }
+
+      await page.goto(place)
+
+      try{
+        await page.waitForSelector('.geo-default .longitude')
+        output[category][place].longitude = await page.evaluate( () => document.querySelector('.geo-default .longitude').innerText )
+        output[category][place].latitude = await page.evaluate( () => document.querySelector('.geo-default .latitude').innerText )
+      }catch(e){
+        console.log("[ERROR] Can't get longitude or latitude for " + name)
+      }
+
+      
+
+    }
 
 
 
