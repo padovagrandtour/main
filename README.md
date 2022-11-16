@@ -35,4 +35,16 @@ node padovamuseicivici.js
 This will open a chrome window and will start browsing the [padovamusei.it](https://padovamusei.it). Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
 
 
-### Querying the open map service
+### Retrieving data from [wikipedia.it](https://padovamusei.it)
+
+```bash
+cd data-scraper
+node wikipedia-categories.js
+```
+This will open a chrome window and will start crawling the [Portale:Padova](https://it.wikipedia.org/wiki/Portale:Padova) page on wikipedia. Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
+
+
+## Ingesting the data
+
+```bash
+pip3 install pandas rdflib
