@@ -1,0 +1,711 @@
+{
+  "https://it.wikipedia.org/wiki/Categoria:Musei_di_Padova": {
+    "https://it.wikipedia.org/wiki/Museo_di_anatomia_patologica_(Padova)": {
+      "name": "Museo di anatomia patologica (Padova)",
+      "longitude": "11°53′09.24″E",
+      "latitude": "45°24′18.1″N"
+    },
+    "https://it.wikipedia.org/wiki/Centro_di_Ateneo_per_i_Musei_-_CAM": {
+      "name": "Centro di Ateneo per i Musei - CAM"
+    },
+    "https://it.wikipedia.org/wiki/Collezione_privata_Safilo": {
+      "name": "Collezione privata Safilo",
+      "longitude": "11°55′44.02″E",
+      "latitude": "45°24′53.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Esapolis": {
+      "name": "Esapolis",
+      "longitude": "11°50′02.98″E",
+      "latitude": "45°23′51.79″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_veneto_del_giocattolo": {
+      "name": "Museo veneto del giocattolo",
+      "longitude": "11°49′48.17″E",
+      "latitude": "45°22′12.77″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_antoniano": {
+      "name": "Museo antoniano",
+      "longitude": "11°52′48.25″E",
+      "latitude": "45°24′04.9″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_Bottacin": {
+      "name": "Museo Bottacin",
+      "longitude": "11°52′41.23″E",
+      "latitude": "45°24′41.65″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_del_precinema": {
+      "name": "Museo del precinema",
+      "longitude": "11°52′32.74″E",
+      "latitude": "45°24′00.04″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_dell%27Educazione": {
+      "name": "Museo dell'Educazione",
+      "longitude": "11°52′23.27″E",
+      "latitude": "45°24′20.74″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_di_Antropologia_(Padova)": {
+      "name": "Museo di Antropologia (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Museo_di_geografia_dell%27Universit%C3%A0_di_Padova": {
+      "name": "Museo di geografia dell'Università di Padova",
+      "longitude": "11°52′44.8″E",
+      "latitude": "45°24′17.89″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_di_storia_della_fisica_dell%27Universit%C3%A0_di_Padova": {
+      "name": "Museo di storia della fisica dell'Università di Padova",
+      "longitude": "11°53′08.74″E",
+      "latitude": "45°24′37.55″N"
+    },
+    "https://it.wikipedia.org/wiki/Museo_diocesano_(Padova)": {
+      "name": "Museo diocesano (Padova)",
+      "longitude": "11°52′20.17″E",
+      "latitude": "45°24′24.85″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Zuckermann": {
+      "name": "Palazzo Zuckermann",
+      "longitude": "11°52′41.23″E",
+      "latitude": "45°24′41.65″N"
+    },
+    "https://it.wikipedia.org/wiki/Specola_di_Padova": {
+      "name": "Specola di Padova",
+      "longitude": "11°52′06.82″E",
+      "latitude": "45°24′07.02″N"
+    },
+    "https://it.wikipedia.org/wiki/MUSME": {
+      "name": "MUSME",
+      "longitude": "11°52′49.22″E",
+      "latitude": "45°24′18.94″N"
+    },
+    "https://it.wikipedia.org/wiki/Tempio_nazionale_dell%27internato_ignoto": {
+      "name": "Tempio nazionale dell'internato ignoto",
+      "longitude": "11°54′30.24″E",
+      "latitude": "45°23′41.71″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Architetture_di_Padova": {
+    "https://it.wikipedia.org/wiki/Utente:AnnLS/Sandbox": {
+      "name": "Utente:AnnLS/Sandbox",
+      "longitude": "11°52′49.22″E",
+      "latitude": "45°24′18.94″N"
+    },
+    "https://it.wikipedia.org/wiki/Caff%C3%A8_Pedrocchi": {
+      "name": "Caffè Pedrocchi",
+      "longitude": "11°52′38″E",
+      "latitude": "45°24′28″N"
+    },
+    "https://it.wikipedia.org/wiki/Casa_canonicale_di_Francesco_Petrarca": {
+      "name": "Casa canonicale di Francesco Petrarca"
+    },
+    "https://it.wikipedia.org/wiki/Casa_di_Galileo_Galilei_(Padova)": {
+      "name": "Casa di Galileo Galilei (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Cimitero_Maggiore_(Padova)": {
+      "name": "Cimitero Maggiore (Padova)",
+      "longitude": "11°50′56.4″E",
+      "latitude": "45°24′53.64″N"
+    },
+    "https://it.wikipedia.org/wiki/Costruzioni_di_Padova_per_altezza": {
+      "name": "Costruzioni di Padova per altezza"
+    },
+    "https://it.wikipedia.org/wiki/Fornace_Morandi": {
+      "name": "Fornace Morandi"
+    },
+    "https://it.wikipedia.org/wiki/Liston": {
+      "name": "Liston"
+    },
+    "https://it.wikipedia.org/wiki/Muro_di_Padova": {
+      "name": "Muro di Padova",
+      "longitude": "11°54′15.13″E",
+      "latitude": "45°24′38.89″N"
+    },
+    "https://it.wikipedia.org/wiki/Ospedale_di_San_Francesco_Grande": {
+      "name": "Ospedale di San Francesco Grande",
+      "longitude": "11°52′49.22″E",
+      "latitude": "45°24′18.94″N"
+    },
+    "https://it.wikipedia.org/wiki/Porte_Contarine": {
+      "name": "Porte Contarine",
+      "longitude": "11°52′39.94″E",
+      "latitude": "45°24′44.82″N"
+    },
+    "https://it.wikipedia.org/wiki/Reggia_Carrarese": {
+      "name": "Reggia Carrarese"
+    },
+    "https://it.wikipedia.org/wiki/Sala_dei_Giganti_(Padova)": {
+      "name": "Sala dei Giganti (Padova)",
+      "longitude": "11°52′18.73″E",
+      "latitude": "45°24′27.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_del_Carmine": {
+      "name": "Scuola del Carmine",
+      "longitude": "11°52′27.8″E",
+      "latitude": "45°24′46.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_della_Carit%C3%A0_(Padova)": {
+      "name": "Scuola della Carità (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Sinagoga_di_Padova_di_rito_italiano": {
+      "name": "Sinagoga di Padova di rito italiano",
+      "longitude": "11°52′32.81″E",
+      "latitude": "45°24′20.57″N"
+    },
+    "https://it.wikipedia.org/wiki/Specola_di_Padova": {
+      "name": "Specola di Padova",
+      "longitude": "11°52′06.82″E",
+      "latitude": "45°24′07.02″N"
+    },
+    "https://it.wikipedia.org/wiki/Teatro_anatomico_di_Padova": {
+      "name": "Teatro anatomico di Padova"
+    },
+    "https://it.wikipedia.org/wiki/Torre_dell%27Orologio_(Padova)": {
+      "name": "Torre dell'Orologio (Padova)",
+      "longitude": "11°52′22″E",
+      "latitude": "45°24′28″N"
+    },
+    "https://it.wikipedia.org/wiki/Torre_Net": {
+      "name": "Torre Net",
+      "longitude": "11°55′09.49″E",
+      "latitude": "45°24′57.03″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Castelli_di_Padova": {
+    "https://it.wikipedia.org/wiki/Castelvecchio_(Padova)": {
+      "name": "Castelvecchio (Padova)",
+      "longitude": "11°52′10.24″E",
+      "latitude": "45°24′08.83″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Chiese_di_Padova": {
+    "https://it.wikipedia.org/wiki/Chiese_di_Padova": {
+      "name": "Chiese di Padova"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Andrea_(Padova)": {
+      "name": "Chiesa di Sant'Andrea (Padova)",
+      "longitude": "11°52′37.09″E",
+      "latitude": "45°24′30.38″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Antonio_di_Vienna": {
+      "name": "Chiesa di Sant'Antonio di Vienna",
+      "longitude": "11°52′04.97″E",
+      "latitude": "45°24′42.29″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_del_Beato_Antonio_Pellegrino": {
+      "name": "Chiesa del Beato Antonio Pellegrino",
+      "longitude": "11°52′17.94″E",
+      "latitude": "45°24′50.64″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Bonaventura_delle_Eremite": {
+      "name": "Chiesa di San Bonaventura delle Eremite"
+    },
+    "https://it.wikipedia.org/wiki/Battistero_di_Padova": {
+      "name": "Battistero di Padova",
+      "longitude": "11°52′18.44″E",
+      "latitude": "45°24′24.52″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Benedetto_Vecchio": {
+      "name": "Chiesa di San Benedetto Vecchio",
+      "longitude": "11°52′01.48″E",
+      "latitude": "45°24′34.59″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Benedetto_Novello": {
+      "name": "Chiesa di San Benedetto Novello",
+      "longitude": "11°52′02.07″E",
+      "latitude": "45°24′30.32″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_del_Carmine": {
+      "name": "Scuola del Carmine",
+      "longitude": "11°52′27.8″E",
+      "latitude": "45°24′46.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_della_Carit%C3%A0_(Padova)": {
+      "name": "Scuola della Carità (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Caterina_(Padova)": {
+      "name": "Chiesa di Santa Caterina (Padova)",
+      "longitude": "11°53′02.72″E",
+      "latitude": "45°24′15.41″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Canziano_(Padova)": {
+      "name": "Chiesa di San Canziano (Padova)",
+      "longitude": "11°52′34.61″E",
+      "latitude": "45°24′22.97″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Carlo_Borromeo_(Padova)": {
+      "name": "Chiesa di San Carlo Borromeo (Padova)",
+      "longitude": "11°53′24.58″E",
+      "latitude": "45°25′43.26″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Clemente_(Padova)": {
+      "name": "Chiesa di San Clemente (Padova)",
+      "longitude": "11°52′27.01″E",
+      "latitude": "45°24′27.36″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Croce_(Padova)": {
+      "name": "Chiesa di Santa Croce (Padova)",
+      "longitude": "11°52′16.29″E",
+      "latitude": "45°23′34.89″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_delle_Grazie_(Padova)": {
+      "name": "Chiesa di Santa Maria delle Grazie (Padova)",
+      "longitude": "11°52′21.76″E",
+      "latitude": "45°23′52.66″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Daniele_(Padova)": {
+      "name": "Chiesa di San Daniele (Padova)",
+      "longitude": "11°52′34.36″E",
+      "latitude": "45°24′03.78″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_delle_Dimesse": {
+      "name": "Chiesa delle Dimesse",
+      "longitude": "11°52′11.31″E",
+      "latitude": "45°24′00″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_della_Beata_Elena": {
+      "name": "Chiesa della Beata Elena"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Fermo_(Padova)": {
+      "name": "Chiesa di San Fermo (Padova)",
+      "longitude": "11°52′30.36″E",
+      "latitude": "45°24′40.28″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Francesco_Grande_(Padova)": {
+      "name": "Chiesa di San Francesco Grande (Padova)",
+      "longitude": "11°52′50.12″E",
+      "latitude": "45°24′17.46″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Gaetano_(Padova)": {
+      "name": "Chiesa di San Gaetano (Padova)",
+      "longitude": "11°52′55.09″E",
+      "latitude": "45°24′30.24″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Giovanni_Battista_alle_Navi": {
+      "name": "Chiesa di San Giovanni Battista alle Navi"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_di_San_Giovanni_della_morte": {
+      "name": "Scuola di San Giovanni della morte"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_di_San_Giuseppe": {
+      "name": "Scuola di San Giuseppe"
+    },
+    "https://it.wikipedia.org/wiki/Oratorio_di_San_Giorgio_(Padova)": {
+      "name": "Oratorio di San Giorgio (Padova)",
+      "longitude": "11°52′48.96″E",
+      "latitude": "45°24′03.86″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Giovanni_Battista_(Pontevigodarzere)": {
+      "name": "Chiesa di San Giovanni Battista (Pontevigodarzere)",
+      "longitude": "11°53′38.85″E",
+      "latitude": "45°26′44.46″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_dell%27Immacolata_(Padova)": {
+      "name": "Chiesa dell'Immacolata (Padova)",
+      "longitude": "11°53′22.27″E",
+      "latitude": "45°24′26.89″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Luca_Evangelista_(Padova)": {
+      "name": "Chiesa di San Luca Evangelista (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Lucia_(Padova)": {
+      "name": "Chiesa di Santa Lucia (Padova)",
+      "longitude": "11°52′31.22″E",
+      "latitude": "45°24′31.5″N"
+    },
+    "https://it.wikipedia.org/wiki/Santuario_di_San_Leopoldo_Mandic": {
+      "name": "Santuario di San Leopoldo Mandic",
+      "longitude": "11°52′12.23″E",
+      "latitude": "45°23′34.58″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Massimo_(Padova)": {
+      "name": "Chiesa di San Massimo (Padova)",
+      "longitude": "11°53′32.55″E",
+      "latitude": "45°24′19.33″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Margherita_(Padova)": {
+      "name": "Chiesa di Santa Margherita (Padova)",
+      "longitude": "11°52′50.56″E",
+      "latitude": "45°24′19.23″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_dei_Servi_(Padova)": {
+      "name": "Chiesa di Santa Maria dei Servi (Padova)",
+      "longitude": "11°52′32.62″E",
+      "latitude": "45°24′16.63″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_del_Torresino": {
+      "name": "Chiesa di Santa Maria del Torresino",
+      "longitude": "11°52′19.42″E",
+      "latitude": "45°24′01.48″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_in_Vanzo": {
+      "name": "Chiesa di Santa Maria in Vanzo",
+      "longitude": "11°52′22.63″E",
+      "latitude": "45°24′03.98″N"
+    },
+    "https://it.wikipedia.org/wiki/Oratorio_di_San_Michele_(Padova)": {
+      "name": "Oratorio di San Michele (Padova)",
+      "longitude": "11°52′08.76″E",
+      "latitude": "45°24′04.82″N"
+    },
+    "https://it.wikipedia.org/wiki/Utente:SandyZanchin/Sandbox": {
+      "name": "Utente:SandyZanchin/Sandbox"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Michele_Arcangelo_(Padova,_Pozzoveggiani)": {
+      "name": "Chiesa di San Michele Arcangelo (Padova, Pozzoveggiani)",
+      "longitude": "11°53′59.13″E",
+      "latitude": "45°21′09.63″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Michele_Arcangelo_(Padova,_Torre)": {
+      "name": "Chiesa di San Michele Arcangelo (Padova, Torre)",
+      "longitude": "11°55′28.88″E",
+      "latitude": "45°26′11.5″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Nicol%C3%B2_(Padova)": {
+      "name": "Chiesa di San Nicolò (Padova)",
+      "longitude": "11°52′21.22″E",
+      "latitude": "45°24′31.39″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Ognissanti_(Padova)": {
+      "name": "Chiesa di Ognissanti (Padova)",
+      "longitude": "11°53′47.08″E",
+      "latitude": "45°24′25.27″N"
+    },
+    "https://it.wikipedia.org/wiki/Oratorio_del_pio_luogo_de%27_Nazzareni": {
+      "name": "Oratorio del pio luogo de' Nazzareni"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Pietro_Apostolo_(Padova)": {
+      "name": "Chiesa di San Pietro Apostolo (Padova)",
+      "longitude": "11°52′07.61″E",
+      "latitude": "45°24′31.36″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Prosdocimo_(Padova)": {
+      "name": "Chiesa di San Prosdocimo (Padova)",
+      "longitude": "11°51′53.46″E",
+      "latitude": "45°24′23.94″N"
+    },
+    "https://it.wikipedia.org/wiki/Oratorio_della_Salute": {
+      "name": "Oratorio della Salute"
+    },
+    "https://it.wikipedia.org/wiki/Santuario_dell%27Arcella": {
+      "name": "Santuario dell'Arcella",
+      "longitude": "11°53′11.4″E",
+      "latitude": "45°25′17.8″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_del_Redentore": {
+      "name": "Scuola del Redentore",
+      "longitude": "11°52′16.98″E",
+      "latitude": "45°23′35.64″N"
+    },
+    "https://it.wikipedia.org/wiki/Scuola_di_San_Rocco_(Padova)": {
+      "name": "Scuola di San Rocco (Padova)",
+      "longitude": "11°52′30.25″E",
+      "latitude": "45°24′32.22″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Sofia_(Padova)": {
+      "name": "Chiesa di Santa Sofia (Padova)",
+      "longitude": "11°53′05.28″E",
+      "latitude": "45°24′26.32″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_San_Tomaso_Cantuariense_(Padova)": {
+      "name": "Chiesa di San Tomaso Cantuariense (Padova)",
+      "longitude": "11°52′08.8″E",
+      "latitude": "45°24′11.2″N"
+    },
+    "https://it.wikipedia.org/wiki/Tempio_della_Pace_(Padova)": {
+      "name": "Tempio della Pace (Padova)",
+      "longitude": "11°53′05.5″E",
+      "latitude": "45°24′55.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Tempio_nazionale_dell%27internato_ignoto": {
+      "name": "Tempio nazionale dell'internato ignoto",
+      "longitude": "11°54′30.24″E",
+      "latitude": "45°23′41.71″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Basiliche_di_Padova": {
+    "https://it.wikipedia.org/wiki/Basilica_di_Sant%27Antonio_di_Padova": {
+      "name": "Basilica di Sant'Antonio di Padova",
+      "longitude": "11°52′50.47″E",
+      "latitude": "45°24′04.9″N"
+    },
+    "https://it.wikipedia.org/wiki/Basilica_del_Carmine_(Padova)": {
+      "name": "Basilica del Carmine (Padova)",
+      "longitude": "11°52′26.8″E",
+      "latitude": "45°24′47.63″N"
+    },
+    "https://it.wikipedia.org/wiki/Duomo_di_Padova": {
+      "name": "Duomo di Padova",
+      "longitude": "11°52′15.31″E",
+      "latitude": "45°24′23.44″N"
+    },
+    "https://it.wikipedia.org/wiki/Basilica_di_Santa_Giustina": {
+      "name": "Basilica di Santa Giustina",
+      "longitude": "11°52′47″E",
+      "latitude": "45°23′47″N"
+    },
+    "https://it.wikipedia.org/wiki/Santuario_dell%27Arcella": {
+      "name": "Santuario dell'Arcella",
+      "longitude": "11°53′11.4″E",
+      "latitude": "45°25′17.8″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Monumenti_di_Padova": {
+    "https://it.wikipedia.org/wiki/Arco_Valaresso": {
+      "name": "Arco Valaresso",
+      "longitude": "11°52′19.31″E",
+      "latitude": "45°24′25.16″N"
+    },
+    "https://it.wikipedia.org/wiki/Monumento_equestre_al_Gattamelata": {
+      "name": "Monumento equestre al Gattamelata",
+      "longitude": "11°52′47″E",
+      "latitude": "45°24′05″N"
+    },
+    "https://it.wikipedia.org/wiki/Giardino_dei_Giusti_del_Mondo": {
+      "name": "Giardino dei Giusti del Mondo",
+      "longitude": "11°54′38.68″E",
+      "latitude": "45°23′40.32″N"
+    },
+    "https://it.wikipedia.org/wiki/Gatta_di_Sant%27Andrea": {
+      "name": "Gatta di Sant'Andrea",
+      "longitude": "11°52′37.16″E",
+      "latitude": "45°24′29.81″N"
+    },
+    "https://it.wikipedia.org/wiki/Tomba_di_Antenore": {
+      "name": "Tomba di Antenore",
+      "longitude": "11°52′41″E",
+      "latitude": "45°24′21″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Mura_e_porte_di_Padova": {
+    "https://it.wikipedia.org/wiki/Mura_di_Padova": {
+      "name": "Mura di Padova",
+      "longitude": "11°52′23.53″E",
+      "latitude": "45°24′26.63″N"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Altinate": {
+      "name": "Porta Altinate",
+      "longitude": "11°52′41.84″E",
+      "latitude": "45°24′32.22″N"
+    },
+    "https://it.wikipedia.org/wiki/Porta_della_Cittadella_Vecchia": {
+      "name": "Porta della Cittadella Vecchia"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Liviana": {
+      "name": "Porta Liviana"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Molino": {
+      "name": "Porta Molino",
+      "longitude": "11°52′25.32″E",
+      "latitude": "45°24′40.79″N"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Ognissanti": {
+      "name": "Porta Ognissanti"
+    },
+    "https://it.wikipedia.org/wiki/Porta_San_Giovanni_(Padova)": {
+      "name": "Porta San Giovanni (Padova)",
+      "longitude": "11°51′51.37″E",
+      "latitude": "45°24′18.18″N"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Santa_Croce_(Padova)": {
+      "name": "Porta Santa Croce (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Porta_Savonarola": {
+      "name": "Porta Savonarola",
+      "longitude": "11°51′53.15″E",
+      "latitude": "45°24′44.28″N"
+    },
+    "https://it.wikipedia.org/wiki/Torre_della_Catena_(Padova)": {
+      "name": "Torre della Catena (Padova)"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Palazzi_di_Padova": {
+    "https://it.wikipedia.org/wiki/Palazzo_Angeli_(Padova)": {
+      "name": "Palazzo Angeli (Padova)",
+      "longitude": "11°52′32.02″E",
+      "latitude": "45°24′00.65″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Basadonna_Manin": {
+      "name": "Palazzo Basadonna Manin"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_del_Bo": {
+      "name": "Palazzo del Bo",
+      "longitude": "11°52′38.78″E",
+      "latitude": "45°24′24.16″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Buzzaccarini_(Padova)": {
+      "name": "Palazzo Buzzaccarini (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Camera_di_commercio_di_Padova": {
+      "name": "Camera di commercio di Padova"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Capodilista": {
+      "name": "Palazzo Capodilista",
+      "longitude": "11°52′32.6″E",
+      "latitude": "45°24′04.96″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Cappello": {
+      "name": "Palazzo Cappello"
+    },
+    "https://it.wikipedia.org/wiki/Centro_culturale_Altinate/San_Gaetano": {
+      "name": "Centro culturale Altinate/San Gaetano",
+      "longitude": "11°52′54.12″E",
+      "latitude": "45°24′31.32″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eufemia_(Padova)": {
+      "name": "Chiesa di Sant'Eufemia (Padova)",
+      "longitude": "11°53′11.32″E",
+      "latitude": "45°24′25.27″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_delle_Debite": {
+      "name": "Palazzo delle Debite",
+      "longitude": "11°52′27.95″E",
+      "latitude": "45°24′25.96″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Liviano": {
+      "name": "Palazzo Liviano",
+      "longitude": "11°52′16.61″E",
+      "latitude": "45°24′28.73″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Maldura": {
+      "name": "Palazzo Maldura",
+      "longitude": "11°52′22.22″E",
+      "latitude": "45°24′47.23″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Nuovo": {
+      "name": "Palazzo del Monte di Pietà Nuovo",
+      "longitude": "11°52′20.75″E",
+      "latitude": "45°24′25.74″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Vecchio": {
+      "name": "Palazzo del Monte di Pietà Vecchio",
+      "longitude": "11°52′24.24″E",
+      "latitude": "45°24′33.12″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Cavalli_alle_Porte_Contarine": {
+      "name": "Palazzo Cavalli alle Porte Contarine",
+      "longitude": "11°52′41.99″E",
+      "latitude": "45°24′44.57″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Comunale_(Padova)": {
+      "name": "Palazzo Comunale (Padova)",
+      "longitude": "11°52′33.34″E",
+      "latitude": "45°24′25.73″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_della_Ragione_(Padova)": {
+      "name": "Palazzo della Ragione (Padova)",
+      "longitude": "11°52′31″E",
+      "latitude": "45°24′26″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Grimani_(Padova)": {
+      "name": "Palazzo Grimani (Padova)",
+      "longitude": "11°52′28.6″E",
+      "latitude": "45°23′51.4″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Mussato": {
+      "name": "Palazzo Mussato",
+      "longitude": "11°52′07.61″E",
+      "latitude": "45°24′22.32″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Pisani_de_Lazzara": {
+      "name": "Palazzo Pisani de Lazzara",
+      "longitude": "11°52′03.65″E",
+      "latitude": "45°24′27.14″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Trevisan-Mion": {
+      "name": "Palazzo Trevisan-Mion"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Trieste": {
+      "name": "Palazzo Trieste"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_vescovile_di_Padova": {
+      "name": "Palazzo vescovile di Padova"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Zacco_al_Pr%C3%A0": {
+      "name": "Palazzo Zacco al Prà"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Zacco_di_Santa_Sofia": {
+      "name": "Palazzo Zacco di Santa Sofia"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Papafava_dei_Carraresi": {
+      "name": "Palazzo Papafava dei Carraresi"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Santo_Stefano": {
+      "name": "Palazzo Santo Stefano"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Zabarella": {
+      "name": "Palazzo Zabarella",
+      "longitude": "11°52′45.16″E",
+      "latitude": "45°24′21.56″N"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_Zuckermann": {
+      "name": "Palazzo Zuckermann",
+      "longitude": "11°52′41.23″E",
+      "latitude": "45°24′41.65″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Logge_di_Padova": {
+    "https://it.wikipedia.org/wiki/Utente:Ali0311/Sandbox": {
+      "name": "Utente:Ali0311/Sandbox",
+      "longitude": "11°52′30″E",
+      "latitude": "45°23′57″N"
+    },
+    "https://it.wikipedia.org/wiki/Utente:Fratell%C3%AC%C3%AC%C3%AC/Sandbox": {
+      "name": "Utente:Fratellììì/Sandbox",
+      "longitude": "11°52′30″E",
+      "latitude": "45°23′57″N"
+    },
+    "https://it.wikipedia.org/wiki/Utente:Kirarussa/Sandbox": {
+      "name": "Utente:Kirarussa/Sandbox",
+      "longitude": "11°52′30″E",
+      "latitude": "45°23′57″N"
+    },
+    "https://it.wikipedia.org/wiki/Loggia_Amulea": {
+      "name": "Loggia Amulea",
+      "longitude": "11°52′30″E",
+      "latitude": "45°23′57″N"
+    },
+    "https://it.wikipedia.org/wiki/Loggia_dei_Carraresi": {
+      "name": "Loggia dei Carraresi",
+      "longitude": "11°52′16.79″E",
+      "latitude": "45°24′26.39″N"
+    },
+    "https://it.wikipedia.org/wiki/Utente:Bia123gio/Sandbox": {
+      "name": "Utente:Bia123gio/Sandbox",
+      "longitude": "11°52′56.53″E",
+      "latitude": "45°24′08.09″N"
+    },
+    "https://it.wikipedia.org/wiki/Loggia_e_Odeo_Cornaro": {
+      "name": "Loggia e Odeo Cornaro",
+      "longitude": "11°52′56.53″E",
+      "latitude": "45°24′08.09″N"
+    },
+    "https://it.wikipedia.org/wiki/Utente:Michelejastefani/Sandbox": {
+      "name": "Utente:Michelejastefani/Sandbox",
+      "longitude": "11°52′30″E",
+      "latitude": "45°23′57″N"
+    },
+    "https://it.wikipedia.org/wiki/Loggia_del_Consiglio_(Padova)": {
+      "name": "Loggia del Consiglio (Padova)"
+    },
+    "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Nuovo": {
+      "name": "Palazzo del Monte di Pietà Nuovo",
+      "longitude": "11°52′20.75″E",
+      "latitude": "45°24′25.74″N"
+    },
+    "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_dei_Servi_(Padova)": {
+      "name": "Chiesa di Santa Maria dei Servi (Padova)",
+      "longitude": "11°52′32.62″E",
+      "latitude": "45°24′16.63″N"
+    }
+  },
+  "https://it.wikipedia.org/wiki/Categoria:Ponti_di_Padova": {
+    "https://it.wikipedia.org/wiki/Ponte_di_San_Lorenzo": {
+      "name": "Ponte di San Lorenzo",
+      "longitude": "11°52′40.33″E",
+      "latitude": "45°24′22″N"
+    },
+    "https://it.wikipedia.org/wiki/Ponte_Molino": {
+      "name": "Ponte Molino",
+      "longitude": "11°52′25.51″E",
+      "latitude": "45°24′42.28″N"
+    }
+  }
+}
