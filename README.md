@@ -1,5 +1,11 @@
 # Padova Grand Tour
-Main mono repository for the Database 2 project "Padova Grand Tour"
+Main mono repository for the Database 2 project "Padova Grand Tour".
+Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
+
+## Project motivation
+As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova.
+The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
+In order to do so, we scrapped data from https://padovamusei.it/ and wikipedia. The scrapper returned a big Json file that required data processing in order to get csv files that would be easier to use for the rdf database creation. 
 
 
 ## Getting the data
