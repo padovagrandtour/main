@@ -47,4 +47,4 @@ This will open a chrome window and will start crawling the [Portale:Padova](http
 ## Ingesting the data
 
 ```bash
-pip3 install pandas rdflib
+pip3 install pandas rdflib roman

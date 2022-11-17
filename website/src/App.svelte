@@ -1,5 +1,20 @@
 <script>
   import Logo from './assets/logo.webp'
+
+  new Comunica.QueryEngine().queryBindings(`
+  SELECT * {
+    ?s ?p ?o
+  } LIMIT 100
+`, {
+  sources: [{type: 'sparql' , value:'http://localhost:7200/repositories/pgt'}],
+}).then(function (bindingsStream) {
+  bindingsStream.on('data', function (data) {
+    // Each variable binding is an RDFJS term
+    console.log(data.get('s').value + ' ' + data.get('p').value + ' ' + data.get('o').value);
+  });
+});
+
+
 </script>
 
   <aside>
