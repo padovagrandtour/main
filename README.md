@@ -1,4 +1,6 @@
-<img src="">
+<p align="center">
+  <img width="460" src="https://padovagrandtour.github.io/logo.webp">
+</p>
 
 Main mono repository for the Database 2 project "Padova Grand Tour".
 Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
