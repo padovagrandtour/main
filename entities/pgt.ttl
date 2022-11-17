@@ -55,18 +55,6 @@ pgt:visits rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Duration
-pgt:Duration rdf:type owl:DatatypeProperty ;
-             rdfs:domain pgt:Tour ;
-             rdfs:range xsd:float .
-
-
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Price
-pgt:Price rdf:type owl:DatatypeProperty ;
-          rdfs:domain pgt:Tour ;
-          rdfs:range xsd:float .
-
-
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#age
 pgt:age rdf:type owl:DatatypeProperty ;
         rdfs:domain pgt:Guide ;
@@ -91,6 +79,12 @@ pgt:description rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/unipd/padovaGrandTour#duration
+pgt:duration rdf:type owl:DatatypeProperty ;
+             rdfs:domain pgt:guidedTour ;
+             rdfs:range xsd:float .
+
+
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#height
 pgt:height rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
@@ -100,13 +94,13 @@ pgt:height rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#latitude
 pgt:latitude rdf:type owl:DatatypeProperty ;
              rdfs:domain pgt:Cultural_Site ;
-             rdfs:range xsd:float .
+             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#longitude
 pgt:longitude rdf:type owl:DatatypeProperty ;
               rdfs:domain pgt:Cultural_Site ;
-              rdfs:range xsd:float .
+              rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#museumName
@@ -133,6 +127,12 @@ pgt:period rdf:type owl:DatatypeProperty ;
 pgt:placing rdf:type owl:DatatypeProperty ;
             rdfs:domain pgt:Artwork ;
             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/unipd/padovaGrandTour#price
+pgt:price rdf:type owl:DatatypeProperty ;
+          rdfs:domain pgt:Tour ;
+          rdfs:range xsd:float .
 
 
 ###  http://www.semanticweb.org/unipd/padovaGrandTour#technique
