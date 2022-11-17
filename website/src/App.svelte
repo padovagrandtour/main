@@ -1,12 +1,12 @@
 <script>
   import Logo from './assets/logo.webp'
 
-  new Comunica.QueryEngine().queryBindings(`
+  new window.Comunica.QueryEngine().queryBindings(`
   SELECT * {
     ?s ?p ?o
   } LIMIT 100
 `, {
-  sources: [{type: 'sparql' , value:'http://localhost:7200/repositories/pgt'}],
+  sources: [{type: 'sparql' , value:'http://localhost:7210/repositories/pgt'}],
 }).then(function (bindingsStream) {
   bindingsStream.on('data', function (data) {
     // Each variable binding is an RDFJS term

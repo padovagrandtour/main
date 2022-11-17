@@ -5,11 +5,9 @@ services:
     container_name: graphdb-preload
     image: ontotext/graphdb:10.0.0
 
-    # Load all files from ../import in repo defined in ./graphdb-repo-config.ttl
+    # Preload ./data files and launch GraphDB on port 7210
     entrypoint:  ["/bin/bash", "-c", "echo hello && /opt/graphdb/dist/bin/importrdf preload --force --recursive -q /tmp -c /opt/graphdb/graphdb-repo-config.ttl /opt/graphdb/home/graphdb-import && /opt/graphdb/dist/bin/graphdb"]
 
-    # Preload given file to existing repository (here "demo")
-    # entrypoint: [ "/opt/graphdb/dist/bin/preload", "-f", "-i", "demo", "/root/graphdb-import" ]
 
     environment: 
       GDB_JAVA_OPTS: >-
@@ -24,7 +22,7 @@ services:
         -Dreuse.vars.in.subselects=true
     volumes:
       # Change folders in the .env file or directly here
-      - ./import:/opt/graphdb/home/graphdb-import
-      - ./graphdb-repo.ttl:/opt/graphdb/graphdb-repo-config.ttl
+      - ./data/ttlData:/opt/graphdb/home/graphdb-import
+      - ./data/graphdb-repo.ttl:/opt/graphdb/graphdb-repo-config.ttl
     ports:
-      - 7200:7200
+      - 7210:7200
