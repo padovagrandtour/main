@@ -1,33 +1,81 @@
 <script>
   import Logo from './assets/logo.webp'
 
-  new window.Comunica.QueryEngine().queryBindings(`
-  SELECT * {
-    ?s ?p ?o
-  } LIMIT 100
-`, {
-  sources: [{type: 'sparql' , value:'http://localhost:7210/repositories/pgt'}],
-}).then(function (bindingsStream) {
-  bindingsStream.on('data', function (data) {
-    // Each variable binding is an RDFJS term
-    console.log(data.get('s').value + ' ' + data.get('p').value + ' ' + data.get('o').value);
-  });
-});
 
+
+
+  const queryEndpoint = (query, labels) => new Promise( (resolve, reject) => {
+
+    const results = []
+
+    new window.Comunica.QueryEngine().queryBindings(query, {
+      sources: [{type:'sparql', value:'http://localhost:7210/repositories/pgt'}],
+    }).then(function (bindingsStream) {
+      bindingsStream.on('data', function (data) {
+        console.log(labels.map( label => data.get(label).value))
+        results.push( labels.map( label => data.get(label).value))
+      });
+
+      bindingsStream.on('end', function () {
+        resolve(results)
+      })
+    });
+
+  })
+
+  let l = ['s', 'p', 'o']
+  let r = queryEndpoint(`
+      SELECT * {
+        ?s ?p ?o
+      } LIMIT 100
+    `, l)
 
 </script>
 
   <aside>
-    <p>ciao</p>
+    <p>
+
+    </p>
   </aside>
   <main>  
     <div class="content">
-      <img class="logo" src={Logo}>
+      <img class="logo" alt="Padova Grand Tour logo" src={Logo}>
+      {#await r}
+        <p>waiting</p>
+      {:then results} 
+      <div class="sparql-results">
+      <table class="sparql-results">
+        <tr>
+          {#each l as label}
+            <td>{label}</td>
+          {/each}
+        </tr>
+        {#each results as result}
+        <tr>
+        {#each result as value}
+          <td>{value}</td>
+
+        {/each}   
+        </tr>
+        {/each}
+      </table>
+    </div>
+     
+      {/await}
+
     </div>
   </main>
 
 
 <style>
+
+.sparql-results {
+  max-width: 500px;
+  overflow-x: auto;
+  
+}
+
+
 :global(html, body, #app){
   margin:0;
   padding:0;
