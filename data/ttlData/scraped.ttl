@@ -1,5 +1,3687 @@
+@prefix ns1: <https://schema.org/> .
 @prefix pgt: <https://padovagrandtour.github.io/entitites#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pgt:ARTWORK0 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Gioacchino cacciato dal Tempio"^^xsd:string .
+
+pgt:ARTWORK1 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Gioacchino tra i pastori"^^xsd:string .
+
+pgt:ARTWORK10 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Le nozze di Maria e Giuseppe"^^xsd:string .
+
+pgt:ARTWORK100 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK101 a pgt:Artwork ;
+    pgt:yearCreated "510"^^xsd:year ;
+    pgt:yearCreatedText "V secolo a.C., primo quarto sec."^^xsd:string ;
+    ns1:name "Kouros"^^xsd:string .
+
+pgt:ARTWORK102 a pgt:Artwork ;
+    pgt:yearCreated "-410"^^xsd:year ;
+    pgt:yearCreatedText "IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK103 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK104 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK105 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Kore"^^xsd:string .
+
+pgt:ARTWORK106 a pgt:Artwork ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK107 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK108 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK109 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C., inizio sec."^^xsd:string ;
+    ns1:name "Kore"^^xsd:string .
+
+pgt:ARTWORK11 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il corteo nuziale di Maria"^^xsd:string .
+
+pgt:ARTWORK110 a pgt:Artwork ;
+    pgt:yearCreated "-310"^^xsd:year ;
+    pgt:yearCreatedText "III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK111 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK112 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK113 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C., inizio sec."^^xsd:string ;
+    ns1:name "Kore"^^xsd:string .
+
+pgt:ARTWORK114 a pgt:Artwork ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK115 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK116 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK117 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C., inizio sec."^^xsd:string ;
+    ns1:name "Kore"^^xsd:string .
+
+pgt:ARTWORK118 a pgt:Artwork ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK119 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK12 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Dio Padre incarica l'arcangelo Gabriele di dare l'annuncio a Maria"^^xsd:string .
+
+pgt:ARTWORK120 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK121 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C., inizio sec."^^xsd:string ;
+    ns1:name "Kore"^^xsd:string .
+
+pgt:ARTWORK122 a pgt:Artwork ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK123 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK124 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK125 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Orante"^^xsd:string .
+
+pgt:ARTWORK126 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Ercole in assalto"^^xsd:string .
+
+pgt:ARTWORK127 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK128 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK129 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C. sec."^^xsd:string ;
+    ns1:name "Orante"^^xsd:string .
+
+pgt:ARTWORK13 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La visitazione di Maria ad Elisabetta"^^xsd:string .
+
+pgt:ARTWORK130 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Apollo con patera"^^xsd:string .
+
+pgt:ARTWORK131 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK132 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Cavaliere"^^xsd:string .
+
+pgt:ARTWORK133 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Orante"^^xsd:string .
+
+pgt:ARTWORK134 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Apollo con patera"^^xsd:string .
+
+pgt:ARTWORK135 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero in assalto"^^xsd:string .
+
+pgt:ARTWORK136 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Cavaliere"^^xsd:string .
+
+pgt:ARTWORK137 a pgt:Artwork ;
+    pgt:yearCreated "-34000"^^xsd:year ;
+    pgt:yearCreatedText "340 a.C."^^xsd:string ;
+    ns1:name "Offerte presso l'heroon, offerte alla tomba"^^xsd:string .
+
+pgt:ARTWORK138 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "Nuovo Regno - XVIII dinastia sec."^^xsd:string ;
+    ns1:name "Sekhmet"^^xsd:string .
+
+pgt:ARTWORK139 a pgt:Artwork ;
+    pgt:yearCreated "-3975"^^xsd:year ;
+    pgt:yearCreatedText "IV millennio a.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Re sacerdote"^^xsd:string .
+
+pgt:ARTWORK14 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La natività di Gesù"^^xsd:string .
+
+pgt:ARTWORK140 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C., prima metà sec."^^xsd:string ;
+    ns1:name "Viaggio agli Inferi"^^xsd:string .
+
+pgt:ARTWORK141 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Scena di commiato"^^xsd:string .
+
+pgt:ARTWORK142 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Fine del I sec. a.C. - inizio del I sec. d.C. sec."^^xsd:string ;
+    ns1:name "Cartorii"^^xsd:string .
+
+pgt:ARTWORK143 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., fine sec."^^xsd:string ;
+    ns1:name "\"a rete di serpenti\""^^xsd:string .
+
+pgt:ARTWORK144 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., inizio sec."^^xsd:string ;
+    ns1:name "Uccelli su albero"^^xsd:string .
+
+pgt:ARTWORK145 a pgt:Artwork ;
+    pgt:yearCreated "1.5"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 1 d.C. e il 25 d.C."^^xsd:string ;
+    ns1:name "Fannii"^^xsd:string .
+
+pgt:ARTWORK146 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., inizio sec."^^xsd:string ;
+    ns1:name "Maxsuma"^^xsd:string .
+
+pgt:ARTWORK147 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. (Bassignano 2016), prima metà sec."^^xsd:string ;
+    ns1:name "Oppii"^^xsd:string .
+
+pgt:ARTWORK148 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., inizio sec."^^xsd:string ;
+    ns1:name "Bollo CARTORIAN"^^xsd:string .
+
+pgt:ARTWORK149 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. - II secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Ratto di Ganimede"^^xsd:string .
+
+pgt:ARTWORK15 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'Adorazione dei Magi"^^xsd:string .
+
+pgt:ARTWORK150 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., inizio sec."^^xsd:string ;
+    ns1:name "Bollo CARTORIAN"^^xsd:string .
+
+pgt:ARTWORK151 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. - III secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Motivi geometrici e fitomorfi"^^xsd:string .
+
+pgt:ARTWORK152 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name " cippo funerario"^^xsd:string .
+
+pgt:ARTWORK153 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C, seconda metà sec."^^xsd:string ;
+    ns1:name "Sileno"^^xsd:string .
+
+pgt:ARTWORK154 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Centurione"^^xsd:string .
+
+pgt:ARTWORK155 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Venere che si toglie il sandalo"^^xsd:string .
+
+pgt:ARTWORK156 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "A corpo globulare "^^xsd:string .
+
+pgt:ARTWORK157 a pgt:Artwork ;
+    pgt:yearCreated "77"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 77 d.C. e il"^^xsd:string ;
+    ns1:name "Iscrizione di Marco Arrunzio Aquila"^^xsd:string .
+
+pgt:ARTWORK158 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione a Mithra"^^xsd:string .
+
+pgt:ARTWORK159 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "Prima metà I secolo d.C.-prima metà II secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo piriforme con basso piede"^^xsd:string .
+
+pgt:ARTWORK16 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La presentazione di Gesù al Tempio"^^xsd:string .
+
+pgt:ARTWORK160 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Tubolare, a corpo quasi cilindrico"^^xsd:string .
+
+pgt:ARTWORK161 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Atto evergetico di Allenius Strabo"^^xsd:string .
+
+pgt:ARTWORK162 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Eracle bambino"^^xsd:string .
+
+pgt:ARTWORK163 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Aryballos vitreo"^^xsd:string .
+
+pgt:ARTWORK164 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Iscrizione di P. Opsidius Rufus"^^xsd:string .
+
+pgt:ARTWORK165 a pgt:Artwork ;
+    pgt:yearCreated "175"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., fine sec."^^xsd:string ;
+    ns1:name "Statua femminile acefala"^^xsd:string .
+
+pgt:ARTWORK166 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., ultimo quarto sec."^^xsd:string ;
+    ns1:name "Giove tonante"^^xsd:string .
+
+pgt:ARTWORK167 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 27 a.C. e il 68 d.C."^^xsd:string ;
+    ns1:name "Mercurio"^^xsd:string .
+
+pgt:ARTWORK168 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I sec. d.C. sec."^^xsd:string ;
+    ns1:name "Roncola"^^xsd:string .
+
+pgt:ARTWORK169 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "Il secolo d.C sec."^^xsd:string ;
+    ns1:name "Foglie d'acanto"^^xsd:string .
+
+pgt:ARTWORK17 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La fuga in Egitto"^^xsd:string .
+
+pgt:ARTWORK170 a pgt:Artwork ;
+    pgt:yearCreated "1770"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo d.C. - Il secolo d.C. sec."^^xsd:string ;
+    ns1:name "Coppa vitrea"^^xsd:string .
+
+pgt:ARTWORK171 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione di Tilonia Musice"^^xsd:string .
+
+pgt:ARTWORK172 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. (età Flavia), seconda metà sec."^^xsd:string ;
+    ns1:name "Iscrizione"^^xsd:string .
+
+pgt:ARTWORK173 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Piede destro calzato da un sandalo"^^xsd:string .
+
+pgt:ARTWORK174 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Caprone"^^xsd:string .
+
+pgt:ARTWORK175 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Roncola"^^xsd:string .
+
+pgt:ARTWORK176 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Corpo piriforme arrotondato"^^xsd:string .
+
+pgt:ARTWORK177 a pgt:Artwork ;
+    pgt:yearCreated "1770"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo d.C. - Il secolo d.C. sec."^^xsd:string ;
+    ns1:name "Coppa vitrea"^^xsd:string .
+
+pgt:ARTWORK178 a pgt:Artwork ;
+    pgt:yearCreated "97"^^xsd:year ;
+    pgt:yearCreatedText "97 d.C."^^xsd:string ;
+    ns1:name "Iscrizione Rutilius Regillus e Lucius Porcius Germanus"^^xsd:string .
+
+pgt:ARTWORK179 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I - II secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Iscrizione di C. Arrius Optatus"^^xsd:string .
+
+pgt:ARTWORK18 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La strage degli Innocenti"^^xsd:string .
+
+pgt:ARTWORK180 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "Ll-lll secolo d.C. sec."^^xsd:string ;
+    ns1:name "A labbro espanso e corpo cilindrico "^^xsd:string .
+
+pgt:ARTWORK181 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "L-IV secolo d.C. sec."^^xsd:string ;
+    ns1:name "A scorrimento con testa ad anello"^^xsd:string .
+
+pgt:ARTWORK182 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Roncola"^^xsd:string .
+
+pgt:ARTWORK183 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I - II secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Iscrizione di Pettia Severa"^^xsd:string .
+
+pgt:ARTWORK184 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "III-IV secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo globulare con collo a imbuto e labbro squadrato"^^xsd:string .
+
+pgt:ARTWORK185 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Piatto vitreo"^^xsd:string .
+
+pgt:ARTWORK186 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Iscrizione"^^xsd:string .
+
+pgt:ARTWORK187 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione di Quinto Satrio Severo"^^xsd:string .
+
+pgt:ARTWORK188 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscritta"^^xsd:string .
+
+pgt:ARTWORK189 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca imperiale sec."^^xsd:string ;
+    ns1:name "Motivi ornamentali \"a giorno\""^^xsd:string .
+
+pgt:ARTWORK19 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Cristo tra i dottori nel Tempio"^^xsd:string .
+
+pgt:ARTWORK190 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Zappa"^^xsd:string .
+
+pgt:ARTWORK191 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "L-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo conico/piriforme"^^xsd:string .
+
+pgt:ARTWORK192 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C, prima metà sec."^^xsd:string ;
+    ns1:name "Iscrizione ad Apollo"^^xsd:string .
+
+pgt:ARTWORK193 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Iscrizione dei Sempronii"^^xsd:string .
+
+pgt:ARTWORK194 a pgt:Artwork ;
+    pgt:yearCreated "23.0"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 41 d.C. e il 54 d.C."^^xsd:string ;
+    ns1:name "Bollo CLAVD PANSI"^^xsd:string .
+
+pgt:ARTWORK195 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano destro"^^xsd:string .
+
+pgt:ARTWORK196 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Astragalo"^^xsd:string .
+
+pgt:ARTWORK197 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I sec. d.C. sec."^^xsd:string ;
+    ns1:name "Vomere di aratro"^^xsd:string .
+
+pgt:ARTWORK198 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Tubolare, a corpo quasi cilindrico"^^xsd:string .
+
+pgt:ARTWORK199 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca imperiale sec."^^xsd:string ;
+    ns1:name "A scorrimento"^^xsd:string .
+
+pgt:ARTWORK2 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'annuncio della nascita di Maria ad Anna"^^xsd:string .
+
+pgt:ARTWORK20 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il Battesimo di Cristo"^^xsd:string .
+
+pgt:ARTWORK200 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto femminile"^^xsd:string .
+
+pgt:ARTWORK201 a pgt:Artwork ;
+    pgt:yearCreated "550.0"^^xsd:year ;
+    pgt:yearCreatedText "V-VI secolo d.C. sec."^^xsd:string ;
+    ns1:name "San Menas orante"^^xsd:string .
+
+pgt:ARTWORK202 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano destro"^^xsd:string .
+
+pgt:ARTWORK203 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "Ultimo quarto I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "\"ad Aucissa\""^^xsd:string .
+
+pgt:ARTWORK204 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Ascia a taglio ricurvo"^^xsd:string .
+
+pgt:ARTWORK205 a pgt:Artwork ;
+    pgt:yearCreated "200.0"^^xsd:year ;
+    pgt:yearCreatedText "L-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo globulare "^^xsd:string .
+
+pgt:ARTWORK206 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "Il secolo d.C. sec."^^xsd:string ;
+    ns1:name "Busto virile"^^xsd:string .
+
+pgt:ARTWORK207 a pgt:Artwork ;
+    pgt:yearCreated "49.5"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 98 d.C. e il 117 d.C."^^xsd:string ;
+    ns1:name "Tito Mustio Ostilio Fabricio Medulla Augurino"^^xsd:string .
+
+pgt:ARTWORK208 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Due busti e un bambino"^^xsd:string .
+
+pgt:ARTWORK209 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano sinistro"^^xsd:string .
+
+pgt:ARTWORK21 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Le nozze di Cana"^^xsd:string .
+
+pgt:ARTWORK210 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Astuccio"^^xsd:string .
+
+pgt:ARTWORK211 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Ascia a tagli ortogonali"^^xsd:string .
+
+pgt:ARTWORK212 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "L secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo troncoconico"^^xsd:string .
+
+pgt:ARTWORK213 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione di Q. Pomponius Severus"^^xsd:string .
+
+pgt:ARTWORK214 a pgt:Artwork ;
+    pgt:yearCreated "450"^^xsd:year ;
+    pgt:yearCreatedText "IV secolo d.C. sec."^^xsd:string ;
+    ns1:name "Ritratto femminile"^^xsd:string .
+
+pgt:ARTWORK215 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., metà sec."^^xsd:string ;
+    ns1:name "Augusto"^^xsd:string .
+
+pgt:ARTWORK216 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano sinistro"^^xsd:string .
+
+pgt:ARTWORK217 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Spatolina"^^xsd:string .
+
+pgt:ARTWORK218 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Scalpello"^^xsd:string .
+
+pgt:ARTWORK219 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Tubolare, a corpo quasi cilindrico"^^xsd:string .
+
+pgt:ARTWORK22 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La resurrezione di Lazzaro"^^xsd:string .
+
+pgt:ARTWORK220 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Cuspide conica con leoncini e protome bovina"^^xsd:string .
+
+pgt:ARTWORK221 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Tra il fine I a.C. e il metà I d.C."^^xsd:string ;
+    ns1:name "Livia"^^xsd:string .
+
+pgt:ARTWORK222 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione Q. Valerius C.f. Silo"^^xsd:string .
+
+pgt:ARTWORK223 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano sinistro"^^xsd:string .
+
+pgt:ARTWORK224 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Spatolina"^^xsd:string .
+
+pgt:ARTWORK225 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Classica"^^xsd:string .
+
+pgt:ARTWORK226 a pgt:Artwork ;
+    pgt:yearCreated "300.0"^^xsd:year ;
+    pgt:yearCreatedText "Il-IV secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo troncoconico e fondo carenato"^^xsd:string .
+
+pgt:ARTWORK227 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., metà sec."^^xsd:string ;
+    ns1:name "Iscrizione a L. Varius"^^xsd:string .
+
+pgt:ARTWORK228 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto maschile"^^xsd:string .
+
+pgt:ARTWORK229 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione \"Pago Disaenio\""^^xsd:string .
+
+pgt:ARTWORK23 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Ingresso a Gerusalemme"^^xsd:string .
+
+pgt:ARTWORK230 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Piede umano destro"^^xsd:string .
+
+pgt:ARTWORK231 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Spatolina"^^xsd:string .
+
+pgt:ARTWORK232 a pgt:Artwork ;
+    pgt:yearCreated "0"^^xsd:year ;
+    pgt:yearCreatedText "Metà I secolo a.C. - metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Sgorbia"^^xsd:string .
+
+pgt:ARTWORK233 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "LII-IV secolo d.C. sec."^^xsd:string ;
+    ns1:name "Balsamario vitreo"^^xsd:string .
+
+pgt:ARTWORK234 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Busto maschile"^^xsd:string .
+
+pgt:ARTWORK235 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione beneagurante"^^xsd:string .
+
+pgt:ARTWORK236 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Tito Iestino Augurino"^^xsd:string .
+
+pgt:ARTWORK237 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Rubinetto"^^xsd:string .
+
+pgt:ARTWORK238 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Sonda a spatola"^^xsd:string .
+
+pgt:ARTWORK239 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Uncinato"^^xsd:string .
+
+pgt:ARTWORK24 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La cacciata dei mercanti dal Tempio"^^xsd:string .
+
+pgt:ARTWORK240 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "Età tiberio-claudia - Il secolo d.C. sec."^^xsd:string ;
+    ns1:name "Olla vitrea"^^xsd:string .
+
+pgt:ARTWORK241 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "A ventre globulare"^^xsd:string .
+
+pgt:ARTWORK242 a pgt:Artwork ;
+    pgt:yearCreated "350"^^xsd:year ;
+    pgt:yearCreatedText "IlI secolo d.C. sec."^^xsd:string ;
+    ns1:name "Purricina e Iuvenis"^^xsd:string .
+
+pgt:ARTWORK243 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "L-ll secolo d.C. sec."^^xsd:string ;
+    ns1:name "Tipo a scorrimento con impugnatura"^^xsd:string .
+
+pgt:ARTWORK244 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Rubinetto"^^xsd:string .
+
+pgt:ARTWORK245 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Sonda a spatola"^^xsd:string .
+
+pgt:ARTWORK246 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Fine I secolo a.C. - prima metà I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Testa di satiro"^^xsd:string .
+
+pgt:ARTWORK247 a pgt:Artwork ;
+    pgt:yearCreated "23"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 23 d.C. e il"^^xsd:string ;
+    ns1:name "Bilancia pesa monete"^^xsd:string .
+
+pgt:ARTWORK248 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., fine sec."^^xsd:string ;
+    ns1:name "Iscrizione di Gaio Asconio Sardo"^^xsd:string .
+
+pgt:ARTWORK249 a pgt:Artwork ;
+    pgt:yearCreated "26.5"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 52 d.C. e il 134 d.C."^^xsd:string ;
+    ns1:name "Iscrizione di Aulo Publicio Felice"^^xsd:string .
+
+pgt:ARTWORK25 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il tradimento di Giuda"^^xsd:string .
+
+pgt:ARTWORK250 a pgt:Artwork ;
+    pgt:yearCreated "275"^^xsd:year ;
+    pgt:yearCreatedText "III secolo d.C., fine sec."^^xsd:string ;
+    ns1:name "Ritratto maschile"^^xsd:string .
+
+pgt:ARTWORK251 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Bollo"^^xsd:string .
+
+pgt:ARTWORK252 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Spatolina"^^xsd:string .
+
+pgt:ARTWORK253 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Prima età imperiale sec."^^xsd:string ;
+    ns1:name "Con apice \"a gemma stilizzata\""^^xsd:string .
+
+pgt:ARTWORK254 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Seconda metà I secolo d.C. - Il secolo d.C. sec."^^xsd:string ;
+    ns1:name "Monoansata con \"marchio di fabbrica\""^^xsd:string .
+
+pgt:ARTWORK255 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione di Titus Aurelius Felix"^^xsd:string .
+
+pgt:ARTWORK256 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "A cruna singola"^^xsd:string .
+
+pgt:ARTWORK257 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Iscrizione C. Rubellius"^^xsd:string .
+
+pgt:ARTWORK258 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Tubolare, a corpo quasi cilindrico"^^xsd:string .
+
+pgt:ARTWORK259 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "Epoca romana sec."^^xsd:string ;
+    ns1:name "Sonda a spatola"^^xsd:string .
+
+pgt:ARTWORK26 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'ultima cena"^^xsd:string .
+
+pgt:ARTWORK260 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Prima età imperiale sec."^^xsd:string ;
+    ns1:name "Con apice \"a gemma stilizzata\""^^xsd:string .
+
+pgt:ARTWORK261 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "A corpo globulare "^^xsd:string .
+
+pgt:ARTWORK262 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "Ll-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione a Domizia Atiliana"^^xsd:string .
+
+pgt:ARTWORK263 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., metà sec."^^xsd:string ;
+    ns1:name "Bucranio e ghirlanda"^^xsd:string .
+
+pgt:ARTWORK264 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Asclepio (?)"^^xsd:string .
+
+pgt:ARTWORK265 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Tubolare, a corpo quasi cilindrico"^^xsd:string .
+
+pgt:ARTWORK266 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Iscrizione di C. Cluentius Proculus"^^xsd:string .
+
+pgt:ARTWORK267 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Epoca imperiale o tardo-antica sec."^^xsd:string ;
+    ns1:name "A due rebbi"^^xsd:string .
+
+pgt:ARTWORK268 a pgt:Artwork ;
+    pgt:yearCreated "-410"^^xsd:year ;
+    pgt:yearCreatedText "IV secolo a.C., inizio sec."^^xsd:string ;
+    ns1:name "Asclepio"^^xsd:string .
+
+pgt:ARTWORK269 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Tra il II secolo a.C. e il 165 a.C."^^xsd:string ;
+    ns1:name "Uomo seduto e giovinetto stante"^^xsd:string .
+
+pgt:ARTWORK27 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La lavanda dei piedi"^^xsd:string .
+
+pgt:ARTWORK270 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV secolo a.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Scena di offerta votiva"^^xsd:string .
+
+pgt:ARTWORK271 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II secolo a.C. sec."^^xsd:string ;
+    ns1:name "Scena di banchetto"^^xsd:string .
+
+pgt:ARTWORK272 a pgt:Artwork ;
+    pgt:yearCreated "-410"^^xsd:year ;
+    pgt:yearCreatedText "IV secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Figura femminile nell'atto di incedere"^^xsd:string .
+
+pgt:ARTWORK273 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., inizio sec."^^xsd:string ;
+    ns1:name "Cavaliere"^^xsd:string .
+
+pgt:ARTWORK274 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C, seconda metà sec."^^xsd:string ;
+    ns1:name "Scena di sacrificio"^^xsd:string .
+
+pgt:ARTWORK275 a pgt:Artwork ;
+    pgt:yearCreated "175"^^xsd:year ;
+    pgt:yearCreatedText "II secolo a.C., prima metà sec."^^xsd:string ;
+    ns1:name "Fanciullo che tiene un oggetto tra le mani"^^xsd:string .
+
+pgt:ARTWORK276 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Tre menadi danzanti"^^xsd:string .
+
+pgt:ARTWORK277 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Età romana, inizio sec."^^xsd:string ;
+    ns1:name "Bucrani e ghirlande, iscrizione Thàllis"^^xsd:string .
+
+pgt:ARTWORK278 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Tre menadi danzanti"^^xsd:string .
+
+pgt:ARTWORK279 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Scena di sacrificio"^^xsd:string .
+
+pgt:ARTWORK28 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La cattura di Cristo"^^xsd:string .
+
+pgt:ARTWORK280 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I sec. d.C. sec."^^xsd:string ;
+    ns1:name "Satiro"^^xsd:string .
+
+pgt:ARTWORK281 a pgt:Artwork ;
+    pgt:yearCreated "38.0"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 69 d.C. e il 79 d.C."^^xsd:string ;
+    ns1:name "Hermes"^^xsd:string .
+
+pgt:ARTWORK282 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Dioniso"^^xsd:string .
+
+pgt:ARTWORK283 a pgt:Artwork ;
+    pgt:yearCreated "210"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. (epoca traianea o adrianea), prima metà sec."^^xsd:string ;
+    ns1:name "Fauno"^^xsd:string .
+
+pgt:ARTWORK284 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II sec. d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Dioniso imberbe e barbato"^^xsd:string .
+
+pgt:ARTWORK285 a pgt:Artwork ;
+    pgt:yearCreated "200"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C., seconda metà sec."^^xsd:string ;
+    ns1:name "Pan"^^xsd:string .
+
+pgt:ARTWORK286 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Dioniso e satiro"^^xsd:string .
+
+pgt:ARTWORK287 a pgt:Artwork ;
+    pgt:yearCreated "375"^^xsd:year ;
+    pgt:yearCreatedText "IV secolo a.C., metà sec."^^xsd:string ;
+    ns1:name "Testa femminile"^^xsd:string .
+
+pgt:ARTWORK288 a pgt:Artwork ;
+    pgt:yearCreated "110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., prima metà sec."^^xsd:string ;
+    ns1:name "Doroteo e Nice"^^xsd:string .
+
+pgt:ARTWORK289 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Scultore"^^xsd:string .
+
+pgt:ARTWORK29 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Cristo davanti ad Anna e Caifa"^^xsd:string .
+
+pgt:ARTWORK290 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Testa di moro"^^xsd:string .
+
+pgt:ARTWORK291 a pgt:Artwork ;
+    pgt:yearCreated "1850.0"^^xsd:year ;
+    pgt:yearCreatedText "XVIII-XIX secolo, fine/inizio sec."^^xsd:string ;
+    ns1:name "Capraio"^^xsd:string .
+
+pgt:ARTWORK292 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Caduceo e iscrizione"^^xsd:string .
+
+pgt:ARTWORK293 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Giove"^^xsd:string .
+
+pgt:ARTWORK294 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Testa di moro"^^xsd:string .
+
+pgt:ARTWORK295 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C sec."^^xsd:string ;
+    ns1:name "Attore o drammaturgo con maschera"^^xsd:string .
+
+pgt:ARTWORK296 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Faretra e iscrizione"^^xsd:string .
+
+pgt:ARTWORK297 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Giove Serapide"^^xsd:string .
+
+pgt:ARTWORK298 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Testa di Cupido"^^xsd:string .
+
+pgt:ARTWORK299 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Scena di matrimonio"^^xsd:string .
+
+pgt:ARTWORK3 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il sacrificio di Gioacchino"^^xsd:string .
+
+pgt:ARTWORK30 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Cristo deriso"^^xsd:string .
+
+pgt:ARTWORK300 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Anello e simboli"^^xsd:string .
+
+pgt:ARTWORK301 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C sec."^^xsd:string ;
+    ns1:name "Giove Serapide"^^xsd:string .
+
+pgt:ARTWORK302 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Due Cupidi in lotta"^^xsd:string .
+
+pgt:ARTWORK303 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Testa di toro"^^xsd:string .
+
+pgt:ARTWORK304 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Cinque stelle e luna crescente"^^xsd:string .
+
+pgt:ARTWORK305 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Giove Ammone"^^xsd:string .
+
+pgt:ARTWORK306 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., primo quarto sec."^^xsd:string ;
+    ns1:name "Busto di Psyche"^^xsd:string .
+
+pgt:ARTWORK307 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "II-I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Cane sulla prua di una barca"^^xsd:string .
+
+pgt:ARTWORK308 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Clava alata di Ercole (?)"^^xsd:string .
+
+pgt:ARTWORK309 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C sec."^^xsd:string ;
+    ns1:name "Ganimede nutre l'aquila di Giove"^^xsd:string .
+
+pgt:ARTWORK31 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'andata di Cristo al Calvario"^^xsd:string .
+
+pgt:ARTWORK310 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., primo quarto sec."^^xsd:string ;
+    ns1:name "Busto di Psyche"^^xsd:string .
+
+pgt:ARTWORK311 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Gazzella che salta"^^xsd:string .
+
+pgt:ARTWORK312 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "IN E NOV I"^^xsd:string .
+
+pgt:ARTWORK313 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Amymone alla fonte"^^xsd:string .
+
+pgt:ARTWORK314 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Mercurio"^^xsd:string .
+
+pgt:ARTWORK315 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Pantera"^^xsd:string .
+
+pgt:ARTWORK316 a pgt:Artwork ;
+    pgt:yearCreated "21.5"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 40 e il 30"^^xsd:string ;
+    ns1:name "Busto-ritratto di donna"^^xsd:string .
+
+pgt:ARTWORK317 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C.-I secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Musa e maschera"^^xsd:string .
+
+pgt:ARTWORK318 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C sec."^^xsd:string ;
+    ns1:name "Mercurio"^^xsd:string .
+
+pgt:ARTWORK319 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II secolo d.C. - III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Fronte: Centauro (Sagittario) / Retro: Leone (Leo)"^^xsd:string .
+
+pgt:ARTWORK32 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La Crocifissione"^^xsd:string .
+
+pgt:ARTWORK320 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., terzo quarto sec."^^xsd:string ;
+    ns1:name "Testa di donna"^^xsd:string .
+
+pgt:ARTWORK321 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C., inizio sec."^^xsd:string ;
+    ns1:name "Satiro"^^xsd:string .
+
+pgt:ARTWORK322 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Salus"^^xsd:string .
+
+pgt:ARTWORK323 a pgt:Artwork ;
+    pgt:yearCreated "1850.0"^^xsd:year ;
+    pgt:yearCreatedText "XVIII-XIX secolo, fine/inizio sec."^^xsd:string ;
+    ns1:name "Leone e luna crescente"^^xsd:string .
+
+pgt:ARTWORK324 a pgt:Artwork ;
+    pgt:yearCreated "100"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C., ultimo quarto sec."^^xsd:string ;
+    ns1:name "Busti di uomo e di donna affrontati"^^xsd:string .
+
+pgt:ARTWORK325 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C., inizio sec."^^xsd:string ;
+    ns1:name "Satiro"^^xsd:string .
+
+pgt:ARTWORK326 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Bonus Eventus"^^xsd:string .
+
+pgt:ARTWORK327 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Aquila e palma"^^xsd:string .
+
+pgt:ARTWORK328 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II - III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Testa di bambino"^^xsd:string .
+
+pgt:ARTWORK329 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Le Tre Grazie"^^xsd:string .
+
+pgt:ARTWORK33 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il compianto sul Cristo morto"^^xsd:string .
+
+pgt:ARTWORK330 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Fortuna"^^xsd:string .
+
+pgt:ARTWORK331 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Gallo e caduceo"^^xsd:string .
+
+pgt:ARTWORK332 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Bonus Eventus"^^xsd:string .
+
+pgt:ARTWORK333 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Divinità panteistica (Vittoria-Minerva-Cerere-Flora)"^^xsd:string .
+
+pgt:ARTWORK334 a pgt:Artwork ;
+    pgt:yearCreated "102.5"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 200 e il 50"^^xsd:string ;
+    ns1:name "Cicogna e iscrizione ANT"^^xsd:string .
+
+pgt:ARTWORK335 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII secolo sec."^^xsd:string ;
+    ns1:name "Cacciatore"^^xsd:string .
+
+pgt:ARTWORK336 a pgt:Artwork ;
+    pgt:yearCreated "500"^^xsd:year ;
+    pgt:yearCreatedText "500"^^xsd:string ;
+    ns1:name "Sfinge"^^xsd:string .
+
+pgt:ARTWORK337 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "II-III secolo d.C. sec."^^xsd:string ;
+    ns1:name "Combinazione"^^xsd:string .
+
+pgt:ARTWORK338 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Satiro"^^xsd:string .
+
+pgt:ARTWORK339 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C.-I secolo d.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Sfinge"^^xsd:string .
+
+pgt:ARTWORK34 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Noli me tangere. La resurrezione di Cristo"^^xsd:string .
+
+pgt:ARTWORK340 a pgt:Artwork ;
+    pgt:yearCreated "75"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. - I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Palma e spighe di grano"^^xsd:string .
+
+pgt:ARTWORK341 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Achille"^^xsd:string .
+
+pgt:ARTWORK342 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Guerriero"^^xsd:string .
+
+pgt:ARTWORK343 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "II-I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Pampino"^^xsd:string .
+
+pgt:ARTWORK344 a pgt:Artwork ;
+    pgt:yearCreated "150"^^xsd:year ;
+    pgt:yearCreatedText "I secolo d.C. sec."^^xsd:string ;
+    ns1:name "Formica"^^xsd:string .
+
+pgt:ARTWORK345 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Filosofo"^^xsd:string .
+
+pgt:ARTWORK346 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I secolo a.C. sec."^^xsd:string ;
+    ns1:name "Caduceo, due palme e clava"^^xsd:string .
+
+pgt:ARTWORK347 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, metà sec."^^xsd:string ;
+    ns1:name "Specchiera"^^xsd:string .
+
+pgt:ARTWORK348 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, metà sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK349 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "Metà XV secolo, metà sec."^^xsd:string ;
+    ns1:name "Cassa nuziale"^^xsd:string .
+
+pgt:ARTWORK35 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'Ascensione"^^xsd:string .
+
+pgt:ARTWORK350 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "Fine XVII secolo, fine sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK351 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII secolo sec."^^xsd:string ;
+    ns1:name "Stipetto con coperchio"^^xsd:string .
+
+pgt:ARTWORK352 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "Primo-secondo decennio XIX secolo sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK353 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Cantonale"^^xsd:string .
+
+pgt:ARTWORK354 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Cantonale"^^xsd:string .
+
+pgt:ARTWORK355 a pgt:Artwork ;
+    pgt:yearCreated "1830"^^xsd:year ;
+    pgt:yearCreatedText "1830 circa sec."^^xsd:string ;
+    ns1:name "Tavolo rotondo"^^xsd:string .
+
+pgt:ARTWORK356 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "Primo-secondo decennio XIX secolo sec."^^xsd:string ;
+    ns1:name "Tavolo"^^xsd:string .
+
+pgt:ARTWORK357 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Stipetto"^^xsd:string .
+
+pgt:ARTWORK358 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Maddalena penitente"^^xsd:string .
+
+pgt:ARTWORK359 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Cassettone a ribalta"^^xsd:string .
+
+pgt:ARTWORK36 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La Pentecoste"^^xsd:string .
+
+pgt:ARTWORK360 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII secolo sec."^^xsd:string ;
+    ns1:name "Stipo con apertura \"à abattant\""^^xsd:string .
+
+pgt:ARTWORK361 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "Primo-secondo decenio XIX secolo sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK362 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Stipo"^^xsd:string .
+
+pgt:ARTWORK363 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "Seconda metà XVII secolo sec."^^xsd:string ;
+    ns1:name "Cassettone intarsiato"^^xsd:string .
+
+pgt:ARTWORK364 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "Primo-secondo decennio XIX secolo sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK365 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "Dopo la metà del XVII secolo sec."^^xsd:string ;
+    ns1:name "Seggiolone con braccioli"^^xsd:string .
+
+pgt:ARTWORK366 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "Primo-secondo decennio XIX secolo sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK367 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Tavolo"^^xsd:string .
+
+pgt:ARTWORK368 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "Metà XVI secolo sec."^^xsd:string ;
+    ns1:name "Specchiera rettangolare in sei pezzi con cornice"^^xsd:string .
+
+pgt:ARTWORK369 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK37 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Vano prospettico"^^xsd:string .
+
+pgt:ARTWORK370 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "Fine XVII secolo sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK371 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Cassettone"^^xsd:string .
+
+pgt:ARTWORK372 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Specchiera"^^xsd:string .
+
+pgt:ARTWORK373 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK374 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK375 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK376 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "Fine XVII secolo sec."^^xsd:string ;
+    ns1:name "Cassettone intarsiato"^^xsd:string .
+
+pgt:ARTWORK377 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK378 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK379 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "Seconda metà XVIII secolo sec."^^xsd:string ;
+    ns1:name "Cassettone bombato a due cassetti"^^xsd:string .
+
+pgt:ARTWORK38 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Vano prospettico"^^xsd:string .
+
+pgt:ARTWORK380 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giuseppe Borsato"^^xsd:string .
+
+pgt:ARTWORK381 a pgt:Artwork ;
+    pgt:yearCreated "1830"^^xsd:year ;
+    pgt:yearCreatedText "1830 circa sec."^^xsd:string ;
+    ns1:name "\"Guéridon\""^^xsd:string .
+
+pgt:ARTWORK382 a pgt:Artwork ;
+    pgt:yearCreated "1775"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, fine sec."^^xsd:string ;
+    ns1:name "Stele Giustiniani"^^xsd:string .
+
+pgt:ARTWORK383 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII/ XVIII, fine/inizio sec."^^xsd:string ;
+    ns1:name "Maddalena penitente"^^xsd:string .
+
+pgt:ARTWORK384 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Gioviano Pontano"^^xsd:string .
+
+pgt:ARTWORK385 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Huig van Groot"^^xsd:string .
+
+pgt:ARTWORK386 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Diana e Endimione"^^xsd:string .
+
+pgt:ARTWORK387 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Dalla Casa"^^xsd:string .
+
+pgt:ARTWORK388 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Flavio Biondo"^^xsd:string .
+
+pgt:ARTWORK389 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Girolamo Sbaraglia"^^xsd:string .
+
+pgt:ARTWORK39 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il Giudizio Universale"^^xsd:string .
+
+pgt:ARTWORK390 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Ezzelino III da Romano"^^xsd:string .
+
+pgt:ARTWORK391 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Figura allegorica"^^xsd:string .
+
+pgt:ARTWORK392 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Flora"^^xsd:string .
+
+pgt:ARTWORK393 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Marco Girolamo Vida"^^xsd:string .
+
+pgt:ARTWORK394 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Clément Marot"^^xsd:string .
+
+pgt:ARTWORK395 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di William Camden"^^xsd:string .
+
+pgt:ARTWORK396 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII/ XVIII sec."^^xsd:string ;
+    ns1:name "Caduta dei giganti"^^xsd:string .
+
+pgt:ARTWORK397 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Democrito"^^xsd:string .
+
+pgt:ARTWORK398 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, seconda metà sec."^^xsd:string ;
+    ns1:name "Pietà"^^xsd:string .
+
+pgt:ARTWORK399 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Giovanni Poleni"^^xsd:string .
+
+pgt:ARTWORK4 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Il sogno di Gioacchino"^^xsd:string .
+
+pgt:ARTWORK40 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Cristo pantocratore"^^xsd:string .
+
+pgt:ARTWORK400 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Bernardino Tomitano"^^xsd:string .
+
+pgt:ARTWORK401 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Alvise Granata"^^xsd:string .
+
+pgt:ARTWORK402 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Philippe de Commynes (Commines)"^^xsd:string .
+
+pgt:ARTWORK403 a pgt:Artwork ;
+    pgt:yearCreated "1550"^^xsd:year ;
+    pgt:yearCreatedText "XV sec."^^xsd:string ;
+    ns1:name "Coppia di angeli che sostiene un disco con iscrizione"^^xsd:string .
+
+pgt:ARTWORK404 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Busto di giovane pastore (o contadino)"^^xsd:string .
+
+pgt:ARTWORK405 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Pietro Bembo"^^xsd:string .
+
+pgt:ARTWORK406 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "San Giovanni Evangelista"^^xsd:string .
+
+pgt:ARTWORK407 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Angelo Beolco detto Ruzante"^^xsd:string .
+
+pgt:ARTWORK408 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Reginald Pole"^^xsd:string .
+
+pgt:ARTWORK409 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Marco Antonio Peregrino (Pellegrini)"^^xsd:string .
+
+pgt:ARTWORK41 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Madonna col Bambino"^^xsd:string .
+
+pgt:ARTWORK410 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Lorenzo Bellini"^^xsd:string .
+
+pgt:ARTWORK411 a pgt:Artwork ;
+    pgt:yearCreated "1550"^^xsd:year ;
+    pgt:yearCreatedText "XV sec."^^xsd:string ;
+    ns1:name "Clipeo con busto del vescovo Stefano da Carrara"^^xsd:string .
+
+pgt:ARTWORK412 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giasone Del Maino"^^xsd:string .
+
+pgt:ARTWORK413 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Maria piangente"^^xsd:string .
+
+pgt:ARTWORK414 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Oddo degli Oddi"^^xsd:string .
+
+pgt:ARTWORK415 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Pierre de Ronsard"^^xsd:string .
+
+pgt:ARTWORK416 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Antonio Magino (Magini)"^^xsd:string .
+
+pgt:ARTWORK417 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giorgio Buchanan"^^xsd:string .
+
+pgt:ARTWORK418 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giulio Cesare Scaligero"^^xsd:string .
+
+pgt:ARTWORK419 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "XVII, fine sec."^^xsd:string ;
+    ns1:name "Testa di Oloferne"^^xsd:string .
+
+pgt:ARTWORK42 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Ezechiele"^^xsd:string .
+
+pgt:ARTWORK420 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Maria Maddalena"^^xsd:string .
+
+pgt:ARTWORK421 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Girolamo da Praga"^^xsd:string .
+
+pgt:ARTWORK422 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Cristoforo Colombo"^^xsd:string .
+
+pgt:ARTWORK423 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Antonio Vallisnieri"^^xsd:string .
+
+pgt:ARTWORK424 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Francesco Zabarella"^^xsd:string .
+
+pgt:ARTWORK425 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Bartolomeo Platina (detto Sacchi)"^^xsd:string .
+
+pgt:ARTWORK426 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Eraclito"^^xsd:string .
+
+pgt:ARTWORK427 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Maddalena penitente"^^xsd:string .
+
+pgt:ARTWORK428 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Heinrich Cornelius Agrippa di Nettensheim"^^xsd:string .
+
+pgt:ARTWORK429 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Bartolo da Sassoferrato"^^xsd:string .
+
+pgt:ARTWORK43 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Michea"^^xsd:string .
+
+pgt:ARTWORK430 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Jean Fernel"^^xsd:string .
+
+pgt:ARTWORK431 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Francesco Piccolomini"^^xsd:string .
+
+pgt:ARTWORK432 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Oecolampadius (Johannes Husschin o Hussgen)"^^xsd:string .
+
+pgt:ARTWORK433 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Testa di Ezzelino da Romano"^^xsd:string .
+
+pgt:ARTWORK434 a pgt:Artwork ;
+    pgt:yearCreated "1450"^^xsd:year ;
+    pgt:yearCreatedText "XIV sec."^^xsd:string ;
+    ns1:name "Madonna con il Bambino"^^xsd:string .
+
+pgt:ARTWORK435 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Lorenzo Valla"^^xsd:string .
+
+pgt:ARTWORK436 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Pierio Valeriano (Dalle Fosse, Giovanni Pietro; Bolzanio, Pierio Valeriano)"^^xsd:string .
+
+pgt:ARTWORK437 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Girolamo Savonarola"^^xsd:string .
+
+pgt:ARTWORK438 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "La Religione"^^xsd:string .
+
+pgt:ARTWORK439 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Pierre de Ronsard"^^xsd:string .
+
+pgt:ARTWORK44 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "San Giovanni Battista"^^xsd:string .
+
+pgt:ARTWORK440 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "San Giovanni Evangelista"^^xsd:string .
+
+pgt:ARTWORK441 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Alvise Valaresso in veste di Esculapio"^^xsd:string .
+
+pgt:ARTWORK442 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Ramòm Lull"^^xsd:string .
+
+pgt:ARTWORK443 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Tycho Brahe"^^xsd:string .
+
+pgt:ARTWORK444 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Marcello Malpighi"^^xsd:string .
+
+pgt:ARTWORK445 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Martin Lutero"^^xsd:string .
+
+pgt:ARTWORK446 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Francesco Poggio Bracciolini"^^xsd:string .
+
+pgt:ARTWORK447 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Lazzaro Bonamico"^^xsd:string .
+
+pgt:ARTWORK448 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Zefiro"^^xsd:string .
+
+pgt:ARTWORK449 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Paolo Manuzio"^^xsd:string .
+
+pgt:ARTWORK45 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Malachia"^^xsd:string .
+
+pgt:ARTWORK450 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Carlo Sigonio"^^xsd:string .
+
+pgt:ARTWORK451 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Paolo Giovio"^^xsd:string .
+
+pgt:ARTWORK452 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Gaetano da Thiene"^^xsd:string .
+
+pgt:ARTWORK453 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Stöffler"^^xsd:string .
+
+pgt:ARTWORK454 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "San Pietro"^^xsd:string .
+
+pgt:ARTWORK455 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Primavera o Flora"^^xsd:string .
+
+pgt:ARTWORK456 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Aldo Manuzio (il giovane)"^^xsd:string .
+
+pgt:ARTWORK457 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Jacopo Sadoleto"^^xsd:string .
+
+pgt:ARTWORK458 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII-XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Cassandra Fedele"^^xsd:string .
+
+pgt:ARTWORK459 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Testa di Attila"^^xsd:string .
+
+pgt:ARTWORK46 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Baruch"^^xsd:string .
+
+pgt:ARTWORK460 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Andrea Navagero"^^xsd:string .
+
+pgt:ARTWORK461 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Gesù Cristo"^^xsd:string .
+
+pgt:ARTWORK462 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Maria di Salome"^^xsd:string .
+
+pgt:ARTWORK463 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Gerolamo Cardano"^^xsd:string .
+
+pgt:ARTWORK464 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Aldo Pio Manuzio"^^xsd:string .
+
+pgt:ARTWORK465 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giacomo Menochio"^^xsd:string .
+
+pgt:ARTWORK466 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Torquato Tasso"^^xsd:string .
+
+pgt:ARTWORK467 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "XVI, fine sec."^^xsd:string ;
+    ns1:name "Ritratto di Orsato Giustiniani"^^xsd:string .
+
+pgt:ARTWORK468 a pgt:Artwork ;
+    pgt:yearCreated "1475"^^xsd:year ;
+    pgt:yearCreatedText "XV, fine sec."^^xsd:string ;
+    ns1:name "Madonna con il Bambino"^^xsd:string .
+
+pgt:ARTWORK469 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Cristo morto"^^xsd:string .
+
+pgt:ARTWORK47 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Isaia"^^xsd:string .
+
+pgt:ARTWORK470 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Bernardino Scardeone"^^xsd:string .
+
+pgt:ARTWORK471 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII-XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Modesta dal Pozzo"^^xsd:string .
+
+pgt:ARTWORK472 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Isotta Nogarola"^^xsd:string .
+
+pgt:ARTWORK473 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Nicolò Copernico"^^xsd:string .
+
+pgt:ARTWORK474 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Tommaso Moro (Thomas More)"^^xsd:string .
+
+pgt:ARTWORK475 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Alessandro Tartagni"^^xsd:string .
+
+pgt:ARTWORK476 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Domenico Guglielmini"^^xsd:string .
+
+pgt:ARTWORK477 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII-XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Alessandro Battista Guarini"^^xsd:string .
+
+pgt:ARTWORK478 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Nicolò Macchiavelli"^^xsd:string .
+
+pgt:ARTWORK479 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Calvino"^^xsd:string .
+
+pgt:ARTWORK48 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Profeta Daniele"^^xsd:string .
+
+pgt:ARTWORK480 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Francesco Guicciardini"^^xsd:string .
+
+pgt:ARTWORK481 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "La Fede"^^xsd:string .
+
+pgt:ARTWORK482 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI, secondo quarto sec."^^xsd:string ;
+    ns1:name "Maria piangente"^^xsd:string .
+
+pgt:ARTWORK483 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Francesco Robortello"^^xsd:string .
+
+pgt:ARTWORK484 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII-XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Heurnius"^^xsd:string .
+
+pgt:ARTWORK485 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Girolamo Fracastorio"^^xsd:string .
+
+pgt:ARTWORK486 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Baldo degli Ubaldi"^^xsd:string .
+
+pgt:ARTWORK487 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di Ludovico Ariosto"^^xsd:string .
+
+pgt:ARTWORK488 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, prima metà sec."^^xsd:string ;
+    ns1:name "Testa di Madonna"^^xsd:string .
+
+pgt:ARTWORK489 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Pier Francesco Pallavicino"^^xsd:string .
+
+pgt:ARTWORK49 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Prudenza"^^xsd:string .
+
+pgt:ARTWORK490 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Abraham Ortels (van Oertel)"^^xsd:string .
+
+pgt:ARTWORK491 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Gaspar Bauhin"^^xsd:string .
+
+pgt:ARTWORK492 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, seconda metà sec."^^xsd:string ;
+    ns1:name "Completo femminile"^^xsd:string .
+
+pgt:ARTWORK493 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, seconda metà sec."^^xsd:string ;
+    ns1:name "Marsina"^^xsd:string .
+
+pgt:ARTWORK494 a pgt:Artwork ;
+    pgt:yearCreated "1775"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, fine sec."^^xsd:string ;
+    ns1:name "Gilet"^^xsd:string .
+
+pgt:ARTWORK495 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Camisiola"^^xsd:string .
+
+pgt:ARTWORK496 a pgt:Artwork ;
+    pgt:yearCreated "1775"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, fine sec."^^xsd:string ;
+    ns1:name "Marsina"^^xsd:string .
+
+pgt:ARTWORK497 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Marsina"^^xsd:string .
+
+pgt:ARTWORK498 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Figura maschile in marsina e parrucca"^^xsd:string .
+
+pgt:ARTWORK499 a pgt:Artwork ;
+    pgt:yearCreated "1650.0"^^xsd:year ;
+    pgt:yearCreatedText "XVI-XVII, fine/inizio sec."^^xsd:string ;
+    ns1:name "Portafrutta"^^xsd:string .
+
+pgt:ARTWORK5 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "L'incontro di Gioacchino e Anna alla Porta Aurea"^^xsd:string .
+
+pgt:ARTWORK50 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Fortezza"^^xsd:string .
+
+pgt:ARTWORK500 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Coppetta"^^xsd:string .
+
+pgt:ARTWORK501 a pgt:Artwork ;
+    pgt:yearCreated "1950.0"^^xsd:year ;
+    pgt:yearCreatedText "XIX-XX, fine/inizio sec."^^xsd:string ;
+    ns1:name "Caraffa"^^xsd:string .
+
+pgt:ARTWORK502 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, inizio sec."^^xsd:string ;
+    ns1:name "Calice"^^xsd:string .
+
+pgt:ARTWORK503 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Coppa"^^xsd:string .
+
+pgt:ARTWORK504 a pgt:Artwork ;
+    pgt:yearCreated "2000"^^xsd:year ;
+    pgt:yearCreatedText "XX, seconda metà sec."^^xsd:string ;
+    ns1:name "Alberello con fiori e foglie"^^xsd:string .
+
+pgt:ARTWORK505 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Servizio da tavola"^^xsd:string .
+
+pgt:ARTWORK506 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, seconda metà sec."^^xsd:string ;
+    ns1:name "Bicchiere"^^xsd:string .
+
+pgt:ARTWORK507 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII - XVIII, fine/inizio sec."^^xsd:string ;
+    ns1:name "Portafrutta"^^xsd:string .
+
+pgt:ARTWORK508 a pgt:Artwork ;
+    pgt:yearCreated "2010"^^xsd:year ;
+    pgt:yearCreatedText "XX, inizio sec."^^xsd:string ;
+    ns1:name "Anforetta"^^xsd:string .
+
+pgt:ARTWORK509 a pgt:Artwork ;
+    pgt:yearCreated "1950.0"^^xsd:year ;
+    pgt:yearCreatedText "XIX-XX, fine/inizio sec."^^xsd:string ;
+    ns1:name "Servizio molato"^^xsd:string .
+
+pgt:ARTWORK51 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Temperanza"^^xsd:string .
+
+pgt:ARTWORK510 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV-XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Bicchiere"^^xsd:string .
+
+pgt:ARTWORK511 a pgt:Artwork ;
+    pgt:yearCreated "1650.0"^^xsd:year ;
+    pgt:yearCreatedText "XVI-XVII, fine/inizio sec."^^xsd:string ;
+    ns1:name "Decori a festone; decoro fenicio"^^xsd:string .
+
+pgt:ARTWORK512 a pgt:Artwork ;
+    pgt:yearCreated "2000"^^xsd:year ;
+    pgt:yearCreatedText "XX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Urna con coperchio"^^xsd:string .
+
+pgt:ARTWORK513 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Bicchiere"^^xsd:string .
+
+pgt:ARTWORK514 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, inizio sec."^^xsd:string ;
+    ns1:name "Coppa"^^xsd:string .
+
+pgt:ARTWORK515 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Calice"^^xsd:string .
+
+pgt:ARTWORK516 a pgt:Artwork ;
+    pgt:yearCreated "2050"^^xsd:year ;
+    pgt:yearCreatedText "XX sec."^^xsd:string ;
+    ns1:name "Leone, grifone, due delfini, campanile di San Marco"^^xsd:string .
+
+pgt:ARTWORK517 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Racemi floreali"^^xsd:string .
+
+pgt:ARTWORK518 a pgt:Artwork ;
+    pgt:yearCreated "2050"^^xsd:year ;
+    pgt:yearCreatedText "XX sec."^^xsd:string ;
+    ns1:name "Coppa"^^xsd:string .
+
+pgt:ARTWORK519 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "XVI, fine sec."^^xsd:string ;
+    ns1:name "Calice"^^xsd:string .
+
+pgt:ARTWORK52 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Giustizia"^^xsd:string .
+
+pgt:ARTWORK520 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Decoro fenicio, rosone con cigno"^^xsd:string .
+
+pgt:ARTWORK521 a pgt:Artwork ;
+    pgt:yearCreated "2000"^^xsd:year ;
+    pgt:yearCreatedText "XX, seconda metà sec."^^xsd:string ;
+    ns1:name "Coppette"^^xsd:string .
+
+pgt:ARTWORK522 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Motivi fitomorfi stilizzati"^^xsd:string .
+
+pgt:ARTWORK523 a pgt:Artwork ;
+    pgt:yearCreated "1950.0"^^xsd:year ;
+    pgt:yearCreatedText "XIX - XX, fine/inizio sec."^^xsd:string ;
+    ns1:name "Urna"^^xsd:string .
+
+pgt:ARTWORK524 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, metà sec."^^xsd:string ;
+    ns1:name "Porta ampolle"^^xsd:string .
+
+pgt:ARTWORK525 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "XVI, fine sec."^^xsd:string ;
+    ns1:name "Motivi vegetali e fitomorfi"^^xsd:string .
+
+pgt:ARTWORK526 a pgt:Artwork ;
+    pgt:yearCreated "1950.0"^^xsd:year ;
+    pgt:yearCreatedText "XIX - XX, fine/inizio sec."^^xsd:string ;
+    ns1:name "San Giorgio che trafigge il drago"^^xsd:string .
+
+pgt:ARTWORK527 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Flacone"^^xsd:string .
+
+pgt:ARTWORK528 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Racemi floreali, uccelli, cervi"^^xsd:string .
+
+pgt:ARTWORK529 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Fiore con foglie"^^xsd:string .
+
+pgt:ARTWORK53 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Fede"^^xsd:string .
+
+pgt:ARTWORK530 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Bottiglia"^^xsd:string .
+
+pgt:ARTWORK531 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Paesaggio con lepre in primo piano; ghirlande e racemi fioriti"^^xsd:string .
+
+pgt:ARTWORK532 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "XIX, fine sec."^^xsd:string ;
+    ns1:name "Fragole"^^xsd:string .
+
+pgt:ARTWORK533 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, prima metà sec."^^xsd:string ;
+    ns1:name "Bottiglia"^^xsd:string .
+
+pgt:ARTWORK534 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Elementi fitomorfi"^^xsd:string .
+
+pgt:ARTWORK535 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Galera"^^xsd:string .
+
+pgt:ARTWORK536 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Due fiori"^^xsd:string .
+
+pgt:ARTWORK537 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Cestino"^^xsd:string .
+
+pgt:ARTWORK538 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, terzo quarto sec."^^xsd:string ;
+    ns1:name "Rami ricurvi con fiori e foglie"^^xsd:string .
+
+pgt:ARTWORK539 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Vasetto farmaceutico"^^xsd:string .
+
+pgt:ARTWORK54 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Carità"^^xsd:string .
+
+pgt:ARTWORK540 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "XVI, fine sec."^^xsd:string ;
+    ns1:name "Piatto"^^xsd:string .
+
+pgt:ARTWORK541 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, seconda metà sec."^^xsd:string ;
+    ns1:name "Tre delfini e fiori"^^xsd:string .
+
+pgt:ARTWORK542 a pgt:Artwork ;
+    pgt:yearCreated "2050"^^xsd:year ;
+    pgt:yearCreatedText "XX sec."^^xsd:string ;
+    ns1:name "Coperchio a bolle"^^xsd:string .
+
+pgt:ARTWORK543 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Decorazione a festoni; motivi fitomorfi stilizzati"^^xsd:string .
+
+pgt:ARTWORK544 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Ampolla"^^xsd:string .
+
+pgt:ARTWORK545 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, seconda metà sec."^^xsd:string ;
+    ns1:name "Delfini"^^xsd:string .
+
+pgt:ARTWORK546 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, metà sec."^^xsd:string ;
+    ns1:name "Foglie e frutto"^^xsd:string .
+
+pgt:ARTWORK547 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Calice"^^xsd:string .
+
+pgt:ARTWORK548 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX, ultimo quarto sec."^^xsd:string ;
+    ns1:name "Anforetta"^^xsd:string .
+
+pgt:ARTWORK549 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Ventaglio"^^xsd:string .
+
+pgt:ARTWORK55 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Speranza"^^xsd:string .
+
+pgt:ARTWORK550 a pgt:Artwork ;
+    pgt:yearCreated "1910"^^xsd:year ;
+    pgt:yearCreatedText "XIX, prima metà sec."^^xsd:string ;
+    ns1:name "Giovane donna con cappello"^^xsd:string .
+
+pgt:ARTWORK551 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Trionfo di Psiche"^^xsd:string .
+
+pgt:ARTWORK552 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX secolo, seconda metà sec."^^xsd:string ;
+    ns1:name "Ritratto femminile"^^xsd:string .
+
+pgt:ARTWORK553 a pgt:Artwork ;
+    pgt:yearCreated "1775"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, fine sec."^^xsd:string ;
+    ns1:name "Episodi mitologici"^^xsd:string .
+
+pgt:ARTWORK554 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Tabacchiera"^^xsd:string .
+
+pgt:ARTWORK555 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Scene con dame e cavalieri"^^xsd:string .
+
+pgt:ARTWORK556 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Tabacchiera"^^xsd:string .
+
+pgt:ARTWORK557 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Scena campestre"^^xsd:string .
+
+pgt:ARTWORK558 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Ritratto del conte Antonio Vigodarzere."^^xsd:string .
+
+pgt:ARTWORK559 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Ventaglio"^^xsd:string .
+
+pgt:ARTWORK56 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Stoltezza"^^xsd:string .
+
+pgt:ARTWORK560 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Ventaglio"^^xsd:string .
+
+pgt:ARTWORK561 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Scene galanti"^^xsd:string .
+
+pgt:ARTWORK562 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ventaglio"^^xsd:string .
+
+pgt:ARTWORK563 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Paesaggio con architetture"^^xsd:string .
+
+pgt:ARTWORK564 a pgt:Artwork ;
+    pgt:yearCreated "1770"^^xsd:year ;
+    pgt:yearCreatedText "1720-1730 montatura; 1820-1830 pagina sec."^^xsd:string ;
+    ns1:name "Svago campestre"^^xsd:string .
+
+pgt:ARTWORK565 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Tabacchiera"^^xsd:string .
+
+pgt:ARTWORK566 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Paesaggio"^^xsd:string .
+
+pgt:ARTWORK567 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Sacra Famiglia"^^xsd:string .
+
+pgt:ARTWORK568 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Paesaggio vesuviano"^^xsd:string .
+
+pgt:ARTWORK569 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, terzo quarto sec."^^xsd:string ;
+    ns1:name "Tabacchiera"^^xsd:string .
+
+pgt:ARTWORK57 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Incostanza"^^xsd:string .
+
+pgt:ARTWORK570 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Monumento sepolcrale dedicato a Gaspare Gozzi"^^xsd:string .
+
+pgt:ARTWORK571 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Ventaglio"^^xsd:string .
+
+pgt:ARTWORK572 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Vaso con fiori"^^xsd:string .
+
+pgt:ARTWORK573 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, primo quarto sec."^^xsd:string ;
+    ns1:name "Bottega degli Embriachi (?)"^^xsd:string .
+
+pgt:ARTWORK574 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Urna cineraria della contessa Ludovica Callemberg"^^xsd:string .
+
+pgt:ARTWORK575 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Dar da mangiare agli affamati"^^xsd:string .
+
+pgt:ARTWORK576 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Allegoria della città di Padova con putto ed iscrizione"^^xsd:string .
+
+pgt:ARTWORK577 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Monumento funebre di Guglielmo Giorgio Federico d'Orange-Nassau"^^xsd:string .
+
+pgt:ARTWORK578 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Monumento funebre di Antonio Canova"^^xsd:string .
+
+pgt:ARTWORK579 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Ritratto di Antonio Canova"^^xsd:string .
+
+pgt:ARTWORK58 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Ira"^^xsd:string .
+
+pgt:ARTWORK580 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Napoleone come Marte pacificatore"^^xsd:string .
+
+pgt:ARTWORK581 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Cristo deposto dalla croce"^^xsd:string .
+
+pgt:ARTWORK582 a pgt:Artwork ;
+    pgt:yearCreated "1375"^^xsd:year ;
+    pgt:yearCreatedText "XIV, fine sec."^^xsd:string ;
+    ns1:name "Crocifissione e deposizione del corpo di Cristo"^^xsd:string .
+
+pgt:ARTWORK583 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Madonna con il Bambino"^^xsd:string .
+
+pgt:ARTWORK584 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giove Egioco"^^xsd:string .
+
+pgt:ARTWORK585 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "La fucina di Vulcano"^^xsd:string .
+
+pgt:ARTWORK586 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Mendicante"^^xsd:string .
+
+pgt:ARTWORK587 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Teseo uccide il centauro"^^xsd:string .
+
+pgt:ARTWORK588 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giove e Giunone"^^xsd:string .
+
+pgt:ARTWORK589 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV-XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Fiori gotici, busto-ritratto maschile in hortus conclusus, albero"^^xsd:string .
+
+pgt:ARTWORK59 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Ingiustizia"^^xsd:string .
+
+pgt:ARTWORK590 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Meleagro e Atalanta"^^xsd:string .
+
+pgt:ARTWORK591 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "Madonna e il Bambino in trono affiancati dai santi Rocco e Lucia"^^xsd:string .
+
+pgt:ARTWORK592 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Continenza di Scipione, paesaggio con alberi e uccelli in volo"^^xsd:string .
+
+pgt:ARTWORK593 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto virile"^^xsd:string .
+
+pgt:ARTWORK594 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII/ XVIII, fine/inizio sec."^^xsd:string ;
+    ns1:name "Domenico Guidobono (bottega)"^^xsd:string .
+
+pgt:ARTWORK595 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV-XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Cervo accovacciato, foglie"^^xsd:string .
+
+pgt:ARTWORK596 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, metà sec."^^xsd:string ;
+    ns1:name "Butto, grande fiore"^^xsd:string .
+
+pgt:ARTWORK597 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV/ XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Aquila, fiori"^^xsd:string .
+
+pgt:ARTWORK598 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, metà sec."^^xsd:string ;
+    ns1:name "Gigli"^^xsd:string .
+
+pgt:ARTWORK599 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "Busto-ritratto muliebre, butto uscente dalla bocca simboleggiante il soffio"^^xsd:string .
+
+pgt:ARTWORK6 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La nascita di Maria"^^xsd:string .
+
+pgt:ARTWORK60 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Invidia"^^xsd:string .
+
+pgt:ARTWORK600 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, prima metà sec."^^xsd:string ;
+    ns1:name "Butto con foglia di pioppo"^^xsd:string .
+
+pgt:ARTWORK601 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Daniele nella fossa dei leoni"^^xsd:string .
+
+pgt:ARTWORK602 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto virile"^^xsd:string .
+
+pgt:ARTWORK603 a pgt:Artwork ;
+    pgt:yearCreated "1450.0"^^xsd:year ;
+    pgt:yearCreatedText "XIV/ XV, fine/inizio sec."^^xsd:string ;
+    ns1:name "Uccello, sole (o la luna?) umanizzato"^^xsd:string .
+
+pgt:ARTWORK604 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, prima metà sec."^^xsd:string ;
+    ns1:name "Ritratto di giovanetto"^^xsd:string .
+
+pgt:ARTWORK605 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "Ritratto virile"^^xsd:string .
+
+pgt:ARTWORK606 a pgt:Artwork ;
+    pgt:yearCreated "1750.0"^^xsd:year ;
+    pgt:yearCreatedText "XVII/ XVIII sec."^^xsd:string ;
+    ns1:name "Domenico Guidobono (bottega)"^^xsd:string .
+
+pgt:ARTWORK607 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV/ XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Lavorante sconosciuto"^^xsd:string .
+
+pgt:ARTWORK608 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, seconda metà sec."^^xsd:string ;
+    ns1:name "Figura muliebre stante, verziere, mezze foglie accartocciate"^^xsd:string .
+
+pgt:ARTWORK609 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, inizio sec."^^xsd:string ;
+    ns1:name "Uccello si muove tra due grappoli d’uva: un inno alla vita"^^xsd:string .
+
+pgt:ARTWORK61 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Disperazione"^^xsd:string .
+
+pgt:ARTWORK610 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, seconda metà sec."^^xsd:string ;
+    ns1:name "Tre melagrane, medaglione fogliato, rombi"^^xsd:string .
+
+pgt:ARTWORK611 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, metà sec."^^xsd:string ;
+    ns1:name "Pesce"^^xsd:string .
+
+pgt:ARTWORK612 a pgt:Artwork ;
+    pgt:yearCreated "1450.0"^^xsd:year ;
+    pgt:yearCreatedText "XIV/ XV, fine/inizio sec."^^xsd:string ;
+    ns1:name "Palma/fiore stilizzato"^^xsd:string .
+
+pgt:ARTWORK613 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "XVII, primo quarto sec."^^xsd:string ;
+    ns1:name "Anonimo ceramista"^^xsd:string .
+
+pgt:ARTWORK614 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, prima metà sec."^^xsd:string ;
+    ns1:name "Mezza foglia rūmī − romana − con una inflorescenza terminale"^^xsd:string .
+
+pgt:ARTWORK615 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "La decorazione nel cavetto è costituita da filiformi racemi alla porcellana con foglioline e butti di guarnizione. Il tutto è racchiuso da due cornici a risparmio inframezzate da una banda a racemi sulla tesa. Nel cavo un filatterio con la scritta . Su"^^xsd:string .
+
+pgt:ARTWORK616 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "Busto-ritratto muliebre in hortus conclusus, cipresso, albero secco"^^xsd:string .
+
+pgt:ARTWORK617 a pgt:Artwork ;
+    pgt:yearCreated "1710"^^xsd:year ;
+    pgt:yearCreatedText "XVII, prima metà sec."^^xsd:string ;
+    ns1:name "San Pietro"^^xsd:string .
+
+pgt:ARTWORK618 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, inizio sec."^^xsd:string ;
+    ns1:name "Busto ritratto virile che guarda a sinistra; foglie polilobate"^^xsd:string .
+
+pgt:ARTWORK619 a pgt:Artwork ;
+    pgt:yearCreated "1710"^^xsd:year ;
+    pgt:yearCreatedText "XVII, inizio sec."^^xsd:string ;
+    ns1:name "Anonimo ceramista"^^xsd:string .
+
+pgt:ARTWORK62 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Idolatria"^^xsd:string .
+
+pgt:ARTWORK620 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, prima metà sec."^^xsd:string ;
+    ns1:name "Racemi di mezze foglie rūmī, alternanza di foglie accartocciate e mele"^^xsd:string .
+
+pgt:ARTWORK621 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, prima metà sec."^^xsd:string ;
+    ns1:name "Racemo crociforme"^^xsd:string .
+
+pgt:ARTWORK622 a pgt:Artwork ;
+    pgt:yearCreated "1500"^^xsd:year ;
+    pgt:yearCreatedText "XV, metà sec."^^xsd:string ;
+    ns1:name "Foglie, mele, fiori gotici stilizzati"^^xsd:string .
+
+pgt:ARTWORK623 a pgt:Artwork ;
+    pgt:yearCreated "1510"^^xsd:year ;
+    pgt:yearCreatedText "XV, prima metà sec."^^xsd:string ;
+    ns1:name "Due grandi mezze foglie rūmī − romane − affrontate e accostate a formare un grande fiore"^^xsd:string .
+
+pgt:ARTWORK624 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI, secondo quarto sec."^^xsd:string ;
+    ns1:name "Latona nel paese dei Batraci"^^xsd:string .
+
+pgt:ARTWORK625 a pgt:Artwork ;
+    pgt:yearCreated "1650.0"^^xsd:year ;
+    pgt:yearCreatedText "XVI/ XVII, fine/inizio sec."^^xsd:string ;
+    ns1:name "La parca decorazione a pennello è costituita da cespi d’erbe stilizzati, palmette e mezze palmette e, nel cavo della crespina, da un angioletto che regge un libro raffigurato stante entro paese. L’insieme costituisce un esempio della maiolica compen"^^xsd:string .
+
+pgt:ARTWORK626 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI, seconda metà sec."^^xsd:string ;
+    ns1:name "La decorazione è costituita da uno piccolo medaglione con stemma Gradenigo realizzato a punta e a stecca, arricchito da nastri e rosetta. Esistono frammenti di altre forme con la stessa decorazione indice dell’esistenza di un servizio eseguito su ordi"^^xsd:string .
+
+pgt:ARTWORK627 a pgt:Artwork ;
+    pgt:yearCreated "1475"^^xsd:year ;
+    pgt:yearCreatedText "XV, fine sec."^^xsd:string ;
+    ns1:name "Trigramma di San Bernardino"^^xsd:string .
+
+pgt:ARTWORK628 a pgt:Artwork ;
+    pgt:yearCreated "1550.0"^^xsd:year ;
+    pgt:yearCreatedText "XV/ XVI, fine/inizio sec."^^xsd:string ;
+    ns1:name "Pesce"^^xsd:string .
+
+pgt:ARTWORK629 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "La morte di Erisittone"^^xsd:string .
+
+pgt:ARTWORK63 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Madonna col Bambino"^^xsd:string .
+
+pgt:ARTWORK630 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, primo quarto sec."^^xsd:string ;
+    ns1:name "Marina con molo"^^xsd:string .
+
+pgt:ARTWORK631 a pgt:Artwork ;
+    pgt:yearCreated "1575"^^xsd:year ;
+    pgt:yearCreatedText "XVI, fine sec."^^xsd:string ;
+    ns1:name "Dipinto celebrativo dei rettori Jacopo e Giovanni Soranzo"^^xsd:string .
+
+pgt:ARTWORK632 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo che tiene tra le mani un'animula (Angelo)"^^xsd:string .
+
+pgt:ARTWORK633 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo che tiene alla catena un diavolo (Potestà)"^^xsd:string .
+
+pgt:ARTWORK634 a pgt:Artwork ;
+    pgt:yearCreated "1475"^^xsd:year ;
+    pgt:yearCreatedText "XV, fine sec."^^xsd:string ;
+    ns1:name "Leda e il cigno"^^xsd:string .
+
+pgt:ARTWORK635 a pgt:Artwork ;
+    pgt:yearCreated "1550"^^xsd:year ;
+    pgt:yearCreatedText "XV sec."^^xsd:string ;
+    ns1:name "Ritratto di giovane senatore"^^xsd:string .
+
+pgt:ARTWORK636 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI, metà sec."^^xsd:string ;
+    ns1:name "Martirio di santa Giustina"^^xsd:string .
+
+pgt:ARTWORK637 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo con giglio che salva i naviganti dal naufragio (Virtù)"^^xsd:string .
+
+pgt:ARTWORK638 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo armato con lancia e scudo (Principato)"^^xsd:string .
+
+pgt:ARTWORK639 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo che pesa le anime e combatte con un diavolo (Dominazione [?])"^^xsd:string .
+
+pgt:ARTWORK64 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Angelo ceroforo"^^xsd:string .
+
+pgt:ARTWORK640 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, metà sec."^^xsd:string ;
+    ns1:name "La lezione di geografia"^^xsd:string .
+
+pgt:ARTWORK641 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, secondo quarto sec."^^xsd:string ;
+    ns1:name "Cena in Emmaus"^^xsd:string .
+
+pgt:ARTWORK642 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name """Madonna con il Bambino e i santi Benedetto, Giustina, Prosdocimo e Scolastica
+cimasa: Pietà
+tondi: san Luca, san Mattia, san Massimo e san Giuliano da Padova e tre santi martiri innocenti"""^^xsd:string .
+
+pgt:ARTWORK643 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "San Matteo"^^xsd:string .
+
+pgt:ARTWORK644 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Madonna con il Bambino"^^xsd:string .
+
+pgt:ARTWORK645 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Gruppo di dieci angeli seduti coronato con globo e flabello gigliato (Serafini [?])"^^xsd:string .
+
+pgt:ARTWORK646 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Busto di angelo a sei ali (Cherubino)"^^xsd:string .
+
+pgt:ARTWORK647 a pgt:Artwork ;
+    pgt:yearCreated "1610"^^xsd:year ;
+    pgt:yearCreatedText "XVI, inizio sec."^^xsd:string ;
+    ns1:name "La nascita di Adone"^^xsd:string .
+
+pgt:ARTWORK648 a pgt:Artwork ;
+    pgt:yearCreated "1475"^^xsd:year ;
+    pgt:yearCreatedText "XV, fine sec."^^xsd:string ;
+    ns1:name "Idillio campestre"^^xsd:string .
+
+pgt:ARTWORK649 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Crocifissione"^^xsd:string .
+
+pgt:ARTWORK65 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Angelo ceroforo"^^xsd:string .
+
+pgt:ARTWORK650 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Schiera di angeli armati (Arcangeli [?])"^^xsd:string .
+
+pgt:ARTWORK651 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Croce"^^xsd:string .
+
+pgt:ARTWORK652 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di giovane sacerdote"^^xsd:string .
+
+pgt:ARTWORK653 a pgt:Artwork ;
+    pgt:yearCreated "1400"^^xsd:year ;
+    pgt:yearCreatedText "XIV, metà sec."^^xsd:string ;
+    ns1:name "Angelo seduto coronato con scettro e globo (Trono [?])"^^xsd:string .
+
+pgt:ARTWORK654 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "San Patrizio vescovo d'Irlanda"^^xsd:string .
+
+pgt:ARTWORK655 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Giovanni Bragadin, patriarca di Venezia"^^xsd:string .
+
+pgt:ARTWORK656 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Ritratto di Emilia Papafava Borromeo"^^xsd:string .
+
+pgt:ARTWORK657 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "XVII, seconda metà sec."^^xsd:string ;
+    ns1:name "L'indovina"^^xsd:string .
+
+pgt:ARTWORK658 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Pasto dei pitocchi con giovane donna"^^xsd:string .
+
+pgt:ARTWORK659 a pgt:Artwork ;
+    pgt:yearCreated "1700"^^xsd:year ;
+    pgt:yearCreatedText "XVII, metà sec."^^xsd:string ;
+    ns1:name "Tre alchimisti"^^xsd:string .
+
+pgt:ARTWORK66 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Sepolcro di Enrico Scrovegni"^^xsd:string .
+
+pgt:ARTWORK660 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Ritratto di fanciullo"^^xsd:string .
+
+pgt:ARTWORK661 a pgt:Artwork ;
+    pgt:yearCreated "1650"^^xsd:year ;
+    pgt:yearCreatedText "XVI sec."^^xsd:string ;
+    ns1:name "Madonna con Bambino e donatore"^^xsd:string .
+
+pgt:ARTWORK662 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Paesaggio con rovine"^^xsd:string .
+
+pgt:ARTWORK663 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Pasto dei pitocchi con vecchia contadina"^^xsd:string .
+
+pgt:ARTWORK664 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Autoritratto"^^xsd:string .
+
+pgt:ARTWORK665 a pgt:Artwork ;
+    pgt:yearCreated "1450"^^xsd:year ;
+    pgt:yearCreatedText "XIV sec."^^xsd:string ;
+    ns1:name "Storia di Jourdain de Blaye: incontro di Fromont e Gerart"^^xsd:string .
+
+pgt:ARTWORK666 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Paesaggio con grande cascata"^^xsd:string .
+
+pgt:ARTWORK667 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto di Antonio Renier, provveditore generale in Dalmazia e Albania"^^xsd:string .
+
+pgt:ARTWORK668 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Autunno"^^xsd:string .
+
+pgt:ARTWORK669 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Estate"^^xsd:string .
+
+pgt:ARTWORK67 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "Enrico Scrovegni orante"^^xsd:string .
+
+pgt:ARTWORK670 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI secolo, primo quarto sec."^^xsd:string ;
+    ns1:name "Davide ordina a Joab ed all'esercito dei prodi di combattere contro gli Ammoniti"^^xsd:string .
+
+pgt:ARTWORK671 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII secolo sec."^^xsd:string ;
+    ns1:name "Adorazione dei pastori"^^xsd:string .
+
+pgt:ARTWORK672 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Pasto del signore"^^xsd:string .
+
+pgt:ARTWORK673 a pgt:Artwork ;
+    pgt:yearCreated "1910"^^xsd:year ;
+    pgt:yearCreatedText "XIX, inizio sec."^^xsd:string ;
+    ns1:name "Paesaggio lacustre con edificio"^^xsd:string .
+
+pgt:ARTWORK674 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Pasto dei pitocchi con fiasco di vino"^^xsd:string .
+
+pgt:ARTWORK675 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Allegoria della Pittura"^^xsd:string .
+
+pgt:ARTWORK676 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "XVII, fine sec."^^xsd:string ;
+    ns1:name "Nano salvato e condotto in ringraziamento dinanzi all'ara di Pan"^^xsd:string .
+
+pgt:ARTWORK677 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Ritratto di capitano veneziano"^^xsd:string .
+
+pgt:ARTWORK678 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Porto di mare con Castel Sant'Angelo"^^xsd:string .
+
+pgt:ARTWORK679 a pgt:Artwork ;
+    pgt:yearCreated "1910"^^xsd:year ;
+    pgt:yearCreatedText "XIX, inizio sec."^^xsd:string ;
+    ns1:name "Paesaggio lacustre con cavalieri"^^xsd:string .
+
+pgt:ARTWORK68 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV secolo a.C. sec."^^xsd:string ;
+    ns1:name "Dea madre con bambino"^^xsd:string .
+
+pgt:ARTWORK680 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Burrasca di mare"^^xsd:string .
+
+pgt:ARTWORK681 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Inverno"^^xsd:string .
+
+pgt:ARTWORK682 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Ritratto commemorativo di Elena Lucrezia Cornaro Piscopia"^^xsd:string .
+
+pgt:ARTWORK683 a pgt:Artwork ;
+    pgt:yearCreated "1710"^^xsd:year ;
+    pgt:yearCreatedText "XVII, inizio sec."^^xsd:string ;
+    ns1:name "Ritratto di dama"^^xsd:string .
+
+pgt:ARTWORK684 a pgt:Artwork ;
+    pgt:yearCreated "1810"^^xsd:year ;
+    pgt:yearCreatedText "XVIII, inizio sec."^^xsd:string ;
+    ns1:name "Paesaggio invernale con adorazione dei pastori"^^xsd:string .
+
+pgt:ARTWORK685 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Primavera"^^xsd:string .
+
+pgt:ARTWORK686 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "XVII, fine sec."^^xsd:string ;
+    ns1:name "Merlettaia con la maestra"^^xsd:string .
+
+pgt:ARTWORK687 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Paesaggio con arco naturale su un corso d'acqua e figure"^^xsd:string .
+
+pgt:ARTWORK688 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Ritratto del doge Paolo Renier"^^xsd:string .
+
+pgt:ARTWORK689 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Allegoria della fecondità (Il Bagno di Venere)"^^xsd:string .
+
+pgt:ARTWORK69 a pgt:Artwork ;
+    ns1:name "Orante"^^xsd:string .
+
+pgt:ARTWORK690 a pgt:Artwork ;
+    ns1:name "Crocifissione con i due ladroni e le Marie"^^xsd:string .
+
+pgt:ARTWORK691 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "XVII, fine sec."^^xsd:string ;
+    ns1:name "Nano assalito da un gambero e soccorso dai compagni"^^xsd:string .
+
+pgt:ARTWORK692 a pgt:Artwork ;
+    pgt:yearCreated "1750"^^xsd:year ;
+    pgt:yearCreatedText "XVII sec."^^xsd:string ;
+    ns1:name "Pappagallo indovino e un cavadenti"^^xsd:string .
+
+pgt:ARTWORK693 a pgt:Artwork ;
+    pgt:yearCreated "1850"^^xsd:year ;
+    pgt:yearCreatedText "XVIII sec."^^xsd:string ;
+    ns1:name "Corsa dei fantini in Prato della Valle"^^xsd:string .
+
+pgt:ARTWORK694 a pgt:Artwork ;
+    pgt:yearCreated "1675"^^xsd:year ;
+    pgt:yearCreatedText "XVII, fine sec."^^xsd:string ;
+    ns1:name "Nano in trappola soccorso dai compagni"^^xsd:string .
+
+pgt:ARTWORK695 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Diavolo"^^xsd:string .
+
+pgt:ARTWORK696 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Vedute di Padova"^^xsd:string .
+
+pgt:ARTWORK697 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Anello"^^xsd:string .
+
+pgt:ARTWORK698 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Fiore stilizzato a \"giardinetto\""^^xsd:string .
+
+pgt:ARTWORK699 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Testa classica femminile"^^xsd:string .
+
+pgt:ARTWORK7 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La presentazione di Maria al Tempio"^^xsd:string .
+
+pgt:ARTWORK70 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C. sec."^^xsd:string ;
+    ns1:name "Devota-offerente"^^xsd:string .
+
+pgt:ARTWORK700 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Iniziali intrecciate JLM (Jacob Leone Maso) con stemma Trieste con gru coronata recante una freccia nel becco"^^xsd:string .
+
+pgt:ARTWORK701 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Mosca"^^xsd:string .
+
+pgt:ARTWORK702 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Drago"^^xsd:string .
+
+pgt:ARTWORK703 a pgt:Artwork ;
+    pgt:yearCreated "1910"^^xsd:year ;
+    pgt:yearCreatedText "XIX, inizio sec."^^xsd:string ;
+    ns1:name "Vaso di stile impero"^^xsd:string .
+
+pgt:ARTWORK704 a pgt:Artwork ;
+    pgt:yearCreated "1600"^^xsd:year ;
+    pgt:yearCreatedText "XVI, primo quarto sec."^^xsd:string ;
+    ns1:name "Satiro seduto che beve"^^xsd:string .
+
+pgt:ARTWORK705 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "Sec. XIX sec."^^xsd:string ;
+    ns1:name "La leggitrice"^^xsd:string .
+
+pgt:ARTWORK706 a pgt:Artwork ;
+    pgt:yearCreated "1800"^^xsd:year ;
+    pgt:yearCreatedText "Secolo XVIII, seconda metà sec."^^xsd:string ;
+    ns1:name "Busto del Doge Paolo Renier"^^xsd:string .
+
+pgt:ARTWORK707 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. sec."^^xsd:string ;
+    ns1:name "Marina con imbarco di emigranti per San Francisco di California"^^xsd:string .
+
+pgt:ARTWORK708 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., terzo quarto sec."^^xsd:string ;
+    ns1:name "Vedute di Villa Bottacin - Lo chalet svizzero"^^xsd:string .
+
+pgt:ARTWORK709 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., fine sec."^^xsd:string ;
+    ns1:name "Nei paesi del mare ( Aux Pays  de la Mer)"^^xsd:string .
+
+pgt:ARTWORK71 a pgt:Artwork ;
+    pgt:yearCreated "-210"^^xsd:year ;
+    pgt:yearCreatedText "II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero"^^xsd:string .
+
+pgt:ARTWORK710 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., secondo quarto sec."^^xsd:string ;
+    ns1:name "Vedute di Villa Bottacin - Il castello al cacciatore"^^xsd:string .
+
+pgt:ARTWORK711 a pgt:Artwork ;
+    pgt:yearCreated "1875"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., fine sec."^^xsd:string ;
+    ns1:name "La giovane vedova - Tristis est anima mea -"^^xsd:string .
+
+pgt:ARTWORK712 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., terzo quarto sec."^^xsd:string ;
+    ns1:name "Vedute della Villa Bottacin - Le rovine"^^xsd:string .
+
+pgt:ARTWORK713 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., terzo quarto sec."^^xsd:string ;
+    ns1:name "Vedute della villa Bottacin - Prospetto generale della villa e del parco Bottacin"^^xsd:string .
+
+pgt:ARTWORK714 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., ultimo quarto sec."^^xsd:string ;
+    ns1:name "Ritratto di Nicola Bottacin"^^xsd:string .
+
+pgt:ARTWORK715 a pgt:Artwork ;
+    pgt:yearCreated "1900"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C., terzo quarto sec."^^xsd:string ;
+    ns1:name "Vedute di villa Bottacin - L'abitazione"^^xsd:string .
+
+pgt:ARTWORK716 a pgt:Artwork ;
+    ns1:name "Bimbo con piattino su cuscino"^^xsd:string .
+
+pgt:ARTWORK717 a pgt:Artwork ;
+    ns1:name "Flora"^^xsd:string .
+
+pgt:ARTWORK718 a pgt:Artwork ;
+    pgt:yearCreated "2000"^^xsd:year ;
+    pgt:yearCreatedText "XX sec. d.C., secondo quarto sec."^^xsd:string ;
+    ns1:name "Salomè con la Testa del Battista"^^xsd:string .
+
+pgt:ARTWORK719 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec. d.C. sec."^^xsd:string ;
+    ns1:name "Vecchio cacciatore"^^xsd:string .
+
+pgt:ARTWORK72 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Cavallino"^^xsd:string .
+
+pgt:ARTWORK720 a pgt:Artwork ;
+    ns1:name "Sigillo Comitato di Difesa di Padova"^^xsd:string .
+
+pgt:ARTWORK721 a pgt:Artwork ;
+    ns1:name "Medaglia celebrativa Pio IX e Carlo Alberto"^^xsd:string .
+
+pgt:ARTWORK722 a pgt:Artwork ;
+    ns1:name "Medaglia commemorativa morte Garibaldi"^^xsd:string .
+
+pgt:ARTWORK723 a pgt:Artwork ;
+    ns1:name "Decorazione al merito ai soldati della Presa di Roma 1870"^^xsd:string .
+
+pgt:ARTWORK724 a pgt:Artwork ;
+    ns1:name "Decorazione francese Ordine della Legion d'onore Insegna di Cavaliere"^^xsd:string .
+
+pgt:ARTWORK725 a pgt:Artwork ;
+    ns1:name "Medaglia con autoritratto dello scultore Andrea Briosco"^^xsd:string .
+
+pgt:ARTWORK726 a pgt:Artwork ;
+    ns1:name "Palazzo della Ragione"^^xsd:string .
+
+pgt:ARTWORK727 a pgt:Artwork ;
+    ns1:name "Medaglia celebrativa per la conclusione dei lavori di restauro della Cappella degli Scrovegni 2001"^^xsd:string .
+
+pgt:ARTWORK728 a pgt:Artwork ;
+    pgt:yearCreated "850.0"^^xsd:year ;
+    pgt:yearCreatedText "VIII-IX sec. d.C. sec."^^xsd:string ;
+    ns1:name "Denaro di Carlo Magno"^^xsd:string .
+
+pgt:ARTWORK729 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C. sec."^^xsd:string ;
+    ns1:name "Statere incuso di Metaponto"^^xsd:string .
+
+pgt:ARTWORK73 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II sec. d.C. sec."^^xsd:string ;
+    ns1:name "Venere"^^xsd:string .
+
+pgt:ARTWORK730 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI sec. A.C. sec."^^xsd:string ;
+    ns1:name "Terzo di statere con testa di leone"^^xsd:string .
+
+pgt:ARTWORK731 a pgt:Artwork ;
+    pgt:yearCreated "-110"^^xsd:year ;
+    pgt:yearCreatedText "I sec. a. C. sec."^^xsd:string ;
+    ns1:name "Aureo dell'imperatore Cesare Augusto"^^xsd:string .
+
+pgt:ARTWORK732 a pgt:Artwork ;
+    pgt:yearCreated "1450"^^xsd:year ;
+    pgt:yearCreatedText "Sec. XIV sec."^^xsd:string ;
+    ns1:name "Ducato d'oro di Francesco I da Carrara"^^xsd:string .
+
+pgt:ARTWORK733 a pgt:Artwork ;
+    pgt:yearCreated "1861"^^xsd:year ;
+    pgt:yearCreatedText "1861"^^xsd:string ;
+    ns1:name "Bandiere, drappi e fazzoletti"^^xsd:string .
+
+pgt:ARTWORK734 a pgt:Artwork ;
+    pgt:yearCreated "2050"^^xsd:year ;
+    pgt:yearCreatedText "XX sec."^^xsd:string ;
+    ns1:name "Cimeli"^^xsd:string .
+
+pgt:ARTWORK735 a pgt:Artwork ;
+    pgt:yearCreated "1916.5"^^xsd:year ;
+    pgt:yearCreatedText "1915-1918 sec."^^xsd:string ;
+    ns1:name "Bomba"^^xsd:string .
+
+pgt:ARTWORK736 a pgt:Artwork ;
+    pgt:yearCreated "1848"^^xsd:year ;
+    pgt:yearCreatedText "Post 1848 sec."^^xsd:string ;
+    ns1:name "L'insurrezione contro gli Austriaci al Pedrocchi nel 1848"^^xsd:string .
+
+pgt:ARTWORK737 a pgt:Artwork ;
+    pgt:yearCreated "1950"^^xsd:year ;
+    pgt:yearCreatedText "XIX sec."^^xsd:string ;
+    ns1:name "Giubba da Milite dei Veliti indossata da Luciano Montalti (Piccola Tenuta Bandiera-Moro)"^^xsd:string .
+
+pgt:ARTWORK738 a pgt:Artwork ;
+    pgt:yearCreated "2050"^^xsd:year ;
+    pgt:yearCreatedText "XX sec."^^xsd:string ;
+    ns1:name "Cimeli"^^xsd:string .
+
+pgt:ARTWORK739 a pgt:Artwork ;
+    pgt:yearCreated "2010"^^xsd:year ;
+    pgt:yearCreatedText "XX, prima metà sec."^^xsd:string ;
+    ns1:name "Danni causati dai bombardamenti aerei"^^xsd:string .
+
+pgt:ARTWORK74 a pgt:Artwork ;
+    ns1:name "Orante"^^xsd:string .
+
+pgt:ARTWORK740 a pgt:Artwork ;
+    pgt:yearCreated "2010"^^xsd:year ;
+    pgt:yearCreatedText "XX, prima metà sec."^^xsd:string ;
+    ns1:name "Cesare Battisti"^^xsd:string .
+
+pgt:ARTWORK741 a pgt:Artwork ;
+    pgt:yearCreated "1915"^^xsd:year ;
+    pgt:yearCreatedText "1915/02/04"^^xsd:string ;
+    ns1:name "Manifesti e volantini"^^xsd:string .
+
+pgt:ARTWORK742 a pgt:Artwork ;
+    pgt:yearCreated "1916.5"^^xsd:year ;
+    pgt:yearCreatedText "1915-1918 sec."^^xsd:string ;
+    ns1:name "Cimeli"^^xsd:string .
+
+pgt:ARTWORK75 a pgt:Artwork ;
+    pgt:yearCreated "400.0"^^xsd:year ;
+    pgt:yearCreatedText "V-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Devota-orante"^^xsd:string .
+
+pgt:ARTWORK76 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK77 a pgt:Artwork ;
+    pgt:yearCreated "40"^^xsd:year ;
+    pgt:yearCreatedText "Prima età imperiale sec."^^xsd:string ;
+    ns1:name "Minerva"^^xsd:string .
+
+pgt:ARTWORK78 a pgt:Artwork ;
+    pgt:yearCreated "250"^^xsd:year ;
+    pgt:yearCreatedText "II sec. d.C. sec."^^xsd:string ;
+    ns1:name "Mercurio"^^xsd:string .
+
+pgt:ARTWORK79 a pgt:Artwork ;
+    pgt:yearCreated "-410"^^xsd:year ;
+    pgt:yearCreatedText "IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Offerente con diadema"^^xsd:string .
+
+pgt:ARTWORK8 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La consegna delle Verghe"^^xsd:string .
+
+pgt:ARTWORK80 a pgt:Artwork ;
+    pgt:yearCreated "400.0"^^xsd:year ;
+    pgt:yearCreatedText "V-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Devota-orante"^^xsd:string .
+
+pgt:ARTWORK81 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK82 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Spes-Fortuna"^^xsd:string .
+
+pgt:ARTWORK83 a pgt:Artwork ;
+    pgt:yearCreated "323.0"^^xsd:year ;
+    pgt:yearCreatedText "Tra il 640 e il 620"^^xsd:string ;
+    ns1:name "Offerente armato"^^xsd:string .
+
+pgt:ARTWORK84 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Devoto offerente con testa coronata"^^xsd:string .
+
+pgt:ARTWORK85 a pgt:Artwork ;
+    pgt:yearCreated "400.0"^^xsd:year ;
+    pgt:yearCreatedText "V-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Devoto"^^xsd:string .
+
+pgt:ARTWORK86 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK87 a pgt:Artwork ;
+    ns1:name "Venere che si toglie il sandalo"^^xsd:string .
+
+pgt:ARTWORK88 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Kouros"^^xsd:string .
+
+pgt:ARTWORK89 a pgt:Artwork ;
+    pgt:yearCreated "350.0"^^xsd:year ;
+    pgt:yearCreatedText "IV-III sec. a.C., fine/inizio sec."^^xsd:string ;
+    ns1:name "Devoto offerente con testa coronata"^^xsd:string .
+
+pgt:ARTWORK9 a pgt:Artwork ;
+    pgt:yearCreated "1410"^^xsd:year ;
+    pgt:yearCreatedText "XIV, inizio sec."^^xsd:string ;
+    ns1:name "La preghiera di Giuseppe e dei giovani al Tempio"^^xsd:string .
+
+pgt:ARTWORK90 a pgt:Artwork ;
+    pgt:yearCreated "400.0"^^xsd:year ;
+    pgt:yearCreatedText "V-III sec. a.C. sec."^^xsd:string ;
+    ns1:name "Devoto"^^xsd:string .
+
+pgt:ARTWORK91 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK92 a pgt:Artwork ;
+    pgt:yearCreated "150.0"^^xsd:year ;
+    pgt:yearCreatedText "I-II secolo d.C. sec."^^xsd:string ;
+    ns1:name "Venere pudica"^^xsd:string .
+
+pgt:ARTWORK93 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Kouros"^^xsd:string .
+
+pgt:ARTWORK94 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Offerente con patera"^^xsd:string .
+
+pgt:ARTWORK95 a pgt:Artwork ;
+    pgt:yearCreated "-510"^^xsd:year ;
+    pgt:yearCreatedText "V sec. a.C. sec."^^xsd:string ;
+    ns1:name "Libante"^^xsd:string .
+
+pgt:ARTWORK96 a pgt:Artwork ;
+    pgt:yearCreated "450.0"^^xsd:year ;
+    pgt:yearCreatedText "V-IV sec. a.C. sec."^^xsd:string ;
+    ns1:name "Guerriero a cavallo"^^xsd:string .
+
+pgt:ARTWORK97 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI secolo a.C., fine sec."^^xsd:string ;
+    ns1:name "Kouros offerente"^^xsd:string .
+
+pgt:ARTWORK98 a pgt:Artwork ;
+    pgt:yearCreated "250.0"^^xsd:year ;
+    pgt:yearCreatedText "III-II sec. a.C. sec."^^xsd:string ;
+    ns1:name "Offerente con patera"^^xsd:string .
+
+pgt:ARTWORK99 a pgt:Artwork ;
+    pgt:yearCreated "-610"^^xsd:year ;
+    pgt:yearCreatedText "VI sec. a.C. sec."^^xsd:string ;
+    ns1:name "Figura umana"^^xsd:string .
 
 pgt:MUSEUM0 a pgt:Museum ;
     pgt:description """<p>La Cappella degli Scrovegni sorge all’interno dell’area dell’anfiteatro romano di Padova, nel verde dei Giardini conosciuti come "dell'Arena". La facciata stessa è edificata sulla base di un importante edificio romano di cui tutt'oggi restano tracce evidenti. Un tempo la Cappella era affiancata dal Palazzo della famiglia Scrovegni, demolito nell'Ottocento, e sorgeva su un terreno che Enrico Scrovegni aveva acquistato nel 1300.</p>
@@ -12,6 +3694,7 @@ Per fare questo Enrico Scrovegni aveva dunque bisogno di avere al proprio serviz
 <p>&nbsp;</p>
 """^^xsd:string ;
     pgt:name "Cappella degli Scrovegni"^^xsd:string ;
+    pgt:url "https://cappellascrovegni.padovamusei.it"^^xsd:string ;
     pgt:webImageAdress "https://cappellascrovegni.padovamusei.it/sites/default/files/pagina/copertina/cappella-degli-scrovegni-gli-affreschi-di-giotto.jpg"^^xsd:string .
 
 pgt:MUSEUM1 a pgt:Museum ;
@@ -20,20 +3703,24 @@ Le prime 10 sale del percorso documentano la continuità di vita di Padova e del
 Il  materiali architettonici di epoca romana sono esposti nel Lapidario.
 Una parte del patrimonio è conservata nel deposito annesso al Museo. """^^xsd:string ;
     pgt:name "Museo archeologico"^^xsd:string ;
+    pgt:url "https://padovamusei.it/it/musei/museo-archeologico"^^xsd:string ;
     pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/dsc02783.jpg"^^xsd:string .
 
 pgt:MUSEUM2 a pgt:Museum ;
     pgt:description ""^^xsd:string ;
     pgt:name "Museo d'Arte Medievale e Moderna"^^xsd:string ;
+    pgt:url "https://padovamusei.it/it/musei/museo-arte-medievale-moderna"^^xsd:string ;
     pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/veduta_di_una_sala_del_museo_darte.jpg"^^xsd:string .
 
 pgt:MUSEUM3 a pgt:Museum ;
     pgt:description "<p><em>“Per tal modo mi lusingo di avere raggiunto il fine che mi ero sino da principio proposto, di rendere questa mia Istituzione degna di questa città alla quale l’ho dedicata, ed a cui la raccomando”</em></p><p>Con queste parole si esprimeva NIcola Bottacin a conclusione della sua Memoria scritta contestualmente all’atto formale di istituzione del Museo destinato aportare il suo nome e a conservare le sue amate e eterogenee raccolte.</p>"^^xsd:string ;
     pgt:name "Museo Bottacin"^^xsd:string ;
+    pgt:url "https://padovamusei.it/it/musei/museo-bottacin"^^xsd:string ;
     pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/ingresso_bottacin.jpg"^^xsd:string .
 
 pgt:MUSEUM4 a pgt:Museum ;
     pgt:description ""^^xsd:string ;
     pgt:name "Museo del Risorgimento e dell'Età Contemporanea"^^xsd:string ;
+    pgt:url "https://padovamusei.it/it/musei/museo-risorgimento-eta-contemporanea"^^xsd:string ;
     pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/sala_a_1.jpg"^^xsd:string .
 
