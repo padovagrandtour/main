@@ -1,0 +1,39 @@
+@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pgt:MUSEUM0 a pgt:Museum ;
+    pgt:description """<p>La Cappella degli Scrovegni sorge all’interno dell’area dell’anfiteatro romano di Padova, nel verde dei Giardini conosciuti come "dell'Arena". La facciata stessa è edificata sulla base di un importante edificio romano di cui tutt'oggi restano tracce evidenti. Un tempo la Cappella era affiancata dal Palazzo della famiglia Scrovegni, demolito nell'Ottocento, e sorgeva su un terreno che Enrico Scrovegni aveva acquistato nel 1300.</p>
+<p>Nel 1303 Enrico Scrovegni, probabilmente approfittando della presenza di Giotto nella Basilica del Santo, gli chiede di dipingere la Cappella di famiglia che costituisce oggi il capolavoro ad affresco meglio conservato al mondo dell'artista fiorentino, candidato a essere inserito nella Lista del Patrimonio mondiale UNESCO.</p>
+<p>La tradizione vuole che Enrico, figlio di Reginaldo un usuraio citato da Dante nell’Inferno (Canto XVII), avesse commissionato l’opera in suffragio l’anima del padre: in realtà recenti studi hanno evidenziato come Reginaldo fosse impegnato in attività finanziarie, ma che queste non avessero mai causato nessuna tensione nei rapporti con la Chiesa.<br>
+Enrico Scrovegni era invece un personaggio di rilievo nella Confraternita dei Gaudenti, il cui scopo era diffondere il culto della Vergine e combattere l’usura, cosa che spiegherebbe l'originaria intitolazione della Cappella degli Scrovegni a Santa Maria della Carità. Enrico Scrovegni era preoccupato non solo per la salvezza della propria anima, ma soprattutto di promuovere la propria casata tra le famiglie nobili in competizione in città agli inizi del Trecento.<br>
+Per fare questo Enrico Scrovegni aveva dunque bisogno di avere al proprio servizio non solo il migliore artista del tempo, ma di porlo nelle condizioni di realizzare un capolavoro.</p>
+<p>La Cappella degli Scrovegni fu interamente affrescata in pochissimo tempo tra il 25 marzo 1303, data della dedicazione, e il 25 marzo del 1305, data di consacrazione. L’edificio restò di proprietà privata fino al 1880 quando si chiuse la disputa tra la famiglia Foscari Gradenigo e il Comune di Padova, che la acquisì inserendo la Cappella degli Scrovegni nel patrimonio della città.</p>
+<p>Vuoi utilizzare o pubblicare un'immagine della Cappella degli Scrovegni? <a href="https://padovamusei.it/autorizzazioni-riproduzioni-riprese">Qui </a>trovi le modalità di richiesta.&nbsp;</p>
+<p>&nbsp;</p>
+"""^^xsd:string ;
+    pgt:name "Cappella degli Scrovegni"^^xsd:string ;
+    pgt:webImageAdress "https://cappellascrovegni.padovamusei.it/sites/default/files/pagina/copertina/cappella-degli-scrovegni-gli-affreschi-di-giotto.jpg"^^xsd:string .
+
+pgt:MUSEUM1 a pgt:Museum ;
+    pgt:description """I materiali del Museo Archeologico sono per lo più esposti.
+Le prime 10 sale del percorso documentano la continuità di vita di Padova e dell’agro patavino dalla protostoria all’età romana. Le successive sono dedicate alla collezione egizia, alle ceramiche etrusche, greche e magnogreche, alle gemme antiche e moderne.
+Il  materiali architettonici di epoca romana sono esposti nel Lapidario.
+Una parte del patrimonio è conservata nel deposito annesso al Museo. """^^xsd:string ;
+    pgt:name "Museo archeologico"^^xsd:string ;
+    pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/dsc02783.jpg"^^xsd:string .
+
+pgt:MUSEUM2 a pgt:Museum ;
+    pgt:description ""^^xsd:string ;
+    pgt:name "Museo d'Arte Medievale e Moderna"^^xsd:string ;
+    pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/veduta_di_una_sala_del_museo_darte.jpg"^^xsd:string .
+
+pgt:MUSEUM3 a pgt:Museum ;
+    pgt:description "<p><em>“Per tal modo mi lusingo di avere raggiunto il fine che mi ero sino da principio proposto, di rendere questa mia Istituzione degna di questa città alla quale l’ho dedicata, ed a cui la raccomando”</em></p><p>Con queste parole si esprimeva NIcola Bottacin a conclusione della sua Memoria scritta contestualmente all’atto formale di istituzione del Museo destinato aportare il suo nome e a conservare le sue amate e eterogenee raccolte.</p>"^^xsd:string ;
+    pgt:name "Museo Bottacin"^^xsd:string ;
+    pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/ingresso_bottacin.jpg"^^xsd:string .
+
+pgt:MUSEUM4 a pgt:Museum ;
+    pgt:description ""^^xsd:string ;
+    pgt:name "Museo del Risorgimento e dell'Età Contemporanea"^^xsd:string ;
+    pgt:webImageAdress "https://padovamusei.it/sites/default/files/struttura/copertina/sala_a_1.jpg"^^xsd:string .
+

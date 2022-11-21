@@ -97,6 +97,17 @@ This is done auto-magically via Docker. Just run `docker compose up`. This will 
 Keep in mind that every time you shut down the docker compose service, everything is recreated and populated again from scratch. This is done on purpose, since during the development phase the data changes frequently, so it's important.
 
 
+## Query examples
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX pgt: <https://padovagrandtour.github.io/entitites#>
+select distinct * where {
+    pgt:ARTWORK123TAGS rdf:rest*/rdf:first ?element
+} limit 100 
+```
+
+
 ## Building the website and the entity website
 We provide two websites, one is a webapp built on top of our database, the other is a static html file showing details on our schema.
 
