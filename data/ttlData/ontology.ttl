@@ -5,7 +5,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://padovagrandtour.github.io/entities> .
+@base <https://padovagrandtour.github.io/entities#> .
 
 <https://padovagrandtour.github.io/entitites#> rdf:type owl:Ontology .
 
@@ -21,17 +21,17 @@ xsd:anyType rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#exhibits
+###  https://padovagrandtour.github.io/entitites#exhibits
 pgt:exhibits rdf:type owl:ObjectProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain pgt:Museum ;
              rdfs:range pgt:Artwork .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#hasGuide
+###  https://padovagrandtour.github.io/entitites#hasGuide
 pgt:hasGuide rdf:type owl:ObjectProperty ,
                       owl:AsymmetricProperty ;
-             rdfs:domain pgt:guidedTour ;
+             rdfs:domain pgt:GuidedTour ;
              rdfs:range pgt:Guide ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty pgt:hasGuide ;
@@ -40,76 +40,71 @@ pgt:hasGuide rdf:type owl:ObjectProperty ,
                         ] .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#visits
+###  https://padovagrandtour.github.io/entitites#visits
 pgt:visits rdf:type owl:ObjectProperty ;
            rdfs:domain pgt:Tour ;
-           rdfs:range pgt:Cultural_Site ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty pgt:visits ;
-                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass pgt:Artwork
-                      ] .
+           rdfs:range rdf:List .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#age
+###  https://padovagrandtour.github.io/entitites#age
 pgt:age rdf:type owl:DatatypeProperty ;
         rdfs:domain pgt:Guide ;
         rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#author
+###  https://padovagrandtour.github.io/entitites#author
 pgt:author rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#conservationState
+###  https://padovagrandtour.github.io/entitites#conservationState
 pgt:conservationState rdf:type owl:DatatypeProperty ;
                       rdfs:domain pgt:Artwork ;
                       rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#description
+###  https://padovagrandtour.github.io/entitites#description
 pgt:description rdf:type owl:DatatypeProperty ;
                 rdfs:domain pgt:Artwork ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#duration
+###  https://padovagrandtour.github.io/entitites#duration
 pgt:duration rdf:type owl:DatatypeProperty ;
-             rdfs:domain pgt:guidedTour ;
+             rdfs:domain pgt:GuidedTour ;
              rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#height
+###  https://padovagrandtour.github.io/entitites#height
 pgt:height rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#latitude
+###  https://padovagrandtour.github.io/entitites#latitude
 pgt:latitude rdf:type owl:DatatypeProperty ;
-             rdfs:domain pgt:Cultural_Site ;
+             rdfs:domain pgt:CulturalSite ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#longitude
+###  https://padovagrandtour.github.io/entitites#longitude
 pgt:longitude rdf:type owl:DatatypeProperty ;
-              rdfs:domain pgt:Cultural_Site ;
+              rdfs:domain pgt:CulturalSite ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#museumName
+###  https://padovagrandtour.github.io/entitites#museumName
 pgt:museumName rdf:type owl:DatatypeProperty ;
                rdfs:domain pgt:Museum ;
                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#name
+###  https://padovagrandtour.github.io/entitites#name
 pgt:name rdf:type owl:DatatypeProperty ;
          rdfs:domain pgt:Artwork ,
                      pgt:Guide ,
@@ -117,44 +112,44 @@ pgt:name rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#period
+###  https://padovagrandtour.github.io/entitites#period
 pgt:period rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#placing
+###  https://padovagrandtour.github.io/entitites#placing
 pgt:placing rdf:type owl:DatatypeProperty ;
             rdfs:domain pgt:Artwork ;
             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#price
+###  https://padovagrandtour.github.io/entitites#price
 pgt:price rdf:type owl:DatatypeProperty ;
           rdfs:domain pgt:Tour ;
           rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#technique
+###  https://padovagrandtour.github.io/entitites#technique
 pgt:technique rdf:type owl:DatatypeProperty ;
               rdfs:domain pgt:Artwork ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#type
+###  https://padovagrandtour.github.io/entitites#type
 pgt:type rdf:type owl:DatatypeProperty ;
          rdfs:domain pgt:Artwork ;
          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#webImageAdress
+###  https://padovagrandtour.github.io/entitites#webImageAdress
 pgt:webImageAdress rdf:type owl:DatatypeProperty ;
                    rdfs:domain pgt:Artwork ,
                                pgt:Museum ;
                    rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#width
+###  https://padovagrandtour.github.io/entitites#width
 pgt:width rdf:type owl:DatatypeProperty ;
           rdfs:domain pgt:Artwork ;
           rdfs:range xsd:float .
@@ -164,44 +159,44 @@ pgt:width rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Artwork
+###  https://padovagrandtour.github.io/entitites#Artwork
 pgt:Artwork rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Basilica
+###  https://padovagrandtour.github.io/entitites#Basilica
 pgt:Basilica rdf:type owl:Class ;
-             rdfs:subClassOf pgt:Cultural_Site .
+             rdfs:subClassOf pgt:CulturalSite .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Church
+###  https://padovagrandtour.github.io/entitites#Church
 pgt:Church rdf:type owl:Class ;
-           rdfs:subClassOf pgt:Cultural_Site .
+           rdfs:subClassOf pgt:CulturalSite .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Cultural_Site
-pgt:Cultural_Site rdf:type owl:Class .
+###  https://padovagrandtour.github.io/entitites#CulturalSite
+pgt:CulturalSite rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Guide
+###  https://padovagrandtour.github.io/entitites#Guide
 pgt:Guide rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Museum
+###  https://padovagrandtour.github.io/entitites#Museum
 pgt:Museum rdf:type owl:Class ;
-           rdfs:subClassOf pgt:Cultural_Site .
+           rdfs:subClassOf pgt:CulturalSite .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Palace
+###  https://padovagrandtour.github.io/entitites#Palace
 pgt:Palace rdf:type owl:Class ;
-           rdfs:subClassOf pgt:Cultural_Site .
+           rdfs:subClassOf pgt:CulturalSite .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#Tour
+###  https://padovagrandtour.github.io/entitites#Tour
 pgt:Tour rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/unipd/padovaGrandTour#guidedTour
-pgt:guidedTour rdf:type owl:Class ;
+###  https://padovagrandtour.github.io/entitites#GuidedTour
+pgt:GuidedTour rdf:type owl:Class ;
                rdfs:subClassOf pgt:Tour .
 
 
