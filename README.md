@@ -108,6 +108,19 @@ select distinct * where {
 ```
 
 
+```sparql
+PREFIX pgt: <https://padovagrandtour.github.io/entitites#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+select ?p ?museum where {
+	pgt:TOUR0 pgt:steps ?o .
+    ?o ?p ?museum
+    BIND (SUBSTR(xsd:string(?p),45) AS ?p1)
+
+} ORDER BY xsd:integer(?p1)
+```
+
+
 ## Building the website and the entity website
 We provide two websites, one is a webapp built on top of our database, the other is a static html file showing details on our schema.
 

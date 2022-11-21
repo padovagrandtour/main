@@ -1,0 +1,27 @@
+@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pgt:TOUR0 a rdf:Seq,
+        pgt:Tour ;
+    pgt:steps pgt:TOUR0STEPS ;
+    sdo:description "A beautiful tour of churches <br/>"^^rdf:HTML ;
+    sdo:name "Churches tour"^^xsd:string .
+
+pgt:TOUR0STEPS rdf:_1 pgt:SITE1 ;
+    rdf:_10 pgt:SITE10 ;
+    rdf:_11 pgt:SITE11 ;
+    rdf:_12 pgt:SITE12 ;
+    rdf:_13 pgt:SITE13 ;
+    rdf:_14 pgt:SITE14 ;
+    rdf:_15 pgt:SITE15 ;
+    rdf:_2 pgt:SITE2 ;
+    rdf:_3 pgt:SITE3 ;
+    rdf:_4 pgt:SITE4 ;
+    rdf:_5 pgt:SITE5 ;
+    rdf:_6 pgt:SITE6 ;
+    rdf:_7 pgt:SITE7 ;
+    rdf:_8 pgt:SITE8 ;
+    rdf:_9 pgt:SITE9 .
+

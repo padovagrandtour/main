@@ -13411,6 +13411,8 @@ pgt:COLLECTION9 a pgt:Collection ;
     sdo:url "https://padovamusei.it/it/musei/il-museo-archeologico/collezioni/collezione-orientale"^^sdo:URL .
 
 pgt:SITE4 a pgt:Museum ;
+    geo:lat "45.40784722222222"^^xsd:float ;
+    geo:long "11.876925"^^xsd:float ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/sala_a_1.jpg"^^sdo:URL ;
     sdo:name "Museo del Risorgimento e dell'Età Contemporanea"^^xsd:string ;
@@ -13460,7 +13462,9 @@ pgt:COLLECTION17 a pgt:Collection ;
     sdo:name "Tessuti"^^xsd:string ;
     sdo:url "https://padovamusei.it/it/musei/museo-arte-medievale-moderna/collezioni/tessuti"^^sdo:URL .
 
-pgt:SITE0 a pgt:Museum ;
+pgt:SITE0 a pgt:Church ;
+    geo:lat "45.41181666666667"^^xsd:float ;
+    geo:long "11.879536111111111"^^xsd:float ;
     sdo:description """<p>La Cappella degli Scrovegni sorge all’interno dell’area dell’anfiteatro romano di Padova, nel verde dei Giardini conosciuti come &quot;dell'Arena&quot;. La facciata stessa è edificata sulla base di un importante edificio romano di cui tutt'oggi restano tracce evidenti. Un tempo la Cappella era affiancata dal Palazzo della famiglia Scrovegni, demolito nell'Ottocento, e sorgeva su un terreno che Enrico Scrovegni aveva acquistato nel 1300.</p>
 <p>Nel 1303 Enrico Scrovegni, probabilmente approfittando della presenza di Giotto nella Basilica del Santo, gli chiede di dipingere la Cappella di famiglia che costituisce oggi il capolavoro ad affresco meglio conservato al mondo dell'artista fiorentino, candidato a essere inserito nella Lista del Patrimonio mondiale UNESCO.</p>
 <p>La tradizione vuole che Enrico, figlio di Reginaldo un usuraio citato da Dante nell’Inferno (Canto XVII), avesse commissionato l’opera in suffragio l’anima del padre: in realtà recenti studi hanno evidenziato come Reginaldo fosse impegnato in attività finanziarie, ma che queste non avessero mai causato nessuna tensione nei rapporti con la Chiesa.<br/>
@@ -13496,6 +13500,8 @@ pgt:COLLECTION3 a pgt:Collection ;
     sdo:url "https://cappellascrovegni.padovamusei.it/it/collezioni/il-cielo-stellato"^^sdo:URL .
 
 pgt:SITE1 a pgt:Museum ;
+    geo:lat "45.41096111111111"^^xsd:float ;
+    geo:long "11.880011111111111"^^xsd:float ;
     sdo:description """I materiali del Museo Archeologico sono per lo più esposti.
 Le prime 10 sale del percorso documentano la continuità di vita di Padova e dell’agro patavino dalla protostoria all’età romana. Le successive sono dedicate alla collezione egizia, alle ceramiche etrusche, greche e magnogreche, alle gemme antiche e moderne.
 Il  materiali architettonici di epoca romana sono esposti nel Lapidario.
@@ -13519,6 +13525,8 @@ pgt:COLLECTION28 a pgt:Collection ;
     sdo:url "https://padovamusei.it/it/musei/museo-risorgimento-eta-contemporanea/collezioni/oggetti-storici"^^sdo:URL .
 
 pgt:SITE2 a pgt:Museum ;
+    geo:lat "45.41096111111111"^^xsd:float ;
+    geo:long "11.880011111111111"^^xsd:float ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/veduta_di_una_sala_del_museo_darte.jpg"^^sdo:URL ;
     sdo:name "Museo d'Arte Medievale e Moderna"^^xsd:string ;
