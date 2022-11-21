@@ -5,7 +5,7 @@
 Main mono repository for the Database 2 project "Padova Grand Tour".
 Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 
-**TL;DR:** just run `docker compose up`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, or visit <https://padovagrandtour.github.io/entities#> to get more details on the schema. Enjoy!
+**TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, or visit <https://padovagrandtour.github.io/entities#> to get more details on the schema. Enjoy!
 
 ## Project motivation
 As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova. The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
@@ -92,7 +92,7 @@ jupyter nbconvert --to notebook --inplace --execute *.ipynb
 ```
 
 ## Setting up GraphDB
-This is done auto-magically via Docker. Just run `docker compose up`. This will create a new GraphDB repo from `data/graphdb-repo.ttl`, ingest all ttl files in `data/ttlData` and start a GraphDB server on <http://localhost:7210>.
+This is done auto-magically via Docker. Just run `docker compose up --force-recreate`. This will create a new GraphDB repo from `data/graphdb-repo.ttl`, ingest all ttl files in `data/ttlData` and start a GraphDB server on <http://localhost:7210>.
 
 Keep in mind that every time you shut down the docker compose service, everything is recreated and populated again from scratch. This is done on purpose, since during the development phase the data changes frequently, so it's important.
 
