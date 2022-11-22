@@ -1,0 +1,177 @@
+{
+  "https://w3id.org/arco/ontology/arco/TangibleCulturalProperty": [],
+  "https://w3id.org/arco/ontology/arco/MovableCulturalProperty": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469799782221"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/7cd721378d4eed24c5285df08594b4fc"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469744914369"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/62a37ce270999c1ee4b1ba1cb472939b"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_8076015143451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6156344978451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_4223302714451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_0160885714451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/d6476feb051085f380412a64cb699fa5"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6551585915161"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty": [],
+  "https://w3id.org/arco/ontology/arco/ArchaeologicalProperty": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469799782221"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/7cd721378d4eed24c5285df08594b4fc"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_0160885714451"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/ArchitecturalOrLandscapeHeritage": [],
+  "https://w3id.org/arco/ontology/arco/ScientificOrTechnologicalHeritage": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6156344978451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_4223302714451"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/PhotographicHeritage": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6551585915161"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/NumismaticProperty": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469799782221"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_0160885714451"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/NaturalHeritage": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_8076015143451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/d6476feb051085f380412a64cb699fa5"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/MusicHeritage": [],
+  "https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469744914369"
+      ]
+    ],
+    [
+      [
+        "site",
+        "https://w3id.org/arco/resource/Site/62a37ce270999c1ee4b1ba1cb472939b"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_0160885714451"
+      ]
+    ],
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6551585915161"
+      ]
+    ]
+  ],
+  "https://w3id.org/arco/ontology/arco/ZoologicalHeritage": [],
+  "https://w3id.org/arco/ontology/arco/PetrologicHeritage": [],
+  "https://w3id.org/arco/ontology/arco/PalaeontologicalHeritage": [],
+  "https://w3id.org/arco/ontology/arco/MineralHeritage": [],
+  "https://w3id.org/arco/ontology/arco/PlanetaryScienceHeritage": [],
+  "https://w3id.org/arco/ontology/arco/BotanicalHeritage": [
+    [
+      [
+        "site",
+        "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_8076015143451"
+      ]
+    ]
+  ]
+}
