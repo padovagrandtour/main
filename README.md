@@ -9,9 +9,10 @@ Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 **TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or check the queries inside the `queries.ipynb` notebook. Enjoy!
 
 ## Project motivation
-As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova. The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
+As a group made up of 2 Erasmus students and an italian one,our idea was to create an ontology related to tourism, focusing on Padova.
 
-In order to do so, we scraped data from https://padovamusei.it/ and wikipedia. The scraper returned a big JSON file that required data processing in order to get csv files that would be easier to use for the rdf database creation. 
+The main goal was to generate some "Tours" touching key places of the city, and then provide some insights about them. In order to do so, we retrieved data about artworks and cultural sites from various sources ([padovamusei.it](https://padovamusei.it), [wikipedia.it](https://padovamusei.it), [dati.cultura.gov.it](https://dati.cultura.gov.it/)) and ingested them under a common schema. Finally, we built some queries and a website to showcase our results.
+
 
 
 ## Overview
@@ -34,7 +35,7 @@ padovagrandtour/
   queries.ipynb                  # Queries for our project  
 ```
 
-## Getting the data
+## Retrieving the data
 
 ### Scraped data
 Most of the official websites we refer to do not provide any kind of machine-friendly API. Thus, the only solution is to extract the information from the website itself. We have written some node+puppeteer data scrapers to accomplish these tasks. The resulting JSON files are stored into the `scraper/results` folder. Intermediate files are named with a `-tmp` suffix. If you want to generate those files again from scratch, follow the instructions below.
@@ -83,7 +84,9 @@ The server was unable to provide all the data in one query, thus we decided for 
 To find the right query, we had to explore and experiment with the endpoint. You find those tries under `playground/sparqlExperiments.ipynb`
 
 
+
 ## Ontology
+
 <p align="center">
   <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/ontologyVisual.png">
 </p>
@@ -126,7 +129,7 @@ Keep in mind that every time you shut down the docker compose service and use th
 
 
 ## Queries
-Check the `queries.ipynb` to find them.
+Queries are stored inside the `queries.ipynb` notebook.
 
 
 ## Building the website and the entity website
