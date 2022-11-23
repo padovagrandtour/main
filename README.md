@@ -10,7 +10,7 @@ Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 ## Project motivation
 As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova. The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
 
-In order to do so, we scraped data from https://padovamusei.it/ and wikipedia. The scraper returned a big Json file that required data processing in order to get csv files that would be easier to use for the rdf database creation. 
+In order to do so, we scraped data from https://padovamusei.it/ and wikipedia. The scraper returned a big JSON file that required data processing in order to get csv files that would be easier to use for the rdf database creation. 
 
 
 ## Overview
@@ -36,7 +36,7 @@ padovagrandtour/
 ## Getting the data
 
 ### Scraped data
-Most of the official websites we refer to do not provide any kind of machine-friendly API. Thus, the only solution is to extract the information from the website itself. We have written some node+puppeteer data scrapers to accomplish these tasks. The resulting json files are stored into the `scraper/results` folder. Intermediate files are named with a `-tmp` suffix. If you want to generate those files again from scratch, follow the instructions below.
+Most of the official websites we refer to do not provide any kind of machine-friendly API. Thus, the only solution is to extract the information from the website itself. We have written some node+puppeteer data scrapers to accomplish these tasks. The resulting JSON files are stored into the `scraper/results` folder. Intermediate files are named with a `-tmp` suffix. If you want to generate those files again from scratch, follow the instructions below.
 
 - Install `Node.js` version >=18.
 
@@ -59,7 +59,7 @@ npm install
 cd scraper
 node padovamuseicivici.js
 ```
-This will open a chrome window and will start browsing the [padovamusei.it](https://padovamusei.it). Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
+This will open a chrome window and will start browsing the [padovamusei.it](https://padovamusei.it). Do not interfer with the window while the program is running! It will take around 15mins to generate the JSON file.
 
 
 #### Retrieving data from [wikipedia.it](https://padovamusei.it)
@@ -68,43 +68,60 @@ This will open a chrome window and will start browsing the [padovamusei.it](http
 cd scraper
 node wikipedia-categories.js
 ```
-This will open a chrome window and will start crawling the [Portale:Padova](https://it.wikipedia.org/wiki/Portale:Padova) page on wikipedia. Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
+This will open a chrome window and will start crawling the [Portale:Padova](https://it.wikipedia.org/wiki/Portale:Padova) page on wikipedia. Do not interfer with the window while the program is running! It will take around 15mins to generate the JSON file.
 
 
 ### Querying the sparql endpoint of "Ministero dei Beni Culturali"
 
-This 
+This is done by the `sparql/sparqlRetriever.ipynb` and stored as JSON files in the same folder.
+
+The server was unable to provide all the data in one query, thus we decided for a two-step approach:
+- first we got a list of all artworks and sites
+- then we issued one query for each artwork or site
+
+To find the right query, we had to explore and experiment with the endpoint. You find those tries under `playground/sparqlExperiments.ipynb`
 
 
 ## Ontology
+<p align="center">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/ontologyVisual.png">
+</p>
 
-This has been generated with `Protégé` and stored as `data/ttlData/ontology.ttl`
+The ontology has been generated with `Protégé` and stored as `data/ttlData/ontology.ttl`
+
+We have four main classes: *Tour*, *CulturalSite*, *Artwork* and *Collection* and many subclasses of the *CulturalSite* to further categorize places. 
 
 
 
 
 ## Ingesting the data
 
-In this step, the data taken from `scraper/results/*.json` is merged with the one taken from the enpoind (stored as  `sparql/*.json`), processed and used to populate the `data` folder.
+In this step, the data taken from `scraper/results/*.json` is merged with the ones taken from the enpoind (stored as  `sparql/*.json`) and the ones generated on the fly. The data are processed by `ingesting/*.ipynb` notebooks and used to populate the `data/ttlData/` folder.
 
 Getting started:
 ```bash
 pip3 install pandas rdflib roman
 ```
 
-- `pgtSchemaInfoGenerator.ipynb`:
-- ``
+Notebooks overview:
+
+| Notebook                    | Result        | Data ingested/generated                                                      |
+|-----------------------------|---------------|------------------------------------------------------------------------------|
+| `schemaInfoGenerator.ipynb` | `schema.ttl`  | Some metadata and insight on the schema                                      |
+| `scrapedDataIngester.ipynb` | `scraped.ttl` | Scraped cultural sites and artworks                                          |
+| `sparqlIngester.ipynb`      | `sparql.ttl`  | Cultural sites and artworks from the "Ministero dei Beni Culturali" endpoint |
+| `toursGenerator.ipynb`      | `tours.ttl`   | Generated tours                                                              |
 
 
 You may run all of them at once from CLI with:
 ```bash
-jupyter nbconvert --to notebook --inplace --execute *.ipynb
+jupyter nbconvert --to notebook --inplace --execute ingesting/*.ipynb
 ```
 
 ## Setting up GraphDB
 This is done auto-magically via Docker. Just run `docker compose up --force-recreate`. This will create a new GraphDB repo from `data/graphdb-repo.ttl`, ingest all ttl files in `data/ttlData/*.ttl` and start a GraphDB server on <http://localhost:7210>.
 
-Keep in mind that every time you shut down the docker compose service, everything is recreated and populated again from scratch. This is done on purpose, since during the development phase the data changes frequently, so it's important.
+Keep in mind that every time you shut down the docker compose service and use the `--force-recreate`, everything is recreated and populated again from scratch. This is done on purpose, since during the development phase the data changes frequently, so it's important to always work on fresh data.
 
 
 ## Queries
