@@ -8,6 +8,7 @@
 @base <https://padovagrandtour.github.io/entitites#> .
 
 <https://padovagrandtour.github.io/entitites#> rdf:type owl:Ontology ;
+                                                owl:imports <http://www.w3.org/2003/01/geo/wgs84_pos> ;
                                                 rdfs:comment "Cultural tours of Padova ontology, including different sites and artworks."@en .
 
 #################################################################
@@ -70,6 +71,20 @@ pgt:steps rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain pgt:CulturalSite ;
+                                              rdfs:range xsd:float ;
+                                              rdfs:comment "Latitude in decimal format" .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain pgt:CulturalSite ;
+                                               rdfs:range xsd:float ;
+                                               rdfs:comment "Longitude in decimal format" .
+
+
 ###  https://padovagrandtour.github.io/entitites#author
 pgt:author rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
@@ -130,24 +145,10 @@ pgt:image rdf:type owl:DatatypeProperty ;
           rdfs:comment "url leading to the image of the entity" .
 
 
-###  https://padovagrandtour.github.io/entitites#lat
-pgt:lat rdf:type owl:DatatypeProperty ;
-        rdfs:domain pgt:CulturalSite ;
-        rdfs:range xsd:float ;
-        rdfs:comment "Latitude in decimal format" .
-
-
 ###  https://padovagrandtour.github.io/entitites#length
 pgt:length rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:float .
-
-
-###  https://padovagrandtour.github.io/entitites#long
-pgt:long rdf:type owl:DatatypeProperty ;
-         rdfs:domain pgt:CulturalSite ;
-         rdfs:range xsd:float ;
-         rdfs:comment "Longitude in decimal format" .
 
 
 ###  https://padovagrandtour.github.io/entitites#material
