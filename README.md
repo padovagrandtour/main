@@ -3,9 +3,10 @@
 </p>
 
 Main mono repository for the Database 2 project "Padova Grand Tour".
+
 Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 
-**TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, or visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or the `queries.ipynb` notebook to check the queries. Enjoy!
+**TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or check the queries inside the `queries.ipynb` notebook. Enjoy!
 
 ## Project motivation
 As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova. The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
