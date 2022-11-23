@@ -27,16 +27,17 @@
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#alt
-<http://www.w3.org/2003/01/geo/wgs84_pos#alt> rdfs:comment """The WGS84 altitude of a SpatialThing (decimal meters 
+<http://www.w3.org/2003/01/geo/wgs84_pos#alt> rdf:type owl:AnnotationProperty ;
+                                              rdfs:comment """The WGS84 altitude of a SpatialThing (decimal meters 
 above the local reference ellipsoid).""" ;
                                               rdfs:label "altitude" ;
-                                              rdf:type owl:AnnotationProperty ;
                                               rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#location
 <http://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type owl:AnnotationProperty ;
-                                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> .
+                                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> ;
+                                                   rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 
 
 ###  http://xmlns.com/foaf/0.1/based_near
@@ -64,11 +65,6 @@ rdf:_Number rdf:type owl:ObjectProperty ;
             rdfs:domain rdf:Seq ;
             rdfs:range pgt:CulturalSite ;
             rdfs:comment "The index of the Cultural site belonging to a Tour"@en .
-
-
-###  http://www.w3.org/2003/01/geo/wgs84_pos#location
-<http://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type owl:ObjectProperty ;
-                                                   rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 
 
 ###  https://padovagrandtour.github.io/entitites#hasCollection
@@ -150,6 +146,38 @@ pgt:diameter rdf:type owl:DatatypeProperty ;
 pgt:dimensionsText rdf:type owl:DatatypeProperty ;
                    rdfs:domain pgt:Artwork ;
                    rdfs:range xsd:string .
+
+
+###  https://padovagrandtour.github.io/entitites#hasCategory
+pgt:hasCategory rdf:type owl:DatatypeProperty ;
+                rdfs:domain pgt:CulturalSite ;
+                rdfs:range [ rdf:type rdfs:Datatype ;
+                             owl:oneOf [ rdf:type rdf:List ;
+                                         rdf:first "Basilica" ;
+                                         rdf:rest [ rdf:type rdf:List ;
+                                                    rdf:first "Bridge" ;
+                                                    rdf:rest [ rdf:type rdf:List ;
+                                                               rdf:first "Castle" ;
+                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                          rdf:first "Church" ;
+                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                     rdf:first "Loggia" ;
+                                                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                                                rdf:first "Museum" ;
+                                                                                                rdf:rest [ rdf:type rdf:List ;
+                                                                                                           rdf:first "Palace" ;
+                                                                                                           rdf:rest [ rdf:type rdf:List ;
+                                                                                                                      rdf:first "WallOrGate" ;
+                                                                                                                      rdf:rest rdf:nil
+                                                                                                                    ]
+                                                                                                         ]
+                                                                                              ]
+                                                                                   ]
+                                                                        ]
+                                                             ]
+                                                  ]
+                                       ]
+                           ] .
 
 
 ###  https://padovagrandtour.github.io/entitites#height
@@ -298,26 +326,6 @@ pgt:Artwork rdf:type owl:Class ;
             rdfs:comment "An Artwork belongs to a Collection and a Site and is described by many data properties"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#Basilica
-pgt:Basilica rdf:type owl:Class ;
-             rdfs:subClassOf pgt:Church .
-
-
-###  https://padovagrandtour.github.io/entitites#Bridge
-pgt:Bridge rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
-###  https://padovagrandtour.github.io/entitites#Castle
-pgt:Castle rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
-###  https://padovagrandtour.github.io/entitites#Church
-pgt:Church rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
 ###  https://padovagrandtour.github.io/entitites#Collection
 pgt:Collection rdf:type owl:Class ;
                rdfs:comment "A collection contains one or multiple Artworks"@en .
@@ -328,29 +336,45 @@ pgt:CulturalSite rdf:type owl:Class ;
                  rdfs:comment "A cultural site has subclasses that correspond to each type found in Padova, and can belong to a Tour (which is a sequence of cultural sites)"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#Loggia
-pgt:Loggia rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
-###  https://padovagrandtour.github.io/entitites#Museum
-pgt:Museum rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
-###  https://padovagrandtour.github.io/entitites#Palace
-pgt:Palace rdf:type owl:Class ;
-           rdfs:subClassOf pgt:CulturalSite .
-
-
 ###  https://padovagrandtour.github.io/entitites#Tour
 pgt:Tour rdf:type owl:Class ;
          rdfs:comment "A tour is a sequence (their order matter) of cultural sites"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#WallOrGate
-pgt:WallOrGate rdf:type owl:Class ;
-               rdfs:subClassOf pgt:CulturalSite .
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://padovagrandtour.github.io/entitites#Basilica
+pgt:Basilica rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Bridge
+pgt:Bridge rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Castle
+pgt:Castle rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Church
+pgt:Church rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Loggia
+pgt:Loggia rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Museum
+pgt:Museum rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#Palace
+pgt:Palace rdf:type owl:NamedIndividual .
+
+
+###  https://padovagrandtour.github.io/entitites#WallOrBridge
+pgt:WallOrBridge rdf:type owl:NamedIndividual .
 
 
 #################################################################
@@ -451,17 +475,6 @@ basic geo vocab
 
 <http://www.w3.org/2003/01/geo/wgs84_pos#lat_long> rdfs:comment "A comma-separated representation of a latitude, longitude coordinate." ;
                                                    rdfs:label "lat/long" .
-
-
-<http://www.w3.org/2003/01/geo/wgs84_pos#location> rdfs:label "location" ;
-                                                   rdfs:comment """The relation between something and the point, 
- or other geometrical thing in space, where it is.  For example, the realtionship between
- a radio tower and a Point with a given lat and long.
- Or a relationship between a park and its outline as a closed arc of points, or a road and
- its location as a arc (a sequence of points).
- Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
- an accuracy appropriate for the size of the object and uses such as mapping .
- """ .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
