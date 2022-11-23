@@ -148,38 +148,6 @@ pgt:dimensionsText rdf:type owl:DatatypeProperty ;
                    rdfs:range xsd:string .
 
 
-###  https://padovagrandtour.github.io/entitites#hasCategory
-pgt:hasCategory rdf:type owl:DatatypeProperty ;
-                rdfs:domain pgt:CulturalSite ;
-                rdfs:range [ rdf:type rdfs:Datatype ;
-                             owl:oneOf [ rdf:type rdf:List ;
-                                         rdf:first "Basilica" ;
-                                         rdf:rest [ rdf:type rdf:List ;
-                                                    rdf:first "Bridge" ;
-                                                    rdf:rest [ rdf:type rdf:List ;
-                                                               rdf:first "Castle" ;
-                                                               rdf:rest [ rdf:type rdf:List ;
-                                                                          rdf:first "Church" ;
-                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                     rdf:first "Loggia" ;
-                                                                                     rdf:rest [ rdf:type rdf:List ;
-                                                                                                rdf:first "Museum" ;
-                                                                                                rdf:rest [ rdf:type rdf:List ;
-                                                                                                           rdf:first "Palace" ;
-                                                                                                           rdf:rest [ rdf:type rdf:List ;
-                                                                                                                      rdf:first "WallOrGate" ;
-                                                                                                                      rdf:rest rdf:nil
-                                                                                                                    ]
-                                                                                                         ]
-                                                                                              ]
-                                                                                   ]
-                                                                        ]
-                                                             ]
-                                                  ]
-                                       ]
-                           ] .
-
-
 ###  https://padovagrandtour.github.io/entitites#height
 pgt:height rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
@@ -339,6 +307,50 @@ pgt:CulturalSite rdf:type owl:Class ;
 ###  https://padovagrandtour.github.io/entitites#Tour
 pgt:Tour rdf:type owl:Class ;
          rdfs:comment "A tour is a sequence (their order matter) of cultural sites"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://padovagrandtour.github.io/entitites#Basilica
+pgt:Basilica rdf:type owl:NamedIndividual ,
+                      pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Bridge
+pgt:Bridge rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Castle
+pgt:Castle rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Church
+pgt:Church rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Loggia
+pgt:Loggia rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Museum
+pgt:Museum rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#Palace
+pgt:Palace rdf:type owl:NamedIndividual ,
+                    pgt:CulturalSite .
+
+
+###  https://padovagrandtour.github.io/entitites#WallOrBridge
+pgt:WallOrBridge rdf:type owl:NamedIndividual ,
+                          pgt:CulturalSite .
 
 
 #################################################################

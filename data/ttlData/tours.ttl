@@ -3,13 +3,13 @@
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-pgt:TOUR0 a rdf:Seq,
+pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf a rdf:Seq,
         pgt:Tour ;
-    pgt:steps pgt:TOUR0STEPS ;
-    sdo:description "A beautiful tour of churches <br/>"^^rdf:HTML ;
-    sdo:name "Churches tour"^^xsd:string .
+    pgt:steps pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf-STEPS ;
+    sdo:description "A beautiful tour. <br/> It goes to the first 15 sites."^^rdf:HTML ;
+    sdo:name "Tour 2"^^xsd:string .
 
-pgt:TOUR0STEPS rdf:_1 pgt:SITE1 ;
+pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf-STEPS rdf:_1 pgt:SITE1 ;
     rdf:_10 pgt:SITE10 ;
     rdf:_11 pgt:SITE11 ;
     rdf:_12 pgt:SITE12 ;

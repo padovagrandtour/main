@@ -35302,11 +35302,11 @@ pgt:ARTWORKsq999 a pgt:Artwork ;
     sdo:name "scarpetta - ambito veneto (secc. XVIII/ XIX)"^^xsd:string ;
     sdo:url "https://w3id.org/arco/resource/HistoricOrArtisticProperty/0500171727"^^sdo:URL .
 
-pgt:SITEsq1 a pgt:Museum ;
+pgt:SITEsq1 a pgt:CulturalSite ;
     sdo:name "Palazzo Dolco"^^xsd:string ;
     sdo:url "https://w3id.org/arco/resource/Site/7cd721378d4eed24c5285df08594b4fc"^^sdo:URL .
 
-pgt:SITEsq5 a pgt:Museum ;
+pgt:SITEsq5 a pgt:CulturalSite ;
     geo:lat "45.409365"^^xsd:float ;
     geo:long "11.888548"^^xsd:float ;
     sdo:description "L’edificio, che oggi si presenta come un unico complesso a due cortili, venne costruito in fasi successive tra il 1911 e il 1919 a partire dall'originario progetto dell'ingegner Daniele Donghi, più volte rimaneggiato. Scartata quasi subito l'idea di un complesso a padiglioni, il primo cantiere (1911-1915) portò alla messa in opera del compartimento destinato ad ospitare gli Istituti di Idraulica ed Elettrotecnica: l'edificio, in muratura tradizionale per i muri verticali e in calcestruzzo armato per i solai, presentava due bracci su due piani con mezzanino intermedio imperniati sul settore centrale con la grande scala e l'aula per le conferenze (poi aula magna), seguiti da due ali perpendicolari a un piano, con copertura a terrazza, aperte verso il giardino (oggi cortile) est. Contemporaneamente all’avvio dei cantieri e contrariamente al progetto originale, venne deciso di trasferire nella nuova area tutta la scuola: a tal fine nel 1915 Donghi elaborò un progetto complessivo che, basandosi su quanto era già in costruzione, fornisse una sede all’intera scuola di Ingegneria. Venne quindi pensato un fabbricato gemello al primo con affaccio su via Marzolo, che avrebbe ospitato gli Istituti di Meccanica Applicata e Macchine, mentre verso Ovest, su via Paolotti, altri due fabbricati a doppia altezza erano destinati agli Istituti di Architettura, Fisica Tecnica e Chimica, collegati da un corpo centrale destinato a ingresso e uffici. Il cantiere venne definitivamente interrotto nell'agosto 1917 a causa della guerra e i lavori ripresero solo nel 1919, secondo un nuovo progetto di Donghi e sotto la direzione dell'allora direttore dell'Ufficio Tecnico dell'Ateneo Giordano Tomasatti, in associazione con il figlio di Donghi, Mario Felice. Per ragioni economiche la costruzione della torre al centro del blocco intermedio tra i due cortili fu rinviata per essere comunque realizzata entro il 1929, come pure dovette attendere i primi anni Trenta la parte centrale del braccio ovest su via Paolotti, destinata ad ingresso principale e allora anche ad accesso particolare degli Istituti di Architettura, di Fisica Tecnica e di Chimica. Durante la seconda Guerra Mondiale l'angolo nord-ovest dell'Istituto di Architettura fu danneggiato da una bomba e, nel dopoguerra, si rese quindi necessaria la ricostruzione di tutta l'ala, sopraelevata fino a raggiungere i due piani di altezza fuori terra: in questa occasione venne anche costruito l'avancorpo a due piani addossato al fronte interno. Ancora, nei decenni successivi il complesso conobbe numerose e significative aggiunte e riorganizzazioni distributive, specie in relazione ai corpi scala, che hanno in gran parte cancellato le caratteristiche originarie del progetto"^^rdf:HTML ;
@@ -35314,18 +35314,18 @@ pgt:SITEsq5 a pgt:Museum ;
     sdo:name "Complesso Ingegneria"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6156344978451"^^sdo:URL .
 
-pgt:SITEsq8 a pgt:Museum ;
+pgt:SITEsq8 a pgt:CulturalSite ;
     geo:lat "45.404907"^^xsd:float ;
     geo:long "11.879198"^^xsd:float ;
     sdo:image "http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1062940/ICCD15268110_Palazzo%20Wollemborg.JPG"^^sdo:URL ;
     sdo:name "Palazzo Wollemborg"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_6551585915161"^^sdo:URL .
 
-pgt:SITEsq3 a pgt:Museum ;
+pgt:SITEsq3 a pgt:CulturalSite ;
     sdo:name "Università di Padova"^^xsd:string ;
     sdo:url "https://w3id.org/arco/resource/Site/62a37ce270999c1ee4b1ba1cb472939b"^^sdo:URL .
 
-pgt:SITEsq6 a pgt:Museum ;
+pgt:SITEsq6 a pgt:CulturalSite ;
     geo:lat "45.405764"^^xsd:float ;
     geo:long "11.873181"^^xsd:float ;
     sdo:description "Situato nell'angolo fra via degli Obizzi e via S. Martino e Solferino, il palazzetto denominato &quot;Ex ECA&quot; venne eretto in un intervallo di tempo compreso tra gli ultimi anni dell'Ottocento e la fine degli anni Trenta del Novecento come ampliamento della casa per la gioventù attigua: fin dall'ultimo catasto storico, risalente al 1890-1896, la proprietà risulta essere dell'Ente Comunale di Assistenza, mentre a seguito del D.P.R. 616 del 24 luglio 1977, essa fu trasferita al Comune (1 luglio 1978), il quale a sua volta ne concesse in affittanza all'Università di Padova il corpo a tre piani che dà su via degli Obizzi. Gli spazi vennero allora suddivisi al fine di creare aule didattiche e altri ambienti di servizio ad uso degli studenti. Nel 2002 furono compiute delle piccole modifiche interne in adeguamento alle vigenti norme di Prevenzione Incendi, risalgono invece al 2009 ulteriori interventi per l'installazione dell'ascensore. Dall'anno 1998 una parte dell'edificio ospita il Museo dell'Educazione universitario, che dal 2001 occupa l'intero ultimo piano"^^rdf:HTML ;
@@ -35333,7 +35333,7 @@ pgt:SITEsq6 a pgt:Museum ;
     sdo:name "Palazzo ECA (ex)"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_4223302714451"^^sdo:URL .
 
-pgt:SITEsq0 a pgt:Museum ;
+pgt:SITEsq0 a pgt:CulturalSite ;
     geo:lat "45.4089272"^^xsd:float ;
     geo:long "11.8742248"^^xsd:float ;
     sdo:description "Nel 1939 il complesso – dopo il radicale intervento di restauro architettonico operato dalla Soprintendenza all’Arte Medievale e Moderna negli anni 1935-1939 su progetto dell’architetto Ferdinando Forlati, a seguito del riconoscimento della valenza architettonica ufficializzato con l’emanazione nel 1933 del vincolo di tutela – diventa sede della Regia Soprintendenza del Veneto, della Lombardia e della Venezia Tridentina, allora dipendente dalla Direzione Generale delle Antichità e Belle Arti del Ministero dell’Educazione nazionale"^^rdf:HTML ;
@@ -35341,14 +35341,14 @@ pgt:SITEsq0 a pgt:Museum ;
     sdo:name "Palazzo Folco"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469799782221"^^sdo:URL .
 
-pgt:SITEsq7 a pgt:Museum ;
+pgt:SITEsq7 a pgt:CulturalSite ;
     geo:lat "45.412362"^^xsd:float ;
     geo:long "11.878333"^^xsd:float ;
     sdo:description "Il complesso architettonico facente capo a Palazzo Cavalli è composto da blocchi edilizi sorti in epoche diverse, distribuiti intorno ad un cortile centrale: delimitato su tre lati dal rettifilo stradale, confina a sud con Palazzo Zuckermann. L'edificio più antico, cui il complesso deve il nome, è costituito da un palazzo nobiliare di matrice cinquecentesca, con prospetto principale rivolto a nord: a pianta rettangolare, presenta uno sviluppo su tre piani e un'equilibrata distribuzione degli ambienti, per cui all'atrio terreno a forma di T, che disobbliga in tre sale laterali e nel blocco scale affiancato, corrisponde al piano nobile un omologo &quot;portego de sora&quot; dallo sviluppo verticale doppio fino al mezzanino. A meridione del palazzo sorgevano la stalla, il fienile, il granaio e altri fabbricati di servizio, i quali nel 1840 vennero acquistati insieme al palazzo dall'Intendenza di Finanza austriaca per collocarvi la dogana. Nel 1892 il complesso di edifici venne quindi ceduto dal demanio all’Università di Padova, che lo destinò a sede della Scuola di Applicazione per Ingegneri: nella circostanza venne predisposto un rinnovamento e ampliamento dei locali, su progetto dell'ingegner Pio Chicchi, che previde, oltre alla sistemazione del palazzo nobiliare, la demolizione delle adiacenze e l'erezione al loro posto di due corpi di fabbrica paralleli, l'uno di forma rettangolare verso la strada (oggi Corso del Popolo) e l’altro trapezoidale verso la Conca delle Porte Contarine (oggi via Matteotti), entrambi a due piani e con fronti scandite da lesene a bugnato leggero che inquadrano aperture ad arco verso il cortile, con semplici finestre rettangolari verso l'esterno. Nel 1905, stanti le esigenze di nuovi spazi della Scuola, venne acquistato il palazzo già Gradenigo allora di proprietà della famiglia Fontana, confinante a meridione con il cortile: su progetto dell'ingegner Giordano Tomasatti fu qui realizzato un nuovo edificio dalla configurazione planimetrica irregolare, che aggrega un corpo più compatto rivolto a est ad uno articolato attorno a una stretta corte, entrambi con sviluppo su tre livelli; mentre il blocco minore presenta su Corso Garibaldi un prospetto breve organizzato su tre campate con paraste doriche bugnate sui primi due livelli e lesene binate lisce all'ultimo e portale d'ingresso ad arco ribassato sormontato da due bifore, la facciata settentrionale del blocco maggiore, che funge da fondale del cortile interno, riprende la scansione ritmica di Palazzo Cavalli, con fascia centrale leggermente aggettante coronata da timpano triangolare. Dopo il trasferimento della Scuola di Applicazione per Ingegneri nella nuova sede in via Loredan, nel complesso Cavalli furono ospitati l'Istituto di Geologia e le sue collezioni, che andarono a costituire il Museo geopaleontologico: gli interventi di riadattamento furono seguiti dall'ingegner Antonio Tevarotto. Nel 1958 il corpo di fabbrica orientale fu sopraelevato di un piano, nel 1965 analoga operazione fu compiuta sull'ala occidentale, con l'aggiunta di un largo corpo di fabbrica che la congiunse al blocco meridionale: in occasione di questi lavori vennero riformati anche i prospetti esterni dei fabbricati lungo via Matteotti, le cui aperture furono delimitate da cornici in pietra. In occasione dell'ultimo intervento di restauro, terminato nel 2009, sull'angolo sud-ovest del palazzo cinquecentesco è stata realizzata una bussola d'ingresso in vetro, che contiene l'ascensore d'accesso ai piani"^^rdf:HTML ;
     sdo:name "Complesso Cavalli"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/ICCD_CF_0160885714451"^^sdo:URL .
 
-pgt:SITEsq2 a pgt:Museum ;
+pgt:SITEsq2 a pgt:CulturalSite ;
     geo:lat "45.4108852"^^xsd:float ;
     geo:long "11.8784415"^^xsd:float ;
     sdo:description "Per quanto riguarda la struttura claustrale, l’attestazione più antica che si conserva è anche in questo caso uno statuto del comune di Padova, datato 1275, che finanzia la costruzione del dormitorio dei frati agostiniani. Il convento aveva due chiostri, attorno ai quali erano collocati i vari ambienti atti alla quotidiana vita religiosa, e che erano circondati da vari orti. Il complesso era quindi cinto da un muro per permettere la vita ritirata dei frati dal contesto cittadino. Il complesso dei Musei che raggruppa il Museo Archeologico e il Museo d'Arte Medioevale e Moderna è ospitato nei chiostri dell'ex convento dei frati Eremitani"^^rdf:HTML ;
@@ -35356,7 +35356,7 @@ pgt:SITEsq2 a pgt:Museum ;
     sdo:name "Convento degli Eremitani"^^xsd:string ;
     sdo:url "http://dati.beniculturali.it/iccd/cf/resource/CulturalInstituteOrSite/1469744914369"^^sdo:URL .
 
-pgt:SITEsq4 a pgt:Museum ;
+pgt:SITEsq4 a pgt:CulturalSite ;
     geo:lat "45.399578"^^xsd:float ;
     geo:long "11.880074"^^xsd:float ;
     sdo:description "Sita in prossimità dell’Orto Botanico, l’attuale palazzina, fino al 1970 destinata ad abitazione del Direttore dell’Orto (tradizionalmente denominato “Prefetto”), risale alla prima metà del Settecento. Già nel Cinquecento esisteva però nel sito un’abitazione per il prefetto, restaurata nella seconda metà del XVII secolo sotto la direzione di Giorgio Dalla Torre, che previde l’impiego di palafitte di fiume e il restauro del tetto. La palazzina attuale si sviluppa su tre piani: al piano terra, un tempo adibito ad ospitare le collezioni botaniche, sono presenti spazi destinati ad esposizioni temporanee; al primo piano la Biblioteca (originariamente collocata nella terza e sesta stanza al piano terra e quivi traslata dopo il 1970), l’Archivio dell’Orto Botanico e l’Erbario; al secondo piano uffici e locali adibiti alla conservazione dei semi"^^rdf:HTML ;
