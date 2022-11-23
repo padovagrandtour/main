@@ -5,7 +5,7 @@
 Main mono repository for the Database 2 project "Padova Grand Tour".
 Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 
-**TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, or visit <https://padovagrandtour.github.io/entities#> to get more details on the schema. Enjoy!
+**TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, or visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or the `queries.ipynb` notebook to check the queries. Enjoy!
 
 ## Project motivation
 As a group mostly composed of 2 Erasmus students and one italian student, our idea was to create an ontology related to tourism, specifically in Padova. The main goal was to create and query some "Tours" regarding the artworks/cultural site they would contain.
@@ -21,18 +21,21 @@ In order to do so, we scraped data from https://padovamusei.it/ and wikipedia. T
 padovagrandtour/
   .github/                       # Build workflows which run every "git push"
   data/                          # Everything ready to be loaded in GraphDB
+  ingesting/                     # Notebooks for ingesting and generating data
   playground/                    # Experiments and other stuffs
   scraper/                       # Scraper source code and results
+  sparql/                        # Data retrieved by the "Ministero dei beni culturali" sparql endpoint
   website/                       # https://padovagrandtour.github.io website source
   website-entities/              # https://padovagrandtour.github.io/entities website source
 
   docker-compose.yml             # GraphDB docker compose manifest
-  
-  pgtIngestDataNotebook.ipynb    # Notebook for ingesting scraped data
-  pgtSchemaNotebook.ipynb        # Notebook for adding meta properties on the schema
+  ontologyVisual.png             # Visual representation of our schema
+  queries.ipynb                  # Queries for our project  
 ```
 
 ## Getting the data
+
+### Scraped data
 Most of the official websites we refer to do not provide any kind of machine-friendly API. Thus, the only solution is to extract the information from the website itself. We have written some node+puppeteer data scrapers to accomplish these tasks. The resulting json files are stored into the `scraper/results` folder. Intermediate files are named with a `-tmp` suffix. If you want to generate those files again from scratch, follow the instructions below.
 
 - Install `Node.js` version >=18.
@@ -50,7 +53,7 @@ cd scraper
 npm install
 ```
 
-### Retrieving data from [padovamusei.it](https://padovamusei.it)
+#### Retrieving data from [padovamusei.it](https://padovamusei.it)
 
 ```bash
 cd scraper
@@ -59,7 +62,7 @@ node padovamuseicivici.js
 This will open a chrome window and will start browsing the [padovamusei.it](https://padovamusei.it). Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
 
 
-### Retrieving data from [wikipedia.it](https://padovamusei.it)
+#### Retrieving data from [wikipedia.it](https://padovamusei.it)
 
 ```bash
 cd scraper
@@ -68,22 +71,29 @@ node wikipedia-categories.js
 This will open a chrome window and will start crawling the [Portale:Padova](https://it.wikipedia.org/wiki/Portale:Padova) page on wikipedia. Do not interfer with the window while the program is running! It will take around 15mins to generate the json file.
 
 
+### Querying the sparql endpoint of "Ministero dei Beni Culturali"
+
+This 
+
+
+## Ontology
+
+This has been generated with `Protégé` and stored as `data/ttlData/ontology.ttl`
+
+
+
+
 ## Ingesting the data
 
-In this step, the data taken from `scraper/results` is merged with the one taken from the enpoind, processed and used to populate the `data` folder.
+In this step, the data taken from `scraper/results/*.json` is merged with the one taken from the enpoind (stored as  `sparql/*.json`), processed and used to populate the `data` folder.
 
 Getting started:
 ```bash
 pip3 install pandas rdflib roman
 ```
 
-
-
-``` 
-pgtIngestDataNotebook.ipynb   <-- will ingest scraped data (will create museum.ttl and artworks.ttl)
-pgtSchemaNotebook.ipynb       <-- will add information about the schema itself, like properties' descriptions and so on (will create schema.ttl)
-
-```
+- `pgtSchemaInfoGenerator.ipynb`:
+- ``
 
 
 You may run all of them at once from CLI with:
@@ -92,33 +102,13 @@ jupyter nbconvert --to notebook --inplace --execute *.ipynb
 ```
 
 ## Setting up GraphDB
-This is done auto-magically via Docker. Just run `docker compose up --force-recreate`. This will create a new GraphDB repo from `data/graphdb-repo.ttl`, ingest all ttl files in `data/ttlData` and start a GraphDB server on <http://localhost:7210>.
+This is done auto-magically via Docker. Just run `docker compose up --force-recreate`. This will create a new GraphDB repo from `data/graphdb-repo.ttl`, ingest all ttl files in `data/ttlData/*.ttl` and start a GraphDB server on <http://localhost:7210>.
 
 Keep in mind that every time you shut down the docker compose service, everything is recreated and populated again from scratch. This is done on purpose, since during the development phase the data changes frequently, so it's important.
 
 
-## Query examples
-
-```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX pgt: <https://padovagrandtour.github.io/entitites#>
-select distinct * where {
-    pgt:ARTWORK123TAGS rdf:rest*/rdf:first ?element
-} limit 100 
-```
-
-
-```sparql
-PREFIX pgt: <https://padovagrandtour.github.io/entitites#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-select ?p ?museum where {
-	pgt:TOUR0 pgt:steps ?o .
-    ?o ?p ?museum
-    BIND (SUBSTR(xsd:string(?p),45) AS ?p1)
-
-} ORDER BY xsd:integer(?p1)
-```
+## Queries
+Check the `queries.ipynb` to find them.
 
 
 ## Building the website and the entity website
