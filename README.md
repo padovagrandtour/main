@@ -87,13 +87,25 @@ To find the right query, we had to explore and experiment with the endpoint. You
 
 ## Ontology
 
+The ontology has been generated with `Protégé` and stored as `data/ttlData/ontology.ttl`
+
+
+### First draft (outdated)
+<p align="center">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/OLDontologyVisual.png">
+</p>
+
+We have four main classes: *Tour*, *CulturalSite*, *Artwork* and *Collection* and many subclasses of the *CulturalSite* to further categorize places. 
+
+### Final schema
 <p align="center">
   <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/ontologyVisual.png">
 </p>
 
-The ontology has been generated with `Protégé` and stored as `data/ttlData/ontology.ttl`
-
-We have four main classes: *Tour*, *CulturalSite*, *Artwork* and *Collection* and many subclasses of the *CulturalSite* to further categorize places. 
+In this second (and final) version, we removed the subclasses of *CulturalSite* and replaced them with an enumerable This has several advantages:
+- we do not rely anymore on the reasoner for inferring triples. This is huge, because the GraphDB reasoner was not consistent/reliable and the one in Protégé was slow and impractical to embed in an automatic workflow.
+- now some queries looks more elengant and are shorter. For example, it's easier to request the list of CulturalSites grouped by categories.
+- this decouples "recognize it's a CulturalSite" from "give the site a category". This is really useful while ingesting data.
 
 
 
