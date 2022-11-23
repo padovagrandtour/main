@@ -342,42 +342,6 @@ pgt:Tour rdf:type owl:Class ;
 
 
 #################################################################
-#    Individuals
-#################################################################
-
-###  https://padovagrandtour.github.io/entitites#Basilica
-pgt:Basilica rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Bridge
-pgt:Bridge rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Castle
-pgt:Castle rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Church
-pgt:Church rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Loggia
-pgt:Loggia rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Museum
-pgt:Museum rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#Palace
-pgt:Palace rdf:type owl:NamedIndividual .
-
-
-###  https://padovagrandtour.github.io/entitites#WallOrBridge
-pgt:WallOrBridge rdf:type owl:NamedIndividual .
-
-
-#################################################################
 #    Annotations
 #################################################################
 
