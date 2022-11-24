@@ -1,6 +1,7 @@
 <script>
   import Logo from './assets/logo.webp'
   import OntologyVisual from './assets/ontologyVisual.webp'
+  import Element from './components/Element.svelte'
 
   import { entity, properties, curiefy } from './utils.js'
 
@@ -21,16 +22,39 @@
   {:else}
   <main>  
     <div class="content">
-      <img class="logo" alt="Padova Grand Tour logo" src={Logo}>
+      <a href={baseURL}>
+        <img class="logo" alt="Padova Grand Tour logo" src={Logo}>      
+      </a>
       {#if entity}
       <h1><a href={baseURL + entity}>pgt:{entity}</a></h1>
       <p><a href={baseURL + entity}>{baseURL + entity}</a></p>
+
+        {#if $properties.length == 0}
+        <p>No triples found for this entity :(</p>
+        <p>Did you spell it right?</p>
+        {:else}
+          <table>
+            <tr>
+              <th class="tsmall">s</th>
+              <th class="tsmall">p</th>
+              <th>o</th>
+            </tr>
+            {#each $properties as [p, o]}
+              <tr>
+                <td class="tsmall"><Element text={baseURL + entity}/></td>
+                <td class="tsmall"><Element text={p}/></td>
+                <td><Element text={o}/></td>
+              </tr>
+            {/each}
+          </table>
+
+
+        {/if}
       {:else}
         <h1>Padova Grand Tour Ontology</h1>
         <p>A collection of artworks, tours and cultural sites regarding the italian city of Padova.</p>
         <p>Ontology visual schema:</p> 
         <img class="visual" alt="Padova Grand Tour Visual Ontology Schema" src={OntologyVisual}>
-
       {/if}
       
     </div>
@@ -55,20 +79,21 @@
 main {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   height: 100%;
   overflow-y: auto;
 }
-main > .content {max-width: 600px; margin: 0 auto; padding: 30px; height: 100%;}
+main > .content {max-width: 700px; margin: 0 auto; padding: 30px; }
 
 .logo {
-  width: 45%;
+  width: 40%;
   margin: 30px auto;
   display: block;
 }
 
 .visual {
   width: 100%;
-  margin: 30px auto 100px auto;
+  margin: 30px auto;
   display: block;
 }
 
@@ -131,5 +156,38 @@ span.code {
 }
 }
 
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+
+table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+table tr:nth-child(odd){background-color: #f2f2f2;}
+
+
+table th {
+  padding: 12px 8px;
+
+  text-align: left;
+  background-color: #9b0014;
+  color: white;
+}
+
+.tsmall {
+  width: 140px;
+}
 
 </style>

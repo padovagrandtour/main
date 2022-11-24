@@ -31,7 +31,7 @@ sparqlPrefixes.split('\n')
 
 export const curiefy = (str) => {
   for(let [pKey, pValue] of Object.entries(extractedPrefixes)){
-    str = str.replace(pValue, pKey)
+    str = str.replace(pValue, pKey + ':')
   }
   return str
 }
@@ -63,6 +63,8 @@ export const query = (queryStr, labels) => new Promise( (resolve, reject) => {
  * APP STORE
  * 
  */
+
+  addEventListener('hashchange', (event) => { window.location.reload() });
 
   export const entity = window.location.hash.replace('#', '')
 
