@@ -9,7 +9,7 @@ import { writable, get } from "svelte/store";
 
 const sparqlPrefixes = `
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
-PREFIX pgt: <https://padovagrandtour.github.io/entitites#> 
+PREFIX pgt: <https://padovagrandtour.github.io/entities#> 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX xml: <http://www.w3.org/XML/1998/namespace> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
