@@ -1,4 +1,4 @@
-name: publish website
+name: publish entities website
 on: [push]
 
 jobs:
@@ -22,5 +22,5 @@ jobs:
         git add .
         git commit -am "Entity website updated (through custom github action)"
         git branch -M main
-        git remote add origin "https://$GITHUB_TOKEN@github.com/padovagrandtour/entity.git"
+        git remote add origin "https://$GITHUB_TOKEN@github.com/padovagrandtour/entities.git"
         git push -f -u origin main
