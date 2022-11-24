@@ -8,6 +8,15 @@ Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 
 **TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or check the queries inside the `queries.ipynb` notebook. Enjoy!
 
+<p align="center">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/playground/screenshotWebsite.png">
+</p>
+<p align="center">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/playground/screenshotEntities.png">
+</p>
+
+
+
 ## Project motivation
 As a group made up of 2 Erasmus students and an italian one,our idea was to create an ontology related to tourism, focusing on Padova.
 
