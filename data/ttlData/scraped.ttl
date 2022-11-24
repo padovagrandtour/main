@@ -13332,7 +13332,7 @@ pgt:ARTWORK99 a pgt:Artwork ;
 pgt:SITE10 a pgt:CulturalSite ;
     geo:lat "45.40136111111111"^^xsd:float ;
     geo:long "11.880069444444445"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo antoniano"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_antoniano"^^sdo:URL .
 
@@ -13357,363 +13357,363 @@ pgt:SITE102 a pgt:CulturalSite ;
 pgt:SITE103 a pgt:CulturalSite ;
     geo:lat "45.40739722222222"^^xsd:float ;
     geo:long "11.873202777777779"^^xsd:float ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Mura di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Mura_di_Padova"^^sdo:URL .
 
 pgt:SITE104 a pgt:CulturalSite ;
     geo:lat "45.40895"^^xsd:float ;
     geo:long "11.87828888888889"^^xsd:float ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Altinate"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Altinate"^^sdo:URL .
 
 pgt:SITE105 a pgt:CulturalSite ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta della Cittadella Vecchia"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_della_Cittadella_Vecchia"^^sdo:URL .
 
 pgt:SITE106 a pgt:CulturalSite ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Liviana"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Liviana"^^sdo:URL .
 
 pgt:SITE107 a pgt:CulturalSite ;
     geo:lat "45.41133055555555"^^xsd:float ;
     geo:long "11.873700000000001"^^xsd:float ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Molino"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Molino"^^sdo:URL .
 
 pgt:SITE108 a pgt:CulturalSite ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Ognissanti"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Ognissanti"^^sdo:URL .
 
 pgt:SITE109 a pgt:CulturalSite ;
     geo:lat "45.405049999999996"^^xsd:float ;
     geo:long "11.864269444444444"^^xsd:float ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta San Giovanni (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_San_Giovanni_(Padova)"^^sdo:URL .
 
 pgt:SITE11 a pgt:CulturalSite ;
     geo:lat "45.40001111111111"^^xsd:float ;
     geo:long "11.875761111111112"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo del precinema"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_del_precinema"^^sdo:URL .
 
 pgt:SITE110 a pgt:CulturalSite ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Santa Croce (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Santa_Croce_(Padova)"^^sdo:URL .
 
 pgt:SITE111 a pgt:CulturalSite ;
     geo:lat "45.4123"^^xsd:float ;
     geo:long "11.864763888888888"^^xsd:float ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Porta Savonarola"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Porta_Savonarola"^^sdo:URL .
 
 pgt:SITE112 a pgt:CulturalSite ;
-    pgt:hasCategory "WallOrGate"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryWallOrGate ;
     sdo:name "Torre della Catena (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Torre_della_Catena_(Padova)"^^sdo:URL .
 
 pgt:SITE113 a pgt:CulturalSite ;
     geo:lat "45.40018055555555"^^xsd:float ;
     geo:long "11.87556111111111"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Angeli (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Angeli_(Padova)"^^sdo:URL .
 
 pgt:SITE114 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Basadonna Manin"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Basadonna_Manin"^^sdo:URL .
 
 pgt:SITE115 a pgt:CulturalSite ;
     geo:lat "45.40671111111111"^^xsd:float ;
     geo:long "11.87743888888889"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo del Bo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_del_Bo"^^sdo:URL .
 
 pgt:SITE116 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Buzzaccarini (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Buzzaccarini_(Padova)"^^sdo:URL .
 
 pgt:SITE117 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Camera di commercio di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Camera_di_commercio_di_Padova"^^sdo:URL .
 
 pgt:SITE118 a pgt:CulturalSite ;
     geo:lat "45.401377777777775"^^xsd:float ;
     geo:long "11.875722222222223"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Capodilista"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Capodilista"^^sdo:URL .
 
 pgt:SITE119 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Cappello"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Cappello"^^sdo:URL .
 
 pgt:SITE12 a pgt:CulturalSite ;
     geo:lat "45.40576111111111"^^xsd:float ;
     geo:long "11.873130555555557"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo dell'Educazione"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_dell%27Educazione"^^sdo:URL .
 
 pgt:SITE120 a pgt:CulturalSite ;
     geo:lat "45.408699999999996"^^xsd:float ;
     geo:long "11.8817"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Centro culturale Altinate/San Gaetano"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Centro_culturale_Altinate/San_Gaetano"^^sdo:URL .
 
 pgt:SITE121 a pgt:CulturalSite ;
     geo:lat "45.407019444444444"^^xsd:float ;
     geo:long "11.886477777777777"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Chiesa di Sant'Eufemia (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Eufemia_(Padova)"^^sdo:URL .
 
 pgt:SITE122 a pgt:CulturalSite ;
     geo:lat "45.40721111111111"^^xsd:float ;
     geo:long "11.874430555555556"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo delle Debite"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_delle_Debite"^^sdo:URL .
 
 pgt:SITE123 a pgt:CulturalSite ;
     geo:lat "45.407980555555554"^^xsd:float ;
     geo:long "11.871280555555556"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Liviano"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Liviano"^^sdo:URL .
 
 pgt:SITE124 a pgt:CulturalSite ;
     geo:lat "45.41311944444444"^^xsd:float ;
     geo:long "11.87283888888889"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Maldura"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Maldura"^^sdo:URL .
 
 pgt:SITE125 a pgt:CulturalSite ;
     geo:lat "45.40715"^^xsd:float ;
     geo:long "11.872430555555557"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo del Monte di Pietà Nuovo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Nuovo"^^sdo:URL .
 
 pgt:SITE126 a pgt:CulturalSite ;
     geo:lat "45.4092"^^xsd:float ;
     geo:long "11.8734"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo del Monte di Pietà Vecchio"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Vecchio"^^sdo:URL .
 
 pgt:SITE127 a pgt:CulturalSite ;
     geo:lat "45.41238055555555"^^xsd:float ;
     geo:long "11.878330555555555"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Cavalli alle Porte Contarine"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Cavalli_alle_Porte_Contarine"^^sdo:URL .
 
 pgt:SITE128 a pgt:CulturalSite ;
     geo:lat "45.40714722222222"^^xsd:float ;
     geo:long "11.875927777777779"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Comunale (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Comunale_(Padova)"^^sdo:URL .
 
 pgt:SITE129 a pgt:CulturalSite ;
     geo:lat "45.407222222222224"^^xsd:float ;
     geo:long "11.875277777777779"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo della Ragione (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_della_Ragione_(Padova)"^^sdo:URL .
 
 pgt:SITE13 a pgt:CulturalSite ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo di Antropologia (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_di_Antropologia_(Padova)"^^sdo:URL .
 
 pgt:SITE130 a pgt:CulturalSite ;
     geo:lat "45.39761111111111"^^xsd:float ;
     geo:long "11.874611111111111"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Grimani (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Grimani_(Padova)"^^sdo:URL .
 
 pgt:SITE131 a pgt:CulturalSite ;
     geo:lat "45.4062"^^xsd:float ;
     geo:long "11.868780555555556"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Mussato"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Mussato"^^sdo:URL .
 
 pgt:SITE132 a pgt:CulturalSite ;
     geo:lat "45.40753888888889"^^xsd:float ;
     geo:long "11.867680555555555"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Pisani de Lazzara"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Pisani_de_Lazzara"^^sdo:URL .
 
 pgt:SITE133 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Trevisan-Mion"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Trevisan-Mion"^^sdo:URL .
 
 pgt:SITE134 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Trieste"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Trieste"^^sdo:URL .
 
 pgt:SITE135 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo vescovile di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_vescovile_di_Padova"^^sdo:URL .
 
 pgt:SITE136 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Zacco al Prà"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Zacco_al_Pr%C3%A0"^^sdo:URL .
 
 pgt:SITE137 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Zacco di Santa Sofia"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Zacco_di_Santa_Sofia"^^sdo:URL .
 
 pgt:SITE138 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Papafava dei Carraresi"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Papafava_dei_Carraresi"^^sdo:URL .
 
 pgt:SITE139 a pgt:CulturalSite ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Santo Stefano"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Santo_Stefano"^^sdo:URL .
 
 pgt:SITE14 a pgt:CulturalSite ;
     geo:lat "45.40496944444444"^^xsd:float ;
     geo:long "11.879111111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo di geografia dell'Università di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_di_geografia_dell%27Universit%C3%A0_di_Padova"^^sdo:URL .
 
 pgt:SITE140 a pgt:CulturalSite ;
     geo:lat "45.405988888888885"^^xsd:float ;
     geo:long "11.879211111111111"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Zabarella"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Zabarella"^^sdo:URL .
 
 pgt:SITE141 a pgt:CulturalSite ;
     geo:lat "45.411569444444446"^^xsd:float ;
     geo:long "11.878119444444446"^^xsd:float ;
-    pgt:hasCategory "Palace"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryPalace ;
     sdo:name "Palazzo Zuckermann"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Zuckermann"^^sdo:URL .
 
 pgt:SITE142 a pgt:CulturalSite ;
     geo:lat "45.399166666666666"^^xsd:float ;
     geo:long "11.875"^^xsd:float ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Loggia Amulea"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Loggia_Amulea"^^sdo:URL .
 
 pgt:SITE143 a pgt:CulturalSite ;
     geo:lat "45.40733055555555"^^xsd:float ;
     geo:long "11.871330555555556"^^xsd:float ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Loggia dei Carraresi"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Loggia_dei_Carraresi"^^sdo:URL .
 
 pgt:SITE144 a pgt:CulturalSite ;
     geo:lat "45.40224722222222"^^xsd:float ;
     geo:long "11.882369444444445"^^xsd:float ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Loggia e Odeo Cornaro"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Loggia_e_Odeo_Cornaro"^^sdo:URL .
 
 pgt:SITE145 a pgt:CulturalSite ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Loggia del Consiglio (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Loggia_del_Consiglio_(Padova)"^^sdo:URL .
 
 pgt:SITE146 a pgt:CulturalSite ;
     geo:lat "45.40715"^^xsd:float ;
     geo:long "11.872430555555557"^^xsd:float ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Palazzo del Monte di Pietà Nuovo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_del_Monte_di_Piet%C3%A0_Nuovo"^^sdo:URL .
 
 pgt:SITE147 a pgt:CulturalSite ;
     geo:lat "45.40461944444444"^^xsd:float ;
     geo:long "11.875727777777778"^^xsd:float ;
-    pgt:hasCategory "Loggia"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryLoggia ;
     sdo:name "Chiesa di Santa Maria dei Servi (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_dei_Servi_(Padova)"^^sdo:URL .
 
 pgt:SITE148 a pgt:CulturalSite ;
     geo:lat "45.40611111111111"^^xsd:float ;
     geo:long "11.877869444444444"^^xsd:float ;
-    pgt:hasCategory "Bridge"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBridge ;
     sdo:name "Ponte di San Lorenzo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Ponte_di_San_Lorenzo"^^sdo:URL .
 
 pgt:SITE149 a pgt:CulturalSite ;
     geo:lat "45.411744444444444"^^xsd:float ;
     geo:long "11.873752777777778"^^xsd:float ;
-    pgt:hasCategory "Bridge"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBridge ;
     sdo:name "Ponte Molino"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Ponte_Molino"^^sdo:URL .
 
 pgt:SITE15 a pgt:CulturalSite ;
     geo:lat "45.41043055555556"^^xsd:float ;
     geo:long "11.88576111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo di storia della fisica dell'Università di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_di_storia_della_fisica_dell%27Universit%C3%A0_di_Padova"^^sdo:URL .
 
 pgt:SITE16 a pgt:CulturalSite ;
     geo:lat "45.40690277777777"^^xsd:float ;
     geo:long "11.872269444444445"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo diocesano (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_diocesano_(Padova)"^^sdo:URL .
 
 pgt:SITE17 a pgt:CulturalSite ;
     geo:lat "45.411569444444446"^^xsd:float ;
     geo:long "11.878119444444446"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Palazzo Zuckermann"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Palazzo_Zuckermann"^^sdo:URL .
 
 pgt:SITE18 a pgt:CulturalSite ;
     geo:lat "45.40195"^^xsd:float ;
     geo:long "11.868561111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Specola di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Specola_di_Padova"^^sdo:URL .
 
 pgt:SITE19 a pgt:CulturalSite ;
     geo:lat "45.40526111111111"^^xsd:float ;
     geo:long "11.88033888888889"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "MUSME"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/MUSME"^^sdo:URL .
 
 pgt:SITE20 a pgt:CulturalSite ;
     geo:lat "45.39491944444445"^^xsd:float ;
     geo:long "11.9084"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Tempio nazionale dell'internato ignoto"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Tempio_nazionale_dell%27internato_ignoto"^^sdo:URL .
 
@@ -13818,419 +13818,419 @@ pgt:SITE39 a pgt:CulturalSite ;
 pgt:SITE40 a pgt:CulturalSite ;
     geo:lat "45.402452777777775"^^xsd:float ;
     geo:long "11.869511111111112"^^xsd:float ;
-    pgt:hasCategory "Castle"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryCastle ;
     sdo:name "Castelvecchio (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Castelvecchio_(Padova)"^^sdo:URL .
 
 pgt:SITE41 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiese di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiese_di_Padova"^^sdo:URL .
 
 pgt:SITE42 a pgt:CulturalSite ;
     geo:lat "45.40843888888889"^^xsd:float ;
     geo:long "11.876969444444445"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Sant'Andrea (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Andrea_(Padova)"^^sdo:URL .
 
 pgt:SITE43 a pgt:CulturalSite ;
     geo:lat "45.41174722222222"^^xsd:float ;
     geo:long "11.868047222222224"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Sant'Antonio di Vienna"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Antonio_di_Vienna"^^sdo:URL .
 
 pgt:SITE44 a pgt:CulturalSite ;
     geo:lat "45.41406666666666"^^xsd:float ;
     geo:long "11.87165"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa del Beato Antonio Pellegrino"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_del_Beato_Antonio_Pellegrino"^^sdo:URL .
 
 pgt:SITE45 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Bonaventura delle Eremite"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Bonaventura_delle_Eremite"^^sdo:URL .
 
 pgt:SITE46 a pgt:CulturalSite ;
     geo:lat "45.40681111111111"^^xsd:float ;
     geo:long "11.87178888888889"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Battistero di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Battistero_di_Padova"^^sdo:URL .
 
 pgt:SITE47 a pgt:CulturalSite ;
     geo:lat "45.40960833333333"^^xsd:float ;
     geo:long "11.867077777777778"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Benedetto Vecchio"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Benedetto_Vecchio"^^sdo:URL .
 
 pgt:SITE48 a pgt:CulturalSite ;
     geo:lat "45.40842222222222"^^xsd:float ;
     geo:long "11.867241666666667"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Benedetto Novello"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Benedetto_Novello"^^sdo:URL .
 
 pgt:SITE49 a pgt:CulturalSite ;
     geo:lat "45.41288888888889"^^xsd:float ;
     geo:long "11.87438888888889"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola del Carmine"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_del_Carmine"^^sdo:URL .
 
 pgt:SITE5 a pgt:CulturalSite ;
     geo:lat "45.405027777777775"^^xsd:float ;
     geo:long "11.8859"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo di anatomia patologica (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_di_anatomia_patologica_(Padova)"^^sdo:URL .
 
 pgt:SITE50 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola della Carità (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_della_Carit%C3%A0_(Padova)"^^sdo:URL .
 
 pgt:SITE51 a pgt:CulturalSite ;
     geo:lat "45.40428055555555"^^xsd:float ;
     geo:long "11.884088888888888"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Caterina (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Caterina_(Padova)"^^sdo:URL .
 
 pgt:SITE52 a pgt:CulturalSite ;
     geo:lat "45.40638055555556"^^xsd:float ;
     geo:long "11.876280555555557"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Canziano (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Canziano_(Padova)"^^sdo:URL .
 
 pgt:SITE53 a pgt:CulturalSite ;
     geo:lat "45.42868333333333"^^xsd:float ;
     geo:long "11.89016111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Carlo Borromeo (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Carlo_Borromeo_(Padova)"^^sdo:URL .
 
 pgt:SITE54 a pgt:CulturalSite ;
     geo:lat "45.407599999999995"^^xsd:float ;
     geo:long "11.874169444444444"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Clemente (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Clemente_(Padova)"^^sdo:URL .
 
 pgt:SITE55 a pgt:CulturalSite ;
     geo:lat "45.393025"^^xsd:float ;
     geo:long "11.871191666666666"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Croce (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Croce_(Padova)"^^sdo:URL .
 
 pgt:SITE56 a pgt:CulturalSite ;
     geo:lat "45.39796111111111"^^xsd:float ;
     geo:long "11.872711111111112"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Maria delle Grazie (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_delle_Grazie_(Padova)"^^sdo:URL .
 
 pgt:SITE57 a pgt:CulturalSite ;
     geo:lat "45.40105"^^xsd:float ;
     geo:long "11.876211111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Daniele (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Daniele_(Padova)"^^sdo:URL .
 
 pgt:SITE58 a pgt:CulturalSite ;
     geo:lat "45.4"^^xsd:float ;
     geo:long "11.869808333333333"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa delle Dimesse"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_delle_Dimesse"^^sdo:URL .
 
 pgt:SITE59 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa della Beata Elena"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_della_Beata_Elena"^^sdo:URL .
 
 pgt:SITE6 a pgt:CulturalSite ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Centro di Ateneo per i Musei - CAM"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Centro_di_Ateneo_per_i_Musei_-_CAM"^^sdo:URL .
 
 pgt:SITE60 a pgt:CulturalSite ;
     geo:lat "45.41118888888889"^^xsd:float ;
     geo:long "11.8751"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Fermo (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Fermo_(Padova)"^^sdo:URL .
 
 pgt:SITE61 a pgt:CulturalSite ;
     geo:lat "45.404849999999996"^^xsd:float ;
     geo:long "11.880588888888889"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Francesco Grande (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Francesco_Grande_(Padova)"^^sdo:URL .
 
 pgt:SITE62 a pgt:CulturalSite ;
     geo:lat "45.4084"^^xsd:float ;
     geo:long "11.881969444444445"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Gaetano (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Gaetano_(Padova)"^^sdo:URL .
 
 pgt:SITE63 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Giovanni Battista alle Navi"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Giovanni_Battista_alle_Navi"^^sdo:URL .
 
 pgt:SITE64 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola di San Giovanni della morte"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_di_San_Giovanni_della_morte"^^sdo:URL .
 
 pgt:SITE65 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola di San Giuseppe"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_di_San_Giuseppe"^^sdo:URL .
 
 pgt:SITE66 a pgt:CulturalSite ;
     geo:lat "45.40107222222222"^^xsd:float ;
     geo:long "11.880266666666667"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Oratorio di San Giorgio (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Oratorio_di_San_Giorgio_(Padova)"^^sdo:URL .
 
 pgt:SITE67 a pgt:CulturalSite ;
     geo:lat "45.44568333333333"^^xsd:float ;
     geo:long "11.894124999999999"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Giovanni Battista (Pontevigodarzere)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Giovanni_Battista_(Pontevigodarzere)"^^sdo:URL .
 
 pgt:SITE68 a pgt:CulturalSite ;
     geo:lat "45.407469444444445"^^xsd:float ;
     geo:long "11.889519444444444"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa dell'Immacolata (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_dell%27Immacolata_(Padova)"^^sdo:URL .
 
 pgt:SITE69 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Luca Evangelista (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Luca_Evangelista_(Padova)"^^sdo:URL .
 
 pgt:SITE7 a pgt:CulturalSite ;
     geo:lat "45.414833333333334"^^xsd:float ;
     geo:long "11.928894444444444"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Collezione privata Safilo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Collezione_privata_Safilo"^^sdo:URL .
 
 pgt:SITE70 a pgt:CulturalSite ;
     geo:lat "45.40875"^^xsd:float ;
     geo:long "11.875338888888889"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Lucia (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Lucia_(Padova)"^^sdo:URL .
 
 pgt:SITE71 a pgt:CulturalSite ;
     geo:lat "45.392938888888885"^^xsd:float ;
     geo:long "11.87006388888889"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Santuario di San Leopoldo Mandic"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Santuario_di_San_Leopoldo_Mandic"^^sdo:URL .
 
 pgt:SITE72 a pgt:CulturalSite ;
     geo:lat "45.405369444444446"^^xsd:float ;
     geo:long "11.892375"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Massimo (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Massimo_(Padova)"^^sdo:URL .
 
 pgt:SITE73 a pgt:CulturalSite ;
     geo:lat "45.405341666666665"^^xsd:float ;
     geo:long "11.880711111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Margherita (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Margherita_(Padova)"^^sdo:URL .
 
 pgt:SITE74 a pgt:CulturalSite ;
     geo:lat "45.40461944444444"^^xsd:float ;
     geo:long "11.875727777777778"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Maria dei Servi (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_dei_Servi_(Padova)"^^sdo:URL .
 
 pgt:SITE75 a pgt:CulturalSite ;
     geo:lat "45.40041111111111"^^xsd:float ;
     geo:long "11.872061111111112"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Maria del Torresino"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_del_Torresino"^^sdo:URL .
 
 pgt:SITE76 a pgt:CulturalSite ;
     geo:lat "45.40110555555555"^^xsd:float ;
     geo:long "11.872952777777778"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Maria in Vanzo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_in_Vanzo"^^sdo:URL .
 
 pgt:SITE77 a pgt:CulturalSite ;
     geo:lat "45.40133888888889"^^xsd:float ;
     geo:long "11.869100000000001"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Oratorio di San Michele (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Oratorio_di_San_Michele_(Padova)"^^sdo:URL .
 
 pgt:SITE78 a pgt:CulturalSite ;
     geo:lat "45.352675000000005"^^xsd:float ;
     geo:long "11.899758333333333"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Michele Arcangelo (Padova, Pozzoveggiani)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Michele_Arcangelo_(Padova,_Pozzoveggiani)"^^sdo:URL .
 
 pgt:SITE79 a pgt:CulturalSite ;
     geo:lat "45.436527777777776"^^xsd:float ;
     geo:long "11.924688888888888"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Michele Arcangelo (Padova, Torre)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Michele_Arcangelo_(Padova,_Torre)"^^sdo:URL .
 
 pgt:SITE8 a pgt:CulturalSite ;
     geo:lat "45.39771944444444"^^xsd:float ;
     geo:long "11.834161111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Esapolis"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Esapolis"^^sdo:URL .
 
 pgt:SITE80 a pgt:CulturalSite ;
     geo:lat "45.40871944444444"^^xsd:float ;
     geo:long "11.872561111111112"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Nicolò (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Nicol%C3%B2_(Padova)"^^sdo:URL .
 
 pgt:SITE81 a pgt:CulturalSite ;
     geo:lat "45.407019444444444"^^xsd:float ;
     geo:long "11.89641111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Ognissanti (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Ognissanti_(Padova)"^^sdo:URL .
 
 pgt:SITE82 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Oratorio del pio luogo de' Nazzareni"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Oratorio_del_pio_luogo_de%27_Nazzareni"^^sdo:URL .
 
 pgt:SITE83 a pgt:CulturalSite ;
     geo:lat "45.40871111111111"^^xsd:float ;
     geo:long "11.868780555555556"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Pietro Apostolo (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Pietro_Apostolo_(Padova)"^^sdo:URL .
 
 pgt:SITE84 a pgt:CulturalSite ;
     geo:lat "45.40665"^^xsd:float ;
     geo:long "11.864849999999999"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Prosdocimo (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Prosdocimo_(Padova)"^^sdo:URL .
 
 pgt:SITE85 a pgt:CulturalSite ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Oratorio della Salute"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Oratorio_della_Salute"^^sdo:URL .
 
 pgt:SITE86 a pgt:CulturalSite ;
     geo:lat "45.42161111111111"^^xsd:float ;
     geo:long "11.8865"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Santuario dell'Arcella"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Santuario_dell%27Arcella"^^sdo:URL .
 
 pgt:SITE87 a pgt:CulturalSite ;
     geo:lat "45.393233333333335"^^xsd:float ;
     geo:long "11.871383333333334"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola del Redentore"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_del_Redentore"^^sdo:URL .
 
 pgt:SITE88 a pgt:CulturalSite ;
     geo:lat "45.40895"^^xsd:float ;
     geo:long "11.875069444444446"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Scuola di San Rocco (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Scuola_di_San_Rocco_(Padova)"^^sdo:URL .
 
 pgt:SITE89 a pgt:CulturalSite ;
     geo:lat "45.40731111111111"^^xsd:float ;
     geo:long "11.8848"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di Santa Sofia (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Sofia_(Padova)"^^sdo:URL .
 
 pgt:SITE9 a pgt:CulturalSite ;
     geo:lat "45.37021388888889"^^xsd:float ;
     geo:long "11.830047222222221"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:name "Museo veneto del giocattolo"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Museo_veneto_del_giocattolo"^^sdo:URL .
 
 pgt:SITE90 a pgt:CulturalSite ;
     geo:lat "45.40311111111111"^^xsd:float ;
     geo:long "11.869111111111112"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Chiesa di San Tomaso Cantuariense (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Chiesa_di_San_Tomaso_Cantuariense_(Padova)"^^sdo:URL .
 
 pgt:SITE91 a pgt:CulturalSite ;
     geo:lat "45.415388888888884"^^xsd:float ;
     geo:long "11.88486111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Tempio della Pace (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Tempio_della_Pace_(Padova)"^^sdo:URL .
 
 pgt:SITE92 a pgt:CulturalSite ;
     geo:lat "45.39491944444445"^^xsd:float ;
     geo:long "11.9084"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:name "Tempio nazionale dell'internato ignoto"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Tempio_nazionale_dell%27internato_ignoto"^^sdo:URL .
 
 pgt:SITE93 a pgt:CulturalSite ;
     geo:lat "45.40136111111111"^^xsd:float ;
     geo:long "11.880686111111112"^^xsd:float ;
-    pgt:hasCategory "Basilica"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBasilica ;
     sdo:name "Basilica di Sant'Antonio di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Basilica_di_Sant%27Antonio_di_Padova"^^sdo:URL .
 
 pgt:SITE94 a pgt:CulturalSite ;
     geo:lat "45.41323055555556"^^xsd:float ;
     geo:long "11.874111111111112"^^xsd:float ;
-    pgt:hasCategory "Basilica"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBasilica ;
     sdo:name "Basilica del Carmine (Padova)"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Basilica_del_Carmine_(Padova)"^^sdo:URL .
 
 pgt:SITE95 a pgt:CulturalSite ;
     geo:lat "45.40651111111111"^^xsd:float ;
     geo:long "11.870919444444445"^^xsd:float ;
-    pgt:hasCategory "Basilica"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBasilica ;
     sdo:name "Duomo di Padova"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Duomo_di_Padova"^^sdo:URL .
 
 pgt:SITE96 a pgt:CulturalSite ;
     geo:lat "45.396388888888886"^^xsd:float ;
     geo:long "11.879722222222222"^^xsd:float ;
-    pgt:hasCategory "Basilica"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBasilica ;
     sdo:name "Basilica di Santa Giustina"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Basilica_di_Santa_Giustina"^^sdo:URL .
 
 pgt:SITE97 a pgt:CulturalSite ;
     geo:lat "45.42161111111111"^^xsd:float ;
     geo:long "11.8865"^^xsd:float ;
-    pgt:hasCategory "Basilica"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryBasilica ;
     sdo:name "Santuario dell'Arcella"^^xsd:string ;
     sdo:url "https://it.wikipedia.org/wiki/Santuario_dell%27Arcella"^^sdo:URL .
 
@@ -14333,7 +14333,7 @@ pgt:COLLECTION28 a pgt:Collection ;
 pgt:SITE4 a pgt:CulturalSite ;
     geo:lat "45.40784722222222"^^xsd:float ;
     geo:long "11.876925"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/sala_a_1.jpg"^^sdo:URL ;
     sdo:name "Museo del Risorgimento e dell'Età Contemporanea"^^xsd:string ;
@@ -14384,7 +14384,7 @@ pgt:COLLECTION1 a pgt:Collection ;
 pgt:SITE3 a pgt:CulturalSite ;
     geo:lat "45.411569444444446"^^xsd:float ;
     geo:long "11.878119444444446"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:description "<p><em>“Per tal modo mi lusingo di avere raggiunto il fine che mi ero sino da principio proposto, di rendere questa mia Istituzione degna di questa città alla quale l’ho dedicata, ed a cui la raccomando”</em></p><p>Con queste parole si esprimeva NIcola Bottacin a conclusione della sua Memoria scritta contestualmente all’atto formale di istituzione del Museo destinato aportare il suo nome e a conservare le sue amate e eterogenee raccolte.</p>"^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/ingresso_bottacin.jpg"^^sdo:URL ;
     sdo:name "Museo Bottacin"^^xsd:string ;
@@ -14424,7 +14424,7 @@ pgt:COLLECTION22 a pgt:Collection ;
 pgt:SITE0 a pgt:CulturalSite ;
     geo:lat "45.41181666666667"^^xsd:float ;
     geo:long "11.879536111111111"^^xsd:float ;
-    pgt:hasCategory "Church"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryChurch ;
     sdo:description """<p>La Cappella degli Scrovegni sorge all’interno dell’area dell’anfiteatro romano di Padova, nel verde dei Giardini conosciuti come &quot;dell'Arena&quot;. La facciata stessa è edificata sulla base di un importante edificio romano di cui tutt'oggi restano tracce evidenti. Un tempo la Cappella era affiancata dal Palazzo della famiglia Scrovegni, demolito nell'Ottocento, e sorgeva su un terreno che Enrico Scrovegni aveva acquistato nel 1300.</p>
 <p>Nel 1303 Enrico Scrovegni, probabilmente approfittando della presenza di Giotto nella Basilica del Santo, gli chiede di dipingere la Cappella di famiglia che costituisce oggi il capolavoro ad affresco meglio conservato al mondo dell'artista fiorentino, candidato a essere inserito nella Lista del Patrimonio mondiale UNESCO.</p>
 <p>La tradizione vuole che Enrico, figlio di Reginaldo un usuraio citato da Dante nell’Inferno (Canto XVII), avesse commissionato l’opera in suffragio l’anima del padre: in realtà recenti studi hanno evidenziato come Reginaldo fosse impegnato in attività finanziarie, ma che queste non avessero mai causato nessuna tensione nei rapporti con la Chiesa.<br/>
@@ -14459,7 +14459,7 @@ pgt:COLLECTION12 a pgt:Collection ;
 pgt:SITE1 a pgt:CulturalSite ;
     geo:lat "45.41096111111111"^^xsd:float ;
     geo:long "11.880011111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:description """I materiali del Museo Archeologico sono per lo più esposti.
 Le prime 10 sale del percorso documentano la continuità di vita di Padova e dell’agro patavino dalla protostoria all’età romana. Le successive sono dedicate alla collezione egizia, alle ceramiche etrusche, greche e magnogreche, alle gemme antiche e moderne.
 Il  materiali architettonici di epoca romana sono esposti nel Lapidario.
@@ -14471,7 +14471,7 @@ Una parte del patrimonio è conservata nel deposito annesso al Museo. """^^rdf:H
 pgt:SITE2 a pgt:CulturalSite ;
     geo:lat "45.41096111111111"^^xsd:float ;
     geo:long "11.880011111111111"^^xsd:float ;
-    pgt:hasCategory "Museum"^^xsd:string ;
+    pgt:hasCategory pgt:CSCategoryMuseum ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/veduta_di_una_sala_del_museo_darte.jpg"^^sdo:URL ;
     sdo:name "Museo d'Arte Medievale e Moderna"^^xsd:string ;

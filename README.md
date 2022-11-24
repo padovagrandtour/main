@@ -102,12 +102,12 @@ We have four main classes: *Tour*, *CulturalSite*, *Artwork* and *Collection* an
   <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/ontologyVisual.png">
 </p>
 
-In this third (and final) version, we removed the subclasses of *CulturalSite* and replaced them with a properties bounded by a data range. This has several advantages:
+In this third (and final) version, we removed the subclasses of *CulturalSite* and replaced them with a property referring to an instance of a pgt:CSCategory class. This has several advantages:
 - we do not rely anymore on the reasoner for inferring triples. This is huge, because the GraphDB reasoner was not consistent/reliable and the one in Protégé was slow and impractical to embed in an automatic workflow.
 - now some queries looks more elengant and are shorter. For example, it's easier to request the list of CulturalSites grouped by categories.
 - this decouples "recognize it's a CulturalSite" from "give the site a category". This is really useful while ingesting data.
 
-We also considered owl `enumeratedClass` to represent categories (`playground/ontologyV2.ttl`), but they were overall harder to deal with, so at the end we sticked with simpler data ranges.
+We also considered owl `enumeratedClass` to represent categories (`playground/ontologyV2.ttl`), but they were overall harder to deal with; data ranges, instead, while being easier to deal with, lacked the full capability of objects to have properties. At the end we sticked with the `pgt:CSCategory` class solution. It also agrees with the conventions explained [here](https://jazz.net/wiki/bin/view/LinkedData/UseUrisForEnums).
 
 
 

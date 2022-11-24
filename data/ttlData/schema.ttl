@@ -1,1 +1,36 @@
+@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pgt:CSCATBasilica a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Basilica.webp"^^sdo:URL ;
+    sdo:name "Basilica"^^xsd:string .
+
+pgt:CSCATBridge a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Bridge.webp"^^sdo:URL ;
+    sdo:name "Bridge"^^xsd:string .
+
+pgt:CSCATCastle a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Castle.webp"^^sdo:URL ;
+    sdo:name "Castle"^^xsd:string .
+
+pgt:CSCATChurch a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Church.webp"^^sdo:URL ;
+    sdo:name "Church"^^xsd:string .
+
+pgt:CSCATLoggia a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Loggia.webp"^^sdo:URL ;
+    sdo:name "Loggia"^^xsd:string .
+
+pgt:CSCATMuseum a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Museum.webp"^^sdo:URL ;
+    sdo:name "Museum"^^xsd:string .
+
+pgt:CSCATPalace a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/Palace.webp"^^sdo:URL ;
+    sdo:name "Palace"^^xsd:string .
+
+pgt:CSCATWallOrGate a pgt:CSCategory ;
+    sdo:image "https://padovagrandtour.github.io/CSCIcons/WallOrGate.webp"^^sdo:URL ;
+    sdo:name "WallOrGate"^^xsd:string .
 
