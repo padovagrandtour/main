@@ -58,7 +58,7 @@ new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
           SELECT * {
             ?tourID a pgt:Tour .
             ?tourID sdo:name ?tourName .
-          } LIMIT 1000
+          } ORDER BY ?tourName LIMIT 1000
         `, ['tourID', 'tourName']))
     }catch(e){
       console.log("Failure connection", e)
@@ -74,11 +74,12 @@ new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
   export const selectedTour = writable("NOTOUR")
 
   export const tourStepsPromise = writable(Promise.resolve([]))
+  export const tourArtworksPromise = writable(Promise.resolve([]))
 
   selectedTour.subscribe($selectedTour => {
     if($selectedTour !== 'NOTOUR'){
       tourStepsPromise.set(query(`
-        SELECT DISTINCT ?stepIndexNumber ?siteName ?siteLat ?siteLong WHERE {
+        SELECT DISTINCT ?stepIndexNumber ?siteName ?siteLat ?siteLong ?site WHERE {
           <${$selectedTour}> pgt:steps ?stepNode .
           ?stepNode ?stepIndex ?site .
 
@@ -92,8 +93,26 @@ new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
           OPTIONAL{ ?site geo:long ?siteLong. }
 
 
-        } ORDER BY ?stepIndexNumber`, ['stepIndexNumber', 'siteName', 'siteLat', 'siteLong']))
-        get(tourStepsPromise).then( r => console.log(r))
-    }
+        } ORDER BY ?stepIndexNumber`, ['stepIndexNumber', 'siteName', 'siteLat', 'siteLong', 'site']))
+
+
+        tourArtworksPromise.set(query(`
+        SELECT ?siteName ?artworkName ?artworkDescription ?artworkImage ?artworkURL WHERE { 
+          <${$selectedTour}> pgt:steps ?stepNode .                 
+          ?stepNode ?stepIndex ?site . 
+          FILTER (strstarts(str(?stepIndex), 'http://www.w3.org/1999/02/22-rdf-syntax-ns#_')) 
+       
+       
+          ?site sdo:name ?siteName . 
+       
+          ?artwork pgt:hasSite ?site; 
+                   sdo:image ?artworkImage; 
+                   sdo:name ?artworkName; 
+                   sdo:url ?artworkURL; 
+                   sdo:description ?artworkDescription. 
+       
+      } ORDER BY RAND() LIMIT 10 
+        `,["siteName", "artworkName", "artworkDescription", "artworkImage", "artworkURL"]))
+      }
 
   })
