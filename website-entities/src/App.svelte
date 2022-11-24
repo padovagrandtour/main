@@ -1,53 +1,38 @@
 <script>
   import Logo from './assets/logo.webp'
-  import Map from './components/Map.svelte'
+  import OntologyVisual from './assets/ontologyVisual.webp'
 
-  import { tours, selectedTour, tourStepsPromise } from './utils.js'
+  import { entity, properties, curiefy } from './utils.js'
 
+  const baseURL = 'https://padovagrandtour.github.io/entities#'
+  $:{
+    console.log($properties)
+  }
 
 </script>
 
-  {#if !$tours}
+  {#if !$properties && entity}
   <div class="loading">
     <span class="loader"></span>
-    <p>connecting....</p> 
+    <p>Connecting....</p> 
+    <p>To start, run <span class="code">docker compose up --force-recreate</span></p>
   </div>
 
   {:else}
-  <nav>
-    <h1>Padova Grand Tour - entities</h1>
-  </nav>
-  <aside>
-    <div class="toolbar">
-      <select bind:value={$selectedTour} >
-        <option value="NOTOUR">-- Choose a tour --</option>		
-        {#each $tours as tour}
-          <option value={tour[0]}>{tour[1]}</option>
-        {/each}
-      </select>
-    </div>
-    
-    <div class="siteList">
-      {#await $tourStepsPromise}
-        <p>Loading sites...</p>
-      {:then tourSteps} 
-        {#each tourSteps as step, idx}
-          <p><b>{idx + 1}.</b> {step[1]}</p>
-        {/each}
-      {/await}
-    </div>
-
-  </aside>
   <main>  
     <div class="content">
-      {#if $selectedTour === 'NOTOUR'}
       <img class="logo" alt="Padova Grand Tour logo" src={Logo}>
+      {#if entity}
+      <h1><a href={baseURL + entity}>pgt:{entity}</a></h1>
+      <p><a href={baseURL + entity}>{baseURL + entity}</a></p>
       {:else}
-        <h1>Tour overview</h1>
-        <p><b>URL:</b> <a href={$selectedTour} target="_blank">{$selectedTour}</a></p>
+        <h1>Padova Grand Tour Ontology</h1>
+        <p>A collection of artworks, tours and cultural sites regarding the italian city of Padova.</p>
+        <p>Ontology visual schema:</p> 
+        <img class="visual" alt="Padova Grand Tour Visual Ontology Schema" src={OntologyVisual}>
 
-        <Map></Map>
       {/if}
+      
     </div>
   </main>
 
@@ -65,66 +50,41 @@
   height: 100%;
 }
 
-:global(#app){
-  grid-template: 
-      "nav   nav" 40px
-      "aside main" 1fr / 300px 1fr;
-  flex-direction: row;
-}
 
-nav {
-  grid-area: nav;
-  color: #fff;
-  background-color: #000;
-}
-
-aside {
-  grid-area: aside;
-  background-color: #9b0014;
-  height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 20px 2vw;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  overflow-y: hidden;
-}
-
-
-aside .siteList {
-  background-color: #fff;
-  overflow-y: auto;
-  margin: 20px 0;
-  box-sizing: border-box;
-}
-
-aside .siteList > p {
-  padding: 8px;
-  margin: 0;
-}
-aside .siteList > p:nth-child(even)  {
-  background-color: #ddd;
-}
 
 main {
-  grid-area: main;
   box-sizing: border-box;
   display: flex;
   height: 100%;
   overflow-y: auto;
 }
-main > .content {max-width: 500px; margin: 0 auto; padding: 30px; height: 100%;}
+main > .content {max-width: 600px; margin: 0 auto; padding: 30px; height: 100%;}
 
 .logo {
-  width: 60%;
+  width: 45%;
   margin: 30px auto;
+  display: block;
+}
+
+.visual {
+  width: 100%;
+  margin: 30px auto 100px auto;
   display: block;
 }
 
 
 .loading {
   text-align: center;
-  margin: 30vh auto;
+  margin: 30vh auto 0 auto;
+}
+
+span.code {
+  display: inline-block;
+  background-color: #ddd;
+  border: solid 0.2px #ccc;
+  font-family: monospace;
+  padding: 2px;
+  border-radius: 2px;
 }
 
 /* https://cssloaders.github.io/  */
