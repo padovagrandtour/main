@@ -1,4 +1,4 @@
-@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix pgt: <https://padovagrandtour.github.io/entities#> .
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

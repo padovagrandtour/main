@@ -1,13 +1,13 @@
-@prefix : <https://padovagrandtour.github.io/entitites#> .
+@prefix : <https://padovagrandtour.github.io/entities#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix pgt: <https://padovagrandtour.github.io/entities#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://padovagrandtour.github.io/entitites#> .
+@base <https://padovagrandtour.github.io/entities#> .
 
-<https://padovagrandtour.github.io/entitites#> rdf:type owl:Ontology ;
+<https://padovagrandtour.github.io/entities#> rdf:type owl:Ontology ;
                                                 rdfs:comment "Cultural tours of Padova ontology, including different sites and artworks."@en .
 
 #################################################################
@@ -67,14 +67,14 @@ rdf:_Number rdf:type owl:ObjectProperty ;
             rdfs:comment "The index of the Cultural site belonging to a Tour"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#hasCategory
+###  https://padovagrandtour.github.io/entities#hasCategory
 pgt:hasCategory rdf:type owl:ObjectProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain pgt:CulturalSite ;
                 rdfs:range pgt:CSCategory .
 
 
-###  https://padovagrandtour.github.io/entitites#hasCollection
+###  https://padovagrandtour.github.io/entities#hasCollection
 pgt:hasCollection rdf:type owl:ObjectProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain pgt:Artwork ;
@@ -87,7 +87,7 @@ pgt:hasCollection rdf:type owl:ObjectProperty ,
                   rdfs:comment "An Artwork belongs to one collection max"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#hasSite
+###  https://padovagrandtour.github.io/entities#hasSite
 pgt:hasSite rdf:type owl:ObjectProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain pgt:Artwork ;
@@ -100,7 +100,7 @@ pgt:hasSite rdf:type owl:ObjectProperty ,
             rdfs:comment "An Artwork is situated in one Cultural Site max"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#steps
+###  https://padovagrandtour.github.io/entities#steps
 pgt:steps rdf:type owl:ObjectProperty ;
           rdfs:domain pgt:Tour ;
           rdfs:range rdf:Seq ;
@@ -131,74 +131,74 @@ pgt:steps rdf:type owl:ObjectProperty ;
                                                rdfs:label "longitude" .
 
 
-###  https://padovagrandtour.github.io/entitites#conservationState
+###  https://padovagrandtour.github.io/entities#conservationState
 pgt:conservationState rdf:type owl:DatatypeProperty ;
                       rdfs:domain pgt:Artwork ;
                       rdfs:range xsd:string .
 
 
-###  https://padovagrandtour.github.io/entitites#depth
+###  https://padovagrandtour.github.io/entities#depth
 pgt:depth rdf:type owl:DatatypeProperty ;
           rdfs:domain pgt:Artwork ;
           rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#diameter
+###  https://padovagrandtour.github.io/entities#diameter
 pgt:diameter rdf:type owl:DatatypeProperty ;
              rdfs:domain pgt:Artwork ;
              rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#dimensionsText
+###  https://padovagrandtour.github.io/entities#dimensionsText
 pgt:dimensionsText rdf:type owl:DatatypeProperty ;
                    rdfs:domain pgt:Artwork ;
                    rdfs:range xsd:string .
 
 
-###  https://padovagrandtour.github.io/entitites#height
+###  https://padovagrandtour.github.io/entities#height
 pgt:height rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#length
+###  https://padovagrandtour.github.io/entities#length
 pgt:length rdf:type owl:DatatypeProperty ;
            rdfs:domain pgt:Artwork ;
            rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#placing
+###  https://padovagrandtour.github.io/entities#placing
 pgt:placing rdf:type owl:DatatypeProperty ;
             rdfs:domain pgt:Artwork ;
             rdfs:range xsd:string .
 
 
-###  https://padovagrandtour.github.io/entitites#tag
+###  https://padovagrandtour.github.io/entities#tag
 pgt:tag rdf:type owl:DatatypeProperty ;
         rdfs:domain pgt:Artwork ;
         rdfs:range xsd:string .
 
 
-###  https://padovagrandtour.github.io/entitites#thickness
+###  https://padovagrandtour.github.io/entities#thickness
 pgt:thickness rdf:type owl:DatatypeProperty ;
               rdfs:domain pgt:Artwork ;
               rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#width
+###  https://padovagrandtour.github.io/entities#width
 pgt:width rdf:type owl:DatatypeProperty ;
           rdfs:domain pgt:Artwork ;
           rdfs:range xsd:float .
 
 
-###  https://padovagrandtour.github.io/entitites#yearCreated
+###  https://padovagrandtour.github.io/entities#yearCreated
 pgt:yearCreated rdf:type owl:DatatypeProperty ;
                 rdfs:domain pgt:Artwork ;
                 rdfs:range xsd:int ;
                 rdfs:comment "Result of processed data: Artwork's year creation" .
 
 
-###  https://padovagrandtour.github.io/entitites#yearCreatedText
+###  https://padovagrandtour.github.io/entities#yearCreatedText
 pgt:yearCreatedText rdf:type owl:DatatypeProperty ;
                     rdfs:domain pgt:Artwork ;
                     rdfs:range xsd:string .
@@ -298,26 +298,26 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                                                        rdfs:label "SpatialThing" .
 
 
-###  https://padovagrandtour.github.io/entitites#Artwork
+###  https://padovagrandtour.github.io/entities#Artwork
 pgt:Artwork rdf:type owl:Class ;
             rdfs:comment "An Artwork belongs to a Collection and a Site and is described by many data properties"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#CSCategory
+###  https://padovagrandtour.github.io/entities#CSCategory
 pgt:CSCategory rdf:type owl:Class .
 
 
-###  https://padovagrandtour.github.io/entitites#Collection
+###  https://padovagrandtour.github.io/entities#Collection
 pgt:Collection rdf:type owl:Class ;
                rdfs:comment "A collection contains one or multiple Artworks"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#CulturalSite
+###  https://padovagrandtour.github.io/entities#CulturalSite
 pgt:CulturalSite rdf:type owl:Class ;
                  rdfs:comment "A cultural site has subclasses that correspond to each type found in Padova, and can belong to a Tour (which is a sequence of cultural sites)"@en .
 
 
-###  https://padovagrandtour.github.io/entitites#Tour
+###  https://padovagrandtour.github.io/entities#Tour
 pgt:Tour rdf:type owl:Class ;
          rdfs:comment "A tour is a sequence (their order matter) of cultural sites"@en .
 
@@ -326,35 +326,35 @@ pgt:Tour rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  https://padovagrandtour.github.io/entitites#Basilica
+###  https://padovagrandtour.github.io/entities#Basilica
 pgt:Basilica rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Bridge
+###  https://padovagrandtour.github.io/entities#Bridge
 pgt:Bridge rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Castle
+###  https://padovagrandtour.github.io/entities#Castle
 pgt:Castle rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Church
+###  https://padovagrandtour.github.io/entities#Church
 pgt:Church rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Loggia
+###  https://padovagrandtour.github.io/entities#Loggia
 pgt:Loggia rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Museum
+###  https://padovagrandtour.github.io/entities#Museum
 pgt:Museum rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#Palace
+###  https://padovagrandtour.github.io/entities#Palace
 pgt:Palace rdf:type owl:NamedIndividual .
 
 
-###  https://padovagrandtour.github.io/entitites#WallOrBridge
+###  https://padovagrandtour.github.io/entities#WallOrBridge
 pgt:WallOrBridge rdf:type owl:NamedIndividual .
 
 

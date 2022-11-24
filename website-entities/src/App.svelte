@@ -15,7 +15,7 @@
 
   {:else}
   <nav>
-    <h1>Padova Grand Tour</h1>
+    <h1>Padova Grand Tour - entities</h1>
   </nav>
   <aside>
     <div class="toolbar">

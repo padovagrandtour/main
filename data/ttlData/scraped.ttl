@@ -1,5 +1,5 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix pgt: <https://padovagrandtour.github.io/entitites#> .
+@prefix pgt: <https://padovagrandtour.github.io/entities#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
