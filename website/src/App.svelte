@@ -2,10 +2,10 @@
   import Logo from './assets/logo.webp'
   import Map from './components/Map.svelte'
 
-  import { tours, selectedTour, tourStepsPromise, tourArtworksPromise } from './utils.js'
+  import { tours, selectedTour, tourStepsPromise, tourArtworksPromise, tourMetricsPromise } from './utils.js'
 
   $: {
-    console.log($tourArtworksPromise)
+    console.log($tourMetricsPromise)
   }
 </script>
 
@@ -57,7 +57,12 @@
       {:else}
         <h1>Tour overview</h1>
         <p><b>URL:</b> <a href={$selectedTour} target="_blank" rel="noreferrer">{$selectedTour}</a></p>
-
+        {#await $tourMetricsPromise}
+          <p>Loading metrics...</p>
+        {:then tourMetrics} 
+        <p><b>Total travelled distance:</b> {tourMetrics[0][0]}</p>
+        <p><b>Average year of artworks:</b> {tourMetrics[1][1]}</p>
+        {/await}
         <Map></Map>
         {#await $tourArtworksPromise}
           <p>Loading artworks...</p>

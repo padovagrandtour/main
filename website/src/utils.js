@@ -8,6 +8,7 @@ import { writable, get } from "svelte/store";
 
 
 const sparqlPrefixes = `
+PREFIX ofn: <http://www.ontotext.com/sparql/functions/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
 PREFIX pgt: <https://padovagrandtour.github.io/entities#> 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -75,6 +76,8 @@ new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
 
   export const tourStepsPromise = writable(Promise.resolve([]))
   export const tourArtworksPromise = writable(Promise.resolve([]))
+  export const tourMetricsPromise = writable(Promise.resolve([]))
+
 
   selectedTour.subscribe($selectedTour => {
     if($selectedTour !== 'NOTOUR'){
@@ -114,5 +117,63 @@ new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
       } ORDER BY RAND() LIMIT 10 
         `,["siteName", "artworkName", "artworkDescription", "artworkImage", "artworkURL"]))
       }
+
+      tourMetricsPromise.set(query(`
+      SELECT ?lengthTour ?avgYear WHERE {
+        {
+            SELECT  (SUM(?distance) as ?lengthTour) WHERE {
+              <${$selectedTour}> pgt:steps ?stepNode .                 
+    
+                BIND (STRLEN("http://www.w3.org/1999/02/22-rdf-syntax-ns#_") AS ?prefixLength)
+    
+    
+                ?stepNode ?stepIndex1 ?startPoint .
+                FILTER (strstarts(str(?stepIndex1), 'http://www.w3.org/1999/02/22-rdf-syntax-ns#_'))
+                BIND (xsd:integer(SUBSTR(xsd:string(?stepIndex1),?prefixLength + 1)) AS ?stepIndexNumber1).
+    
+                ?stepNode ?stepIndex2 ?endPoint .
+                FILTER (strstarts(str(?stepIndex2), 'http://www.w3.org/1999/02/22-rdf-syntax-ns#_'))
+                BIND (xsd:integer(SUBSTR(xsd:string(?stepIndex2),?prefixLength + 1)) AS ?stepIndexNumber2).
+    
+                ?startPoint a pgt:CulturalSite ;
+                        geo:lat  ?lat1deg ;
+                        geo:long  ?lon1deg .
+    
+                ?endPoint   a pgt:CulturalSite ; 
+                        geo:lat  ?lat2deg ;
+                        geo:long  ?lon2deg .
+    
+                BIND(?lat1deg * 3.14159265359 / 180 as ?lat1)
+                BIND(?lon1deg * 3.14159265359 / 180 as ?lon1)
+                BIND(?lat2deg * 3.14159265359 / 180 as ?lat2)
+                BIND(?lon2deg * 3.14159265359 / 180 as ?lon2)
+                BIND(?lat2 - ?lat1 AS ?dlat)
+                BIND(?lon2 - ?lon1 AS ?dlon)
+    
+                BIND(2 * ofn:asin(ofn:sqrt(ofn:sin(?dlat / 2)* ofn:sin(?dlat / 2) + ofn:cos(?lat1) * ofn:cos(?lat2) * ofn:sin(?dlon / 2) * ofn:sin(?dlon / 2))) * 6371 * 1000 AS ?distance)
+                FILTER((?stepIndexNumber2 - ?stepIndexNumber1) = 1)
+    
+            }
+        } UNION {
+            SELECT (AVG(?yearInt) as ?avgYear) WHERE {
+              <${$selectedTour}> pgt:steps ?stepNode .                 
+    
+                BIND (STRLEN("http://www.w3.org/1999/02/22-rdf-syntax-ns#_") AS ?prefixLength)
+    
+    
+                ?stepNode ?stepIndexY ?siteY .
+                FILTER (strstarts(str(?stepIndexY), 'http://www.w3.org/1999/02/22-rdf-syntax-ns#_'))
+                
+                ?artworkY pgt:hasSite ?siteY ;
+                        pgt:yearCreated ?year.
+    
+                BIND(xsd:float(STR(?year)) as ?yearInt)
+            }
+        }
+    
+    
+        
+    }
+      `,["lengthTour", "avgYear"]))
 
   })
