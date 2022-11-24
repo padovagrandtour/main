@@ -72,7 +72,7 @@
             {#each tourArtworks as artwork}
               <div class="artworkItem">
                 <img alt={"Image for artwork " + artwork[1]} src={artwork[3]}>
-                <p>{artwork[1]}</p>
+                <p><a href={artwork[4]} target="_blank" rel="noreferrer">{artwork[1]}</a></p>
               </div>
             {/each}
           </div>           
