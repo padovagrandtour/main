@@ -3,11 +3,33 @@
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+pgt:TOUR-2443a56d-39e0-488d-0411-4fa80bbaa866 a rdf:Seq,
+        pgt:Tour ;
+    pgt:steps pgt:TOUR-2443a56d-39e0-488d-0411-4fa80bbaa866-STEPS ;
+    sdo:description "A tour involving sites from the 'Ministero dei Beni Culturali' sparql endpoint."^^rdf:HTML ;
+    sdo:name "Tour 2"^^xsd:string .
+
+pgt:TOUR-68c96bf3-bbab-ea96-154b-958c3e98d9bd a rdf:Seq,
+        pgt:Tour ;
+    pgt:steps pgt:TOUR-68c96bf3-bbab-ea96-154b-958c3e98d9bd-STEPS ;
+    sdo:description "A tour involving churces."^^rdf:HTML ;
+    sdo:name "Tour Churces"^^xsd:string .
+
 pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf a rdf:Seq,
         pgt:Tour ;
     pgt:steps pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf-STEPS ;
     sdo:description "A beautiful tour. <br/> It goes to the first 15 sites."^^rdf:HTML ;
-    sdo:name "Tour 2"^^xsd:string .
+    sdo:name "Tour 1"^^xsd:string .
+
+pgt:TOUR-2443a56d-39e0-488d-0411-4fa80bbaa866-STEPS rdf:_1 pgt:SITE4 ;
+    rdf:_2 pgt:SITE63 ;
+    rdf:_3 pgt:SITEsq6 ;
+    rdf:_4 pgt:SITEsq2 .
+
+pgt:TOUR-68c96bf3-bbab-ea96-154b-958c3e98d9bd-STEPS rdf:_1 pgt:SITE41 ;
+    rdf:_2 pgt:SITE43 ;
+    rdf:_3 pgt:SITE45 ;
+    rdf:_4 pgt:SITE47 .
 
 pgt:TOUR-f3f2a46a-d9f5-5ffe-2f15-f3bee807f0bf-STEPS rdf:_1 pgt:SITE1 ;
     rdf:_10 pgt:SITE10 ;
