@@ -9,10 +9,10 @@ Luca FABBIAN, Loic DUPUY-KERANGUEVEN, Jean LE CHEVALIER
 **TL;DR:** just run `docker compose up --force-recreate`, wait for GraphDB to start and then open <https://padovagrandtour.github.io>, visit <https://padovagrandtour.github.io/entities#> to get more details on the schema, or check the queries inside the `queries.ipynb` notebook. Enjoy!
 
 <p align="center">
-  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/playground/screenshotWebsite.png">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/screenshotWebsite.png">
 </p>
 <p align="center">
-  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/playground/screenshotEntities.png">
+  <img width="100%" src="https://github.com/padovagrandtour/padovagrandtour/raw/main/screenshotEntities.png">
 </p>
 
 
