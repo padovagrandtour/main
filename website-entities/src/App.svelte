@@ -53,7 +53,18 @@
       {:else}
         <h1>Padova Grand Tour Ontology</h1>
         <p>A collection of artworks, tours and cultural sites regarding the italian city of Padova.</p>
-        <p>Ontology visual schema:</p> 
+
+        <p><b>Sparql endpoint:</b><a href="http://localhost:7210/sparql">http://localhost:7210/sparql</a></p> 
+
+        <p><b>Tour website:</b> <a href="https://padovagrandtour.github.io">https://padovagrandtour.github.io</a></p> 
+
+        <p><b>Some entities:</b> <a href="https://padovagrandtour.github.io/entities#SITE0">Cappella degli Scrovegni</a>,
+          <a href="https://padovagrandtour.github.io/entities#CSCategoryMuseum">Museum category</a>,
+          <a href="https://padovagrandtour.github.io/entities#ARTWORKsq991">Old plate</a>
+        </p>
+
+
+
         <img class="visual" alt="Padova Grand Tour Visual Ontology Schema" src={OntologyVisual}>
       {/if}
       
