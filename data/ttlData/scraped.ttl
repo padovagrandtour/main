@@ -14330,9 +14330,10 @@ pgt:COLLECTION28 a pgt:Collection ;
     sdo:name "Oggetti storici"^^xsd:string ;
     sdo:url "https://padovamusei.it/it/musei/museo-risorgimento-eta-contemporanea/collezioni/oggetti-storici"^^sdo:URL .
 
-pgt:SITE4 a "Museum"^^xsd:string ;
+pgt:SITE4 a pgt:CulturalSite ;
     geo:lat "45.40784722222222"^^xsd:float ;
     geo:long "11.876925"^^xsd:float ;
+    pgt:hasCategory "Museum"^^xsd:string ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/sala_a_1.jpg"^^sdo:URL ;
     sdo:name "Museo del Risorgimento e dell'Età Contemporanea"^^xsd:string ;
@@ -14380,9 +14381,10 @@ pgt:COLLECTION1 a pgt:Collection ;
     sdo:name "La Vita di Cristo"^^xsd:string ;
     sdo:url "https://cappellascrovegni.padovamusei.it/it/collezioni/vita-cristo"^^sdo:URL .
 
-pgt:SITE3 a "Museum"^^xsd:string ;
+pgt:SITE3 a pgt:CulturalSite ;
     geo:lat "45.411569444444446"^^xsd:float ;
     geo:long "11.878119444444446"^^xsd:float ;
+    pgt:hasCategory "Museum"^^xsd:string ;
     sdo:description "<p><em>“Per tal modo mi lusingo di avere raggiunto il fine che mi ero sino da principio proposto, di rendere questa mia Istituzione degna di questa città alla quale l’ho dedicata, ed a cui la raccomando”</em></p><p>Con queste parole si esprimeva NIcola Bottacin a conclusione della sua Memoria scritta contestualmente all’atto formale di istituzione del Museo destinato aportare il suo nome e a conservare le sue amate e eterogenee raccolte.</p>"^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/ingresso_bottacin.jpg"^^sdo:URL ;
     sdo:name "Museo Bottacin"^^xsd:string ;
@@ -14419,7 +14421,8 @@ pgt:COLLECTION22 a pgt:Collection ;
     sdo:name "Dipinti"^^xsd:string ;
     sdo:url "https://padovamusei.it/it/musei/museo-arte-medievale-moderna/collezioni/dipinti"^^sdo:URL .
 
-pgt:SITE0 geo:lat "45.41181666666667"^^xsd:float ;
+pgt:SITE0 a pgt:CulturalSite ;
+    geo:lat "45.41181666666667"^^xsd:float ;
     geo:long "11.879536111111111"^^xsd:float ;
     pgt:hasCategory "Church"^^xsd:string ;
     sdo:description """<p>La Cappella degli Scrovegni sorge all’interno dell’area dell’anfiteatro romano di Padova, nel verde dei Giardini conosciuti come &quot;dell'Arena&quot;. La facciata stessa è edificata sulla base di un importante edificio romano di cui tutt'oggi restano tracce evidenti. Un tempo la Cappella era affiancata dal Palazzo della famiglia Scrovegni, demolito nell'Ottocento, e sorgeva su un terreno che Enrico Scrovegni aveva acquistato nel 1300.</p>
@@ -14453,9 +14456,10 @@ pgt:COLLECTION12 a pgt:Collection ;
     sdo:name "Progetto Via Annia"^^xsd:string ;
     sdo:url "https://padovamusei.it/it/musei/museo-archeologico/collezioni/progetto-annia"^^sdo:URL .
 
-pgt:SITE1 a "Museum"^^xsd:string ;
+pgt:SITE1 a pgt:CulturalSite ;
     geo:lat "45.41096111111111"^^xsd:float ;
     geo:long "11.880011111111111"^^xsd:float ;
+    pgt:hasCategory "Museum"^^xsd:string ;
     sdo:description """I materiali del Museo Archeologico sono per lo più esposti.
 Le prime 10 sale del percorso documentano la continuità di vita di Padova e dell’agro patavino dalla protostoria all’età romana. Le successive sono dedicate alla collezione egizia, alle ceramiche etrusche, greche e magnogreche, alle gemme antiche e moderne.
 Il  materiali architettonici di epoca romana sono esposti nel Lapidario.
@@ -14464,9 +14468,10 @@ Una parte del patrimonio è conservata nel deposito annesso al Museo. """^^rdf:H
     sdo:name "Museo archeologico"^^xsd:string ;
     sdo:url "https://padovamusei.it/it/musei/museo-archeologico"^^sdo:URL .
 
-pgt:SITE2 a "Museum"^^xsd:string ;
+pgt:SITE2 a pgt:CulturalSite ;
     geo:lat "45.41096111111111"^^xsd:float ;
     geo:long "11.880011111111111"^^xsd:float ;
+    pgt:hasCategory "Museum"^^xsd:string ;
     sdo:description ""^^rdf:HTML ;
     sdo:image "https://padovamusei.it/sites/default/files/struttura/copertina/veduta_di_una_sala_del_museo_darte.jpg"^^sdo:URL ;
     sdo:name "Museo d'Arte Medievale e Moderna"^^xsd:string ;
