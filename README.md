@@ -118,7 +118,7 @@ In this third (and final) version, we removed the subclasses of *CulturalSite* a
 
 We also considered owl `enumeratedClass` to represent categories (`playground/ontologyV2.ttl`), but they were overall harder to deal with; data ranges, instead, while being easier to deal with, lacked the full capability of objects to have properties. At the end we sticked with the `pgt:CSCategory` class solution. It also agrees with the conventions explained [here](https://jazz.net/wiki/bin/view/LinkedData/UseUrisForEnums).
 
-
+Finally, we switched from `xsd:year` to `xsd:int` because the former is not suited to represent our data range (for example, we are using negative values to represent a.C. dates, which are not allowed in `xsd:year` and were not handled right by sparql operators).
 
 
 ## Ingesting the data

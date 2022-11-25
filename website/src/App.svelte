@@ -64,7 +64,7 @@
           <p>Loading metrics...</p>
         {:then tourMetrics} 
         <p><b>Total travelled distance:</b> {tourMetrics[0][0] > 4000 ? `${Math.round(tourMetrics[0][0]/10)/100}km` : `${Math.round(tourMetrics[0][0])}m`}</p>
-        <p><b>Average year of artworks:</b> {Math.round(tourMetrics[1][1])} years</p>
+        <p><b>Average year of artworks:</b> { tourMetrics[1][1] >= 0 ? `${Math.round(tourMetrics[1][1])} d.C.` : `${-Math.round(tourMetrics[1][1])} a.C.`}</p>
         {/await}
         <Map></Map>
         {#await $tourArtworksPromise}
