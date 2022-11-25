@@ -17,10 +17,13 @@
 
 
   {#if !$tours}
-  <div class="loading">
-    <span class="loader"></span>
-    <p>connecting....</p> 
-  </div>
+  <div class="loadingContainer">
+    <div class="loading">
+      <span class="loader"></span>
+      <p>Connecting....</p> 
+      <p>To start, run <span class="code">docker compose up --force-recreate</span></p>
+    </div>
+  </div>  
 
   {:else}
   <nav>
@@ -194,10 +197,27 @@ main > .content {max-width: 500px; margin: 0 auto; padding: 30px; height: 100%;}
   display: block;
 }
 
+.loadingContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 
 .loading {
   text-align: center;
   margin: 30vh auto;
+}
+
+span.code {
+  display: inline-block;
+  background-color: #ddd;
+  border: solid 0.2px #ccc;
+  font-family: monospace;
+  padding: 2px;
+  border-radius: 2px;
 }
 
 /* https://cssloaders.github.io/  */
