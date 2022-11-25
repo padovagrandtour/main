@@ -63,15 +63,19 @@
         {#await $tourMetricsPromise}
           <p>Loading metrics...</p>
         {:then tourMetrics} 
-        <p><b>Total travelled distance:</b> {tourMetrics[0][0]}m</p>
-        <p><b>Average year of artworks:</b> {tourMetrics[1][1]} years</p>
+        <p><b>Total travelled distance:</b> {tourMetrics[0][0] > 4000 ? `${Math.round(tourMetrics[0][0]/10)/100}km` : `${Math.round(tourMetrics[0][0])}m`}</p>
+        <p><b>Average year of artworks:</b> {Math.round(tourMetrics[1][1])} years</p>
         {/await}
         <Map></Map>
         {#await $tourArtworksPromise}
           <p>Loading artworks...</p>
         {:then tourArtworks} 
-          <p style="margin-top: 70px; font-weight: bold;">Some artworks you are going to see:</p> 
-          <div class="artworksGrid">
+          <p style="margin-top: 70px; font-weight: bold; width:100%;">Some artworks you are going to see:</p> 
+            {#if tourArtworks.length == 0}
+              <p>No artwork data avaiable for this tour :(</p>
+            {:else}
+            <div class="artworksGrid">
+
             {#each tourArtworks as artwork}
               <div class="artworkItem">
                 <img alt={"Image for artwork " + artwork[1]} src={artwork[3]}>
@@ -79,9 +83,11 @@
               </div>
             {/each}
           </div>           
-        {/await}
 
+            {/if}
+        {/await}
       {/if}
+      <p><br><br></p>
     </div>
   </main>
 
@@ -189,7 +195,7 @@ main {
   height: 100%;
   overflow-y: auto;
 }
-main > .content {max-width: 500px; margin: 0 auto; padding: 30px; height: 100%;}
+main > .content {max-width: 500px; margin: 0 auto; padding: 30px; padding-bottom: 200px; height: 100%;}
 
 .logo {
   width: 60%;
