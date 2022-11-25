@@ -1,7 +1,7 @@
 <script>
   import Logo from './assets/logo.webp'
   import Map from './components/Map.svelte'
-
+	import { fade } from 'svelte/transition'
   import { tours, selectedTour, tourStepsPromise, tourArtworksPromise, tourMetricsPromise } from './utils.js'
 
   $: {
@@ -40,20 +40,20 @@
   <aside>
 
     {#if $selectedTour != 'NOTOUR'}
-    <div class="siteList">
       {#await $tourStepsPromise}
-        <p>Loading sites...</p>
+        <p style="color: #fff"></p>
       {:then tourSteps} 
+      <div class="siteList" in:fade>
         {#each tourSteps as step, idx}
           <p on:click={ () => window.open(step[4], '_blank').focus()}><b>{idx + 1}.</b> {step[1]}</p>
         {/each}
+      </div>
       {/await}
-    </div>
     {/if}
 
   </aside>
-  <main>  
-    <div class="content">
+  <main transition:fade>  
+    <div class="content" transition:fade>
       {#if $selectedTour === 'NOTOUR'}
       <img class="logo" alt="Padova Grand Tour logo" src={Logo}>
       <p style="text-align:center; color: #666; font-size:1.5rem;">Click "Choose a tour" to start!</p>
