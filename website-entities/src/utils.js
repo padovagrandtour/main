@@ -1,11 +1,13 @@
 import { writable, get } from "svelte/store";
-
+import { executeQueryWithHDT } from "./hdt-query";
 
 /**
  * QUERY ENGINE
  * 
  */
 
+
+export const isHDTMode = localStorage['padovagrandtour-hdtmode'] === "true"
 
 export const sparqlPrefixes = `
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
@@ -38,7 +40,7 @@ export const curiefy = (str) => {
 
   console.log(extractedPrefixes)
 /** Utility function to make simpler to query with comunica. */
-export const query = (queryStr, labels) => new Promise( (resolve, reject) => {
+export const queryWithGraphDB = (queryStr, labels) => new Promise( (resolve, reject) => {
   const results = []
   new window.Comunica.QueryEngine().queryBindings(sparqlPrefixes + queryStr, {
       sources: [{type:'sparql', value:'http://localhost:7210/repositories/pgt'}],
@@ -68,12 +70,16 @@ export const query = (queryStr, labels) => new Promise( (resolve, reject) => {
 
   export const entity = window.location.hash.replace('#', '')
 
+  const query = isHDTMode ? executeQueryWithHDT : queryWithGraphDB
+
   /* Repeatedly try to query the database until you get the tour list */
   export const properties = writable(null)
   const refreshEntities = async() => {
     try {
       // Query tours
       properties.set(await query(`
+      ${sparqlPrefixes}
+
           SELECT * {
             pgt:${window.location.hash.substring(1)} ?p ?o
           } LIMIT 1000

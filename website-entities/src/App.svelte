@@ -3,12 +3,10 @@
   import OntologyVisual from './assets/ontologyVisual.webp'
   import Element from './components/Element.svelte'
 
-  import { entity, properties, curiefy } from './utils.js'
+  import { entity, properties, isHDTMode } from './utils.js'
 
   const baseURL = 'https://padovagrandtour.github.io/entities#'
-  $:{
-    console.log($properties)
-  }
+
 
 </script>
 
@@ -16,6 +14,19 @@
   <svelte:head>
     <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
   </svelte:head>
+
+  <button style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+  "
+  on:click={ () => {
+    localStorage['padovagrandtour-hdtmode'] = (isHDTMode ? "false" : "true")
+
+    location.reload()
+  }}
+  >{isHDTMode ? "Switch to GraphDB mode" : "Switch to HDT mode"}</button>
 
   {#if !$properties && entity}
   <div class="loading">
